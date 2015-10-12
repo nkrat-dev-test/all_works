@@ -1,0 +1,76 @@
+@import 'normalize';
+@import 'media';
+
+$max-width:1000px;
+$width:100%;
+$mc: 0 auto;
+$light:#eee;
+
+
+.clear {clear: both;}
+.off{display:none;}
+html {
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+header{position: fixed; width: 100%; height: 50px; background: yellow; z-index: 100500;}
+.start{width: 100%; height: 100%; position: relative; background: red;}
+.headroom--top {display:block;}
+.headroom--not-top {display:block;}
+
+.logo{float:left;}
+
+.nav{ 
+	float:right;
+	ul{
+	 li{
+		 display: inline;
+		 a{color:green;}
+		 a:hover{color:red;}
+	  }
+	 }
+}
+
+.overlay{width: 100%; height: 100%; background: rgba(255,255,255,0.8); z-index: 90;}
+.next{width: 50px; height: 50px; position:absolute; background: green; z-index:100; bottom:5%; left:50%; margin-left: -25px;}
+.hello{left:50%; width: 30%; margin-left: -15%; position: absolute; top:25%; display:block; background: orange;}
+.section{width: 100%; border-bottom: 1px solid #eee;}
+
+
+.inner{width: $width; max-width: $max-width; margin: $mc;}
+
+.inleft{width: 490px; display: inline-block; vertical-align: middle; background: olive; height: auto; min-height: 200px;}
+.inright{width: 490px; display: inline-block; vertical-align: middle; background: aqua; height: auto; min-height: 200px;}
+
+.for3{display:inline-block; vertical-align: top; background: red; margin-left: 10px; margin-right: 10px; width:310px; margin-bottom: 30px; }
+
+.for3-icon{background: yellow; margin: 0 auto; display: block; width: 100px; height: 100px;}
+.for3-anno{margin-top: 10px;}
+
+.for4{display:inline-block; vertical-align: top; background: red; margin-left: 10px; margin-right: 10px; width:200px; min-height:20px; margin-bottom: 20px;}
+
+.center{text-align: center;}
+.left{text-align:left;}
+.right{text-align: right;}
+
+
+
+
+.light{background-color:$light; }
+
+
+
+
+@import 'anim';
+@import 'superanim';
