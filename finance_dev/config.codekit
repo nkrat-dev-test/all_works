@@ -670,8 +670,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "finance3",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "finance-Dev-Git",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "pencil_orange"
 	},
 "projectSettings": {
