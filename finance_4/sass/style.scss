@@ -1,10 +1,14 @@
 @import 'normalize';
-@import 'media';
+
 
 $max-width:1000px;
 $width:100%;
 $mc: 0 auto;
 $light:#eee;
+
+$color:#333;
+
+$sky:#229fff;
 
 
 .clear {clear: both;}
@@ -19,6 +23,10 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    font-weight: 300;
+    color:$color;
+    
 }
 
 
@@ -33,9 +41,9 @@ header{position: fixed; width: 100%; height: 50px; background: yellow; z-index: 
 
 .nav{ 
 	float:right;
-	ul{
+	ul{margin: 0!important; padding-left: 0!important;
 	 li{
-		 display: inline;
+		 display: inline; list-style: circle;
 		 a{color:green;}
 		 a:hover{color:red;}
 	  }
@@ -45,20 +53,40 @@ header{position: fixed; width: 100%; height: 50px; background: yellow; z-index: 
 .overlay{width: 100%; height: 100%; background: rgba(255,255,255,0.8); z-index: 90;}
 .next{width: 50px; height: 50px; position:absolute; background: green; z-index:100; bottom:5%; left:50%; margin-left: -25px;}
 .hello{left:50%; width: 30%; margin-left: -15%; position: absolute; top:25%; display:block; background: orange;}
-.section{width: 100%; border-bottom: 1px solid #eee;}
+.section{width: 100%; border-bottom: 1px solid #eee; padding: 50px 0 50px 0; position: relative;}
 
 
-.inner{width: $width; max-width: $max-width; margin: $mc;}
+.inner{width: $width; max-width: $max-width; margin: $mc; position: relative;}
 
-.inleft{width: 490px; display: inline-block; vertical-align: middle; background: olive; height: auto; min-height: 200px;}
-.inright{width: 490px; display: inline-block; vertical-align: middle; background: aqua; height: auto; min-height: 200px;}
+.inleft{ display: inline-block; vertical-align: middle; background: transparent; height: auto; min-height: 200px;}
+.inright{ display: inline-block; vertical-align: middle; background: transparent; height: auto; min-height: 200px; position: relative;
+	ul{margin: 0!important; padding: 0!important;
+		li{list-style: circle; font-size: 1.5em; margin-bottom: 5px;}
+	}
+}
 
-.for3{display:inline-block; vertical-align: top; background: red; margin-left: 10px; margin-right: 10px; width:310px; margin-bottom: 30px; }
 
-.for3-icon{background: yellow; margin: 0 auto; display: block; width: 100px; height: 100px;}
-.for3-anno{margin-top: 10px;}
+.l_big{width:540px;}
+.r_small{width:450px;}
 
-.for4{display:inline-block; vertical-align: top; background: red; margin-left: 10px; margin-right: 10px; width:200px; min-height:20px; margin-bottom: 20px;}
+.l_big_gear{width:540px;}
+.r_small_gear{width:450px;}
+
+.l_small{width: 450px;}
+.r_big{width:540;}
+
+.for3{display:inline-block; vertical-align: top;   margin-left: 10px; margin-right: 10px; width:200px; margin-bottom: 30px; }
+
+.for3-icon{ margin: 0 auto; display: block; width: 100px; height: 100px;}
+.for3-anno{margin-top: 10px; font-size: 1.5em; font-weight: 400;}
+
+
+
+.quant{padding: 200px 0;}
+.all_quants{margin-top: 40px; position: relative; text-align: center;}
+.for-qs{display:inline-block; vertical-align: top; width: 360px;padding-top:20px; }
+.for-qc{display:inline-block; vertical-align: top; width: 200px;  margin:0 30px 0 10px;}
+.add_pad{padding-top: 5em;}
 
 .center{text-align: center;}
 .left{text-align:left;}
@@ -67,10 +95,75 @@ header{position: fixed; width: 100%; height: 50px; background: yellow; z-index: 
 
 
 
-.light{background-color:$light; }
+
+
+.h500{height: 500px;}
+.mobshow{display:none;}
+
+.elem{position: absolute; width: 100%; height: 100%; top:0; left:0;}
+.pin{background: url('../images/pin/pin.png')center center no-repeat;z-index:-1;}
+.shadow{background: url('../images/pin/shadow.png')center center no-repeat;z-index:-2;}
+.c1{background: url('../images/pin/c1.png')center center no-repeat;z-index:-3;}
+.c2{background: url('../images/pin/c2.png')center center no-repeat;z-index:-4;}
+.c3{background: url('../images/pin/c3.png')center center no-repeat;z-index:-5;}
+.c4{background: url('../images/pin/c4.png')center center no-repeat;z-index:-6;}
+
+.gb{background: url('../images/graphs/b.png')center center no-repeat;z-index:1;}
+.gg{background: url('../images/graphs/g.png')center center no-repeat;z-index:1;}
+.gp{background: url('../images/graphs/p.png')center center no-repeat;z-index:1;}
+.gr{background: url('../images/graphs/r.png')center center no-repeat;z-index:1;}
+.gl{background: url('../images/graphs/line.png')center center no-repeat;z-index:1;}
+
+
+.gear1{background: url('../images/gears/gear1.png')center center no-repeat;z-index:1; position: absolute; width: 276px; height: 276px;}
+.gear2{background: url('../images/gears/gear2.png')center center no-repeat;z-index:1; position: absolute; width: 160px; height: 160px; margin-left: 265px; margin-top: 50px;}
+.gear3{background: url('../images/gears/gear3.png')center center no-repeat;z-index:1; position: absolute; width: 199px; height: 199px; margin-top: 260px; margin-left: 64px;}
+
+.ex_buttons{margin-top: 40px;}
+.ex_btn{display:inline-block; vertical-align: top; text-transform: uppercase; margin-right: 20px; border: 1px solid #fff; padding: 10px 20px; font-size: 1.8em; border-radius: 4px; font-weight: 400;}
+
+@import 'spin';
+
+
+h1{font-family: 'Roboto'; font-weight: 100; font-size: 5em; line-height: 0.3em;}
+h2{font-family: 'Roboto'; font-weight: 100; font-size: 3.6em; line-height: 0.3em;}
+.light{background:$light; }
+
+.green{background:#6DC167; color:#fff;
+	p{font-weight: 400;}
+}
 
 
 
 
+.sky_blue{background: $sky; color:#fff; font-weight: 400; border:none;}
+
+.city{background: yellow; height: 210px; background: $sky url('../images/city.png')center bottom no-repeat;}
+.mar_btn{margin-top: 40px;}
+.btn_city{display:inline-block; vertical-align: top; text-transform: uppercase; margin-right: 20px; border: 1px solid #fff; padding: 10px 20px; font-size: 1.8em; border-radius: 4px; font-weight: 400;}
+
+.sep{height: 100px; background: #3E8BCD;}
+
+.exp_section{background: url('../images/beams.png') top left repeat-x;}
+.for4{display:inline-block; vertical-align: top; background: transparent; margin-left: 10px; margin-right: 10px; width:200px; min-height:20px; margin-bottom: 20px;}
+.exp_name{font-weight: 300; font-size: 2em;}
+.exp_link{color:#229FFF; font-size: 1.6em;}
+
+
+.dark_blue{background: #0262AD; color:#fff;}
+
+.z10{z-index:10;position: relative;}
+p{font-size: 1.6em;}
+
+.anno_block{width: 80%; margin: 0 auto; font-size: 1.6em; font-weight: 400;}
+
+.block-with-us{margin-top: 40px;}
+
+
+
+
+@import 'footer';
+@import "form";
 @import 'anim';
 @import 'superanim';
+@import 'media';

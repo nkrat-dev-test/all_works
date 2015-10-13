@@ -1,0 +1,31 @@
+.cblock{width: 100%;  position: relative;}
+
+
+.cblock input[type="text"]:focus,
+.cblock input[type="date"]:focus,
+.cblock input[type="datetime"]:focus,
+.cblock input[type="email"]:focus,
+.cblock input[type="number"]:focus,
+.cblock input[type="search"]:focus,
+.cblock input[type="time"]:focus,
+.cblock input[type="url"]:focus,
+.cblock textarea:focus,
+.cblock select:focus
+{
+    /*box-shadow: 0 0 7px #229fff;*/
+    border: 1px solid #000;
+    outline:none;
+}
+
+
+.contacts{display:inline-block; vertical-align: top; width: 45%;  position: relative;}
+
+
+.field{display: block; width: 90%; margin-bottom: 10px; padding: 20px; border:1px solid #ccc; border-radius: 4px;
+	font-size: 1.5em; font-weight: 300;
+}
+.tx{resize: none; height: 230px;}
+
+.submt_form{border:none; padding: 10px 20px; display:inline-block; text-align: center; font-size: 1.6em;
+	margin-bottom: 40px; font-weight: 400; border-radius: 4px; color:#fff; background: #229fff; text-transform: uppercase;
+}

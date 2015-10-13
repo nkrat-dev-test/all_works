@@ -1,8 +1,56 @@
 @media screen and (max-width: 767px) {
+
+
 	
+.inleft{width: 90%!important; display:block!important; background: transparent!important; height: auto; min-height: 200px; margin: 0 auto; font-weight: 300;}
+.inright{width: 90%!important; display: block!important;  background: aqua; height: auto; min-height: 200px; margin: 0 auto;
 	
-.inleft{width: 90%!important; display:block!important; background: blue!important; height: auto; min-height: 200px; margin: 0 auto;}
-.inright{width: 90%!important; display: block!important;  background: aqua; height: auto; min-height: 200px; margin: 0 auto;}
-	
-	
+	ul{margin: 0!important; padding: 0!important;
+		li{list-style: none!important; font-size: 1.6em!important; margin-bottom: 5px; }
 	}
+
+}
+
+.elem{display:none;}
+.mobhide{background: orange; display: none!important;}	
+.mobshow{display:block!important; width: 100%;  position: relative;}
+
+
+
+.sky{background: #229FFF; color:#fff; 
+	p{width: 90%; margin: 0 auto; font-weight: 400;}
+}
+
+
+
+h1{font-family: 'Roboto'; font-weight: 100; font-size: 3.7em!important; line-height: 0.3em;}
+.anno_block{width: 80%; margin: 0 auto; font-size: 1.4em!important; font-weight: 400; text-align: left!important;}
+.for3{display:inline-block; vertical-align: top;   margin-left: 10px; margin-right: 10px; width:90%!important; margin-bottom: 30px; }
+
+
+
+.center_mob{text-align: center!important;}
+
+.for3-anno{font-size: 1.3em; font-weight: 400; width: 50%; margin: 10px auto;}	
+
+.all_quants{margin-top: 40px; position: relative; text-align: center;}
+.for-qs{display:inline-block; vertical-align: top; width: 90%!important;padding-top:0px!important; margin: 0 auto; }
+.for-qc{display:inline-block; vertical-align: top; width: 200px;  margin:0 20px 0 20px;}
+.add_pad{padding-top: 5em;}
+
+
+.img_mobile{width: 60%; height: auto; display:block; margin: 0 auto;}
+.ex_buttons{margin-top: 40px; text-align: center; }
+
+.cblock{width: 100%;  position: relative; text-align: center;}
+.contacts{display:inline-block; vertical-align: top; width: 90%!important; position: relative;}
+.contacts_left{text-align: left;}
+.contacts_right{text-align: left;}
+
+
+.field{display: block; width: 90%; margin-bottom: 10px; padding: 20px; border:1px solid #ccc; border-radius: 4px;}
+.tx{resize: none; height: 230px;}
+
+.submt_form{display:block; width: 100%; padding: 20px 0;}
+
+}
