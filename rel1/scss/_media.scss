@@ -1,0 +1,113 @@
+@media screen and (max-width: 767px) {
+
+.marker{margin-top: -85%;}
+	
+h1{font-weight: 100; font-size: 40px; margin-bottom: 0!important; margin-top: 0!important;}
+h2{font-weight: 300; font-size: 18px; margin-bottom: 25px!important; margin-top: 0!important;}
+
+.schemes{text-align: left; width: 90%; display:none;}
+.sch_btn{display:inline-block; border:1px solid #fff;  font-weight: 500; border-radius: 4px; background: none; padding: 12px 20px; color:#fff; font-size: 14px; text-transform:uppercase; cursor:pointer; margin-right: 20px; }
+	
+.x{width: 50px; height: 50px;  position: absolute; top:40px; right: 40px; cursor:pointer;z-index:200000; }
+	
+.hello{position: absolute; width:50%; display:block; height: auto; left:50%; margin-left: -25%; top:35%;}	
+	
+	
+//.nav{display:none;}
+// nav start
+.show{display:block!important; visibility: hidden;}
+.nav{display:none; width: 90%; margin-left: 5%; background: #fff; position: absolute;  margin-top: 70px;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	
+	ul{ margin: 0!important; padding: 0!important;
+		
+		li{display: list-item; margin: 0px 0 0px 0;  text-transform: uppercase; text-align: center; list-style: none; border-bottom: 1px solid #eee; line-height: 15px; padding: 15px 0;
+			
+			a{color:#787878; text-decoration: none;
+	         -webkit-transition: all 0.1s ease-out;
+             -moz-transition: all 0.1s ease-out;
+             -o-transition: all 0.1s ease-out;
+             transition: all 0.1s ease-out;
+			}
+		    a:hover{color:#333334;}
+		    .active{color:#101110!important;}
+			
+		}
+	}
+	
+}
+
+.mobnav{display:block; float:right; margin-right: 2%;}
+
+
+.next{position: absolute; width:50px; height: 50px; bottom:7%; left:50%; margin-left:-25px; background: url('../images/svg/mouse.svg'); display:block;}
+.scroll{position: absolute; width:50px; height: 50px; bottom:7%; left:50%; margin-left:-25px; display:block; background: url('../images/svg/d.svg');}
+
+//nav end
+
+.about, .pluses, .work{padding: 0 0 50px 0px!important;}
+.quant{padding: 50px 0 50px 0px!important;}
+.rules{padding: 40px 0 0px 0px!important;}
+.withus{padding: 40px 0 60px 0px!important;}
+.pdf{font-size: 13px;}
+.experience{padding: 40px 0;}
+.contacts{padding: 40px 0; background: none;}
+
+.about_left{width:90%!important; margin: 30px auto 0 auto; display:block;}	
+.about_right{display:none;}	
+
+.pluses_left{display:none;}
+.pluses_right{width:90%!important; margin: 30px auto 0 auto; display:block;}
+
+
+.work_left{width:90%!important; margin: 30px auto 0 auto; display:block;}	
+.work_right{display:none;}	
+
+.quant-side{width: 90%; text-align: left;}
+.quant-center{width: 200px; height: 200px; margin: 0 10px 0 10px;}	
+.quant_example_block{background: transparent; border-top:1px dashed #ccc; margin-top: 30px; padding-top: 40px;}
+.quant-step{width: 90%;  display:block; vertical-align: top; margin: 0 auto 40px auto;}
+.step_anno{ width: 65%; margin: 0 auto;}
+
+
+.anno-block{margin: 0 auto; width: 90%; font-size: 14px;}
+.anno-block-mar{margin-top: 10px;}
+.ex_btn{display:none;}
+.city{width: 100%; height: 210px;}
+.gutter{width: 100%; height: 50px;}
+
+
+.withus-1{display:inline-block; vertical-align: top; width: 30%; margin: 0 2px 0 2px;}
+.withus-icon{width: 50%; height: auto;  display:block; margin: 0 auto;}
+.withus-anno{width: 100%; font-size: 13px;}
+
+
+.one_link{text-align: left; display:inline-block; vertical-align: top; width:40%;}
+
+
+ 
+.pdf-1{display:inline-block; vertical-align: top; width: 35%;  margin: 0 2px 0 2px;}
+.pdf-icon{width: 30%; height: auto;  display:block; margin: 0 auto;}
+.pdf-anno{width: 100%;}
+.download{display:none;}
+
+
+.contacts-block{ margin-top: 20px;}
+.contacts-left{display:block; width: 100%; margin: 0 auto;}
+.contacts-right{display:block!important; width: 100%; margin: 0 auto;}
+.contacts-details{margin: 40px auto; text-align: center; width: 90%;}
+.myform{width: 90%; display:inline-block;  margin: 0 auto!important;}
+.field{width: 100%;}
+
+
+.inner{width:100%!important;}
+.block-anim{display:none;}
+.mobile-anim{display:block!important; width: 100%; height: 200px; background:transparent; position: relative;}
+.mob_bg1{ background:url('../images/mob_bg1.png')center bottom no-repeat;}
+.mob_bg2{ background:url('../images/mob_bg2.png')center bottom no-repeat;}
+.mob_bg3{ background:url('../images/mob_bg3.png')center bottom no-repeat;}
+	
+.btn{width: 100%;}	
+
+
+}	

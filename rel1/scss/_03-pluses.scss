@@ -1,0 +1,17 @@
+.pluses{background: #eee; color:#333; font-size: 16px; font-weight: 300; padding: 80px 0;}
+.pluses_left{width: 440px;min-height: $height;}
+.pluses_right{width: 550px; 
+	ul{margin: 10px 0 0 0!important; padding: 0!important;
+		li{
+			margin-bottom: 5px; list-style-position:inside; list-style-type: square;
+		}
+		
+	}
+	
+}
+
+.g1{background-size: cover; background: url('../images/graphs/b.png') center center no-repeat;}
+.g2{background-size: cover; background: url('../images/graphs/g.png') center center no-repeat;}
+.g3{background-size: cover; background: url('../images/graphs/r.png') center center no-repeat;}
+.g4{background-size: cover; background: url('../images/graphs/p.png') center center no-repeat;}
+.g5{background-size: cover; background: url('../images/graphs/line.png') center center no-repeat;}
