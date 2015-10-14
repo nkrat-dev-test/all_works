@@ -1,0 +1,15 @@
+header{position: fixed; width: 100%; height: 70px; background: #ddd; z-index: 100500; line-height: 70px;}
+.headroom--top {display:block;}
+.headroom--not-top {display:block;}
+
+.nav{
+	
+	ul{
+		
+		li{display:inline;
+			
+			a{color:red;}
+		}
+	}
+	
+}

@@ -1,0 +1,34 @@
+$width:1000px;
+$height:500px;
+
+
+@import 'normalize';
+@import 'navmenu';
+@import 'anim';
+
+.section{width:100%; border-bottom:1px solid #eee; min-height: $height;z-index:1;}
+.half{display:inline-block; vertical-align: middle; position: relative; z-index: 10;}
+.inner{width: $width; margin: 0 auto; position: relative; z-index:5;}
+.block-anim{width: $width; height: $height; background: orange; position: absolute; top:0; left:0; z-index:2;}
+.mobile-anim{display:none;}
+
+.center{text-align: center;}
+
+.anno-block{background: blue; margin: 0 auto; width: 700px;}
+
+
+.city{width: 100%; height: 210px; background: aqua;}
+.gutter{width: 100%; height: 210px; background: #ff2250;}
+
+@import 'start_block';
+@import '02-about';
+@import '03-pluses';
+@import '04-work';
+@import '05-quant';
+@import '06-rules';
+
+@import '08-with-us';
+@import '09-pdf';
+@import '10-contacts';
+@import '11-footer';
+@import 'media';
