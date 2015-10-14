@@ -22,3 +22,15 @@
 
 
 .tx{resize: none; height: 280px;}
+
+
+.btn{display:inline-block; border:1px solid $btcolor;  font-weight: 500; border-radius: 4px; background: $btcolor; padding: 16px 30px; color:#fff; font-size: 18px;
+	-webkit-transition: all 0.1s ease-out;
+             -moz-transition: all 0.2s ease-out;
+             -o-transition: all 0.2s ease-out;
+             transition: all 0.2s ease-out;
+}
+
+.btn:hover{background:#0262AD; border-color:#0262AD;}
+
+

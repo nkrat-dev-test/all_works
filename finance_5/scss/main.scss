@@ -2,6 +2,9 @@ $width:1000px;
 $height:500px;
 $sky:#229fff;
 
+$workbg:black;
+$pdfbg:orange;
+$usbg:green;
 
 @import 'normalize';
 @import 'navmenu';
@@ -69,6 +72,10 @@ slideDown2
 		-webkit-transform: translateY(0%);
 	}
 }
+
+$btcolor:#229fff;
+
+
 
 
 @import 'start_block';
