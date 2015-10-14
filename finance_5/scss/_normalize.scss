@@ -12,6 +12,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
   -webkit-font-smoothing: antialiased;
     height: 100%;
+     font-size: 62.5%;
 }
 
 /**
@@ -25,8 +26,8 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+ 
+  //font-family: 'Roboto', sans-serif;
 }
 
 /* HTML5 display definitions
@@ -141,10 +142,7 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
+
 
 /**
  * Address styling not present in IE 8/9.

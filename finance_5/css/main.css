@@ -12,7 +12,8 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -webkit-font-smoothing: antialiased;
-  height: 100%; }
+  height: 100%;
+  font-size: 62.5%; }
 
 /**
  * Remove default margin.
@@ -26,9 +27,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  width: 100%;
-  font-size: 62.5%;
-  font-family: 'Roboto', sans-serif; }
+  width: 100%; }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -122,10 +121,6 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
 /**
  * Address styling not present in IE 8/9.
  */
@@ -382,10 +377,37 @@ header {
 .headroom--not-top {
   display: block; }
 
-.nav ul li {
-  display: inline; }
-  .nav ul li a {
-    color: red; }
+.logo {
+  float: left;
+  margin-left: 5%; }
+
+.nav {
+  float: right;
+  margin-right: 5%; }
+  .nav ul {
+    margin: 0 !important;
+    padding: 0 !important; }
+    .nav ul li {
+      display: inline;
+      margin: 0 10px 0 10px;
+      text-transform: uppercase; }
+      .nav ul li a {
+        color: red;
+        text-decoration: none;
+        -webkit-transition: all 0.1s ease-out;
+        -moz-transition: all 0.1s ease-out;
+        -o-transition: all 0.1s ease-out;
+        transition: all 0.1s ease-out; }
+      .nav ul li a:hover {
+        color: olive; }
+      .nav ul li .active {
+        color: blue !important; }
+
+.mobnav {
+  display: none;
+  float: left;
+  margin-left: 100px;
+  color: red; }
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -2559,6 +2581,13 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+body {
+  font-size: 1.5em; }
+
+h1 {
+  font-weight: 100;
+  font-size: 40px; }
+
 .section {
   width: 100%;
   border-bottom: 1px solid #eee;
@@ -2580,7 +2609,7 @@ Copyright (c) 2015 Daniel Eden
 .block-anim {
   width: 1000px;
   height: 500px;
-  background: orange;
+  background: transparent;
   position: absolute;
   top: 0;
   left: 0;
@@ -2593,20 +2622,49 @@ Copyright (c) 2015 Daniel Eden
   text-align: center; }
 
 .anno-block {
-  background: blue;
   margin: 0 auto;
   width: 700px; }
 
 .city {
   width: 100%;
   height: 210px;
-  background: aqua; }
+  background: #229fff url("../images/city.png") center bottom no-repeat; }
 
 .gutter {
   width: 100%;
-  height: 210px;
-  background: #ff2250; }
+  height: 100px;
+  background: #3E8BCD; }
 
+.elem {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+/*
+==============================================
+slideDown2
+==============================================
+*/
+.slideDown2 {
+  animation-name: slideDown2;
+  -webkit-animation-name: slideDown2;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  visibility: visible !important; }
+
+@keyframes slideDown2 {
+  0% {
+    transform: translateY(-150%); }
+  100% {
+    transform: translateY(0%); } }
+@-webkit-keyframes slideDown2 {
+  0% {
+    -webkit-transform: translateY(-150%); }
+  100% {
+    -webkit-transform: translateY(0%); } }
 .start {
   width: 100%;
   height: 100%;
@@ -2650,12 +2708,76 @@ Copyright (c) 2015 Daniel Eden
   width: 600px;
   background: yellow; }
 
+.about_right {
+  min-height: 500px; }
+
+.pin1 {
+  background-size: cover;
+  background: url("../images/pin/pin.png") center center no-repeat;
+  z-index: -1; }
+
+.pin2 {
+  background-size: cover;
+  background: url("../images/pin/shadow.png") center center no-repeat;
+  z-index: -2; }
+
+.pin3 {
+  background-size: cover;
+  background: url("../images/pin/c1.png") center center no-repeat;
+  z-index: -3; }
+
+.pin4 {
+  background-size: cover;
+  background: url("../images/pin/c2.png") center center no-repeat;
+  z-index: -4; }
+
+.pin5 {
+  background-size: cover;
+  background: url("../images/pin/c3.png") center center no-repeat;
+  z-index: -5; }
+
+.pin6 {
+  background-size: cover;
+  background: url("../images/pin/c4.png") center center no-repeat;
+  z-index: -6; }
+
+.pluses {
+  background: #eee; }
+
 .pluses_left {
-  width: 390px; }
+  width: 440px;
+  min-height: 500px; }
 
 .pluses_right {
-  width: 600px;
+  width: 550px;
   background: yellow; }
+  .pluses_right ul {
+    margin: 0 !important;
+    padding: 0 !important; }
+
+.g1 {
+  background-size: cover;
+  background: url("../images/graphs/b.png") center center no-repeat; }
+
+.g2 {
+  background-size: cover;
+  background: url("../images/graphs/g.png") center center no-repeat; }
+
+.g3 {
+  background-size: cover;
+  background: url("../images/graphs/r.png") center center no-repeat; }
+
+.g4 {
+  background-size: cover;
+  background: url("../images/graphs/p.png") center center no-repeat; }
+
+.g5 {
+  background-size: cover;
+  background: url("../images/graphs/line.png") center center no-repeat; }
+
+.work {
+  background: #6DC167;
+  color: #fff; }
 
 .work_left {
   width: 550px;
@@ -2663,28 +2785,124 @@ Copyright (c) 2015 Daniel Eden
 
 .work_right {
   width: 440px;
-  background: olive; }
+  background: olive;
+  min-height: 500px; }
 
+.gear1 {
+  width: 276px;
+  height: 276px;
+  background: url("../images/gears/gear1.png");
+  display: block;
+  position: absolute; }
+
+.gear2 {
+  width: 160px;
+  height: 160px;
+  background: url("../images/gears/gear2.png");
+  display: block;
+  position: absolute; }
+
+.gear3 {
+  width: 199px;
+  height: 199px;
+  background: url("../images/gears/gear3.png");
+  display: block;
+  position: absolute; }
+
+.spin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(360deg); } }
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.spin2 {
+  -webkit-animation-name: spin2;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin2;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin2;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin2;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@-ms-keyframes spin2 {
+  from {
+    -ms-transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(-360deg); } }
+@-moz-keyframes spin2 {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin2 {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(-360deg); } }
+@keyframes spin2 {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(-360deg); } }
 .quant-elems {
   display: inline-block;
   vertical-align: middle; }
 
 .quant-side {
   width: 382px;
-  text-align: left;
-  background: red; }
+  text-align: left; }
 
 .quant-center {
-  width: 200px;
-  background: gray;
-  margin: 0 10px 0 20px; }
+  width: 190px;
+  margin: 0 20px 0 10px;
+  box-sizing: border-box; }
 
 .quant_example_block {
-  background: olive; }
+  background: transparent; }
 
 .quant-step {
-  width: 220px;
-  background: aqua;
+  width: 180px;
   display: inline-block;
   vertical-align: top;
   margin: 0 10px 0 10px; }
@@ -2692,42 +2910,104 @@ Copyright (c) 2015 Daniel Eden
 .step_icon {
   display: block;
   margin: 0 auto;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background: red; }
 
 .step_anno {
   background: yellow;
-  width: 100%; }
+  width: 100%;
+  margin-top: 8px; }
+
+.q {
+  color: green; }
+
+.qr {
+  color: blue; }
+
+/*
+==============================================
+pulse
+==============================================
+*/
+.pulsed {
+  animation-name: pulsed;
+  -webkit-animation-name: pulsed;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+
+@keyframes pulsed {
+  0% {
+    transform: scale(0.9);
+    opacity: 1; }
+  50% {
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    transform: scale(0.9);
+    opacity: 1; } }
+@-webkit-keyframes pulsed {
+  0% {
+    -webkit-transform: scale(0.9);
+    opacity: 1; }
+  50% {
+    -webkit-transform: scale(1);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(0.9);
+    opacity: 1; } }
+.rules {
+  background: #229fff;
+  color: #fff; }
+
+.links_block {
+  text-align: center; }
+
+.one_link {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px; }
+
+.go_link {
+  font-size: 10px; }
+
+.withus {
+  background: #0262AD url("../images/beams.png") top left repeat-x;
+  color: #fff;
+  padding: 50px 0px; }
 
 .withus-1 {
   display: inline-block;
   vertical-align: top;
   width: 200px;
-  background: green;
   margin: 0 10px 0 10px; }
 
 .withus-icon {
-  width: 120px;
-  height: 120px;
-  background: red;
+  width: 90px;
+  height: 90px;
   display: block;
   margin: 0 auto; }
 
 .withus-anno {
   width: 200px; }
 
+.pdf {
+  background: #232323;
+  padding: 80px 0;
+  color: #fff; }
+
 .pdf-1 {
   display: inline-block;
   vertical-align: top;
   width: 200px;
-  background: green;
   margin: 0 10px 0 10px; }
 
 .pdf-icon {
   width: 60px;
   height: 60px;
-  background: red;
   display: block;
   margin: 0 auto; }
 
@@ -2766,8 +3046,7 @@ Copyright (c) 2015 Daniel Eden
   margin-bottom: 10px;
   outline: none;
   border-radius: 4px;
-  border: 1px solid #333;
-  font-size: 1.5em; }
+  border: 1px solid #333; }
 
 .myform input[type="text"]:focus,
 .myform textarea:focus {
@@ -2775,13 +3054,13 @@ Copyright (c) 2015 Daniel Eden
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .tx {
-  resize: none; }
+  resize: none;
+  height: 280px; }
 
 .footer {
   height: 100px;
   line-height: 100px;
-  border-top: 1px solid #eee;
-  font-size: 1.6em; }
+  border-top: 1px solid #eee; }
 
 .fleft {
   float: left;
@@ -2792,6 +3071,44 @@ Copyright (c) 2015 Daniel Eden
   margin-right: 5%; }
 
 @media screen and (max-width: 767px) {
+  .show {
+    display: block !important;
+    visibility: hidden; }
+
+  .nav {
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+    background: #fff;
+    position: absolute;
+    margin-top: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+    .nav ul {
+      margin: 0 !important;
+      padding: 0 !important; }
+      .nav ul li {
+        display: list-item;
+        margin: 8px 0 8px 0;
+        text-transform: uppercase;
+        text-align: center;
+        list-style: none;
+        border-bottom: 1px solid red; }
+        .nav ul li a {
+          color: red;
+          -webkit-transition: all 0.1s ease-out;
+          -moz-transition: all 0.1s ease-out;
+          -o-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out; }
+        .nav ul li a:hover {
+          color: olive; }
+        .nav ul li .active {
+          color: blue !important; }
+
+  .mobnav {
+    display: block;
+    float: right;
+    margin-right: 5%; }
+
   .about_left {
     width: 90% !important;
     margin: 0 auto;
@@ -2817,7 +3134,7 @@ Copyright (c) 2015 Daniel Eden
     display: none; }
 
   .quant-side {
-    width: 100%;
+    width: 90%;
     text-align: left; }
 
   .quant-center {
@@ -2846,7 +3163,7 @@ Copyright (c) 2015 Daniel Eden
 
   .city {
     width: 100%;
-    height: 100px; }
+    height: 210px; }
 
   .gutter {
     width: 100%;
@@ -2859,13 +3176,19 @@ Copyright (c) 2015 Daniel Eden
     margin: 0 2px 0 2px; }
 
   .withus-icon {
-    width: 80%;
+    width: 50%;
     height: auto;
     display: block;
     margin: 0 auto; }
 
   .withus-anno {
     width: 100%; }
+
+  .one_link {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; }
 
   .pdf-1 {
     display: inline-block;
@@ -2874,13 +3197,16 @@ Copyright (c) 2015 Daniel Eden
     margin: 0 2px 0 2px; }
 
   .pdf-icon {
-    width: 60%;
+    width: 30%;
     height: auto;
     display: block;
     margin: 0 auto; }
 
   .pdf-anno {
     width: 100%; }
+
+  .download {
+    display: none; }
 
   .contacts-left {
     display: block;

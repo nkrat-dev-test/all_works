@@ -1,9 +1,61 @@
 .quant-elems{display:inline-block; vertical-align: middle;}
-.quant-side{width: 382px; text-align: left; background: red;}
-.quant-center{width: 200px; background: gray; margin: 0 10px 0 20px;}
+.quant-side{width: 382px; text-align: left; }
+.quant-center{width: 190px; margin: 0 20px 0 10px; box-sizing: border-box;}
 
-.quant_example_block{background: olive;}
-.quant-step{width: 220px; background: aqua; display:inline-block; vertical-align: top; margin: 0 10px 0 10px;}
+.quant_example_block{background: transparent;}
+.quant-step{width: 180px;  display:inline-block; vertical-align: top; margin: 0 10px 0 10px;}
 
-.step_icon{display: block; margin: 0 auto; width: 150px; height: 150px; background: red;}
-.step_anno{background: yellow; width: 100%;}
+.step_icon{display: block; margin: 0 auto; width: 120px; height: 120px; background: red;}
+.step_anno{background: yellow; width: 100%; margin-top: 8px;}
+
+
+
+.q{color:green;}
+.qr{color:blue;}
+
+/*
+==============================================
+pulse
+==============================================
+*/
+
+.pulsed{
+	animation-name: pulsed;
+	-webkit-animation-name: pulsed;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulsed {
+	0% {
+		transform: scale(0.9);
+		opacity: 1;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 1;	
+	}			
+}
+
+@-webkit-keyframes pulsed {
+	0% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;	
+	}			
+}

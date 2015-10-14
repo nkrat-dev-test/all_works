@@ -5,7 +5,7 @@
 
 
 .myform{width: 100%; display:block!important;}
-.field{width: 100%; padding:20px; box-sizing: border-box; margin-bottom: 10px; outline:none; border-radius: 4px; border:1px solid #333; font-size: 1.5em;}
+.field{width: 100%; padding:20px; box-sizing: border-box; margin-bottom: 10px; outline:none; border-radius: 4px; border:1px solid #333; }
 
 
 .myform input[type="text"]:focus,
@@ -15,4 +15,4 @@
 }
 
 
-.tx{resize: none;}
+.tx{resize: none; height: 280px;}
