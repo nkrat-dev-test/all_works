@@ -1,17 +1,19 @@
+.quant{font-size: 16px; font-weight: 300; padding: 150px 0; color:#333;}
 .quant-elems{display:inline-block; vertical-align: middle;}
 .quant-side{width: 382px; text-align: left; }
 .quant-center{width: 190px; margin: 0 20px 0 10px; box-sizing: border-box;}
 
-.quant_example_block{background: transparent;}
-.quant-step{width: 180px;  display:inline-block; vertical-align: top; margin: 0 10px 0 10px;}
+.quant_example_block{background: transparent; border-top:1px dashed #ccc; margin-top: 50px; padding-top: 60px;}
+
+.quant-step{width: 200px;  display:inline-block; vertical-align: top; margin: 0 10px 0 10px;}
 
 .step_icon{display: block; margin: 0 auto; width: 120px; height: 120px; background: red;}
-.step_anno{background: yellow; width: 100%; margin-top: 8px;}
+.step_anno{ width: 100%; margin-top: 8px; font-weight: 400; font-size: 14px;}
 
 
 
-.q{color:green;}
-.qr{color:blue;}
+.q{font-weight: 400;}
+.qr{color:#FF1E25; font-weight: 400;}
 
 /*
 ==============================================

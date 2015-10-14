@@ -1,5 +1,9 @@
 @media screen and (max-width: 767px) {
 	
+h1{font-weight: 100; font-size: 40px; margin-bottom: 0!important; margin-top: 0!important;}
+h2{font-weight: 100; font-size: 20px; margin-bottom: 25px!important; margin-top: 0!important;}	
+	
+	
 //.nav{display:none;}
 // nav start
 .show{display:block!important; visibility: hidden;}
@@ -28,49 +32,63 @@
 
 //nav end
 
-.about_left{width:90%!important; margin: 0 auto; display:block;}	
+.about, .pluses, .work{padding: 0 0 50px 0px!important;}
+.quant{padding: 50px 0 50px 0px!important;}
+.rules{padding: 40px 0 0px 0px!important;}
+.withus{padding: 40px 0 60px 0px!important;}
+.pdf{font-size: 13px;}
+.experience{padding: 40px 0;}
+.contacts{padding: 40px 0; background: none;}
+
+.about_left{width:90%!important; margin: 30px auto 0 auto; display:block;}	
 .about_right{display:none;}	
 
 .pluses_left{display:none;}
-.pluses_right{width:90%!important; margin: 0 auto; display:block;}
+.pluses_right{width:90%!important; margin: 30px auto 0 auto; display:block;}
 
 
-.work_left{width:90%!important; margin: 0 auto; display:block;}	
+.work_left{width:90%!important; margin: 30px auto 0 auto; display:block;}	
 .work_right{display:none;}	
 
 .quant-side{width: 90%; text-align: left;}
 .quant-center{width: 200px; height: 200px; margin: 0 10px 0 20px;}	
-.quant_example_block{margin-top: 30px;}
+.quant_example_block{background: transparent; border-top:1px dashed #ccc; margin-top: 30px; padding-top: 40px;}
 .quant-step{width: 90%; background: aqua; display:block; vertical-align: top; margin: 0 auto 10px auto;}
 .step_anno{background: yellow; width: 50%; margin: 0 auto;}
 
 
-.anno-block{margin: 0 auto; width: 90%;}
+.anno-block{margin: 0 auto; width: 90%; font-size: 14px;}
+.anno-block-mar{margin-top: 10px;}
 .city{width: 100%; height: 210px;}
 .gutter{width: 100%; height: 50px;}
 
+
 .withus-1{display:inline-block; vertical-align: top; width: 30%; margin: 0 2px 0 2px;}
 .withus-icon{width: 50%; height: auto;  display:block; margin: 0 auto;}
-.withus-anno{width: 100%;}
+.withus-anno{width: 100%; font-size: 13px;}
 
 
 .one_link{text-align: left; display:inline-block; vertical-align: top; width:45%;}
 
+
+ 
 .pdf-1{display:inline-block; vertical-align: top; width: 25%;  margin: 0 2px 0 2px;}
 .pdf-icon{width: 30%; height: auto;  display:block; margin: 0 auto;}
 .pdf-anno{width: 100%;}
 .download{display:none;}
 
+
+.contacts-block{ margin-top: 20px;}
 .contacts-left{display:block; width: 100%; margin: 0 auto;}
 .contacts-right{display:block!important; width: 100%; margin: 0 auto;}
-.contacts-details{margin: 40px auto; text-align: center;}
+.contacts-details{margin: 40px auto; text-align: center; width: 90%;}
 .myform{width: 90%; display:inline-block;  margin: 0 auto!important;}
 .field{width: 100%;}
 
 
 .inner{width:100%!important;}
 .block-anim{display:none;}
-.mobile-anim{display:block!important; width: 100%; height: 200px; background:olive; position: relative;}
+.mobile-anim{display:block!important; width: 100%; height: 200px; background:transparent; position: relative;}
 	
 	
 

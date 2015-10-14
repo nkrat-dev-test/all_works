@@ -1,10 +1,11 @@
-.pluses{background: #eee;}
+.pluses{background: #eee; color:#333; font-size: 16px; font-weight: 300; padding: 80px 0;}
 .pluses_left{width: 440px;min-height: $height;}
-.pluses_right{width: 550px; background: yellow;
-	ul{margin: 0!important; padding: 0!important;
+.pluses_right{width: 550px; 
+	ul{margin: 10px 0 0 0!important; padding: 0!important;
 		li{
-			
+			margin-bottom: 5px; list-style-position:inside; list-style-type: square;
 		}
+		
 	}
 	
 }

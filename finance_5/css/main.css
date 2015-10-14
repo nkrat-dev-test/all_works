@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -2582,11 +2583,19 @@ Copyright (c) 2015 Daniel Eden
   animation-name: slideOutUp; }
 
 body {
-  font-size: 1.5em; }
+  font-family: 'Roboto', sans-serif; }
 
 h1 {
   font-weight: 100;
-  font-size: 40px; }
+  font-size: 50px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important; }
+
+h2 {
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 25px !important;
+  margin-top: 0 !important; }
 
 .section {
   width: 100%;
@@ -2623,7 +2632,10 @@ h1 {
 
 .anno-block {
   margin: 0 auto;
-  width: 700px; }
+  width: 760px; }
+
+.anno-block-mar {
+  margin-top: 15px; }
 
 .city {
   width: 100%;
@@ -2704,9 +2716,14 @@ slideDown2
   margin-left: -35px;
   display: block; }
 
+.about {
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 80px 0; }
+
 .about_left {
-  width: 600px;
-  background: yellow; }
+  width: 550px; }
 
 .about_right {
   min-height: 500px; }
@@ -2742,18 +2759,25 @@ slideDown2
   z-index: -6; }
 
 .pluses {
-  background: #eee; }
+  background: #eee;
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 80px 0; }
 
 .pluses_left {
   width: 440px;
   min-height: 500px; }
 
 .pluses_right {
-  width: 550px;
-  background: yellow; }
+  width: 550px; }
   .pluses_right ul {
-    margin: 0 !important;
+    margin: 10px 0 0 0 !important;
     padding: 0 !important; }
+    .pluses_right ul li {
+      margin-bottom: 5px;
+      list-style-position: inside;
+      list-style-type: square; }
 
 .g1 {
   background-size: cover;
@@ -2777,11 +2801,13 @@ slideDown2
 
 .work {
   background: #6DC167;
-  color: #fff; }
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 80px 0; }
 
 .work_left {
-  width: 550px;
-  background: yellow; }
+  width: 550px; }
 
 .work_right {
   width: 440px;
@@ -2885,6 +2911,12 @@ slideDown2
     transform: rotate(0deg); }
   to {
     transform: rotate(-360deg); } }
+.quant {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 150px 0;
+  color: #333; }
+
 .quant-elems {
   display: inline-block;
   vertical-align: middle; }
@@ -2899,10 +2931,13 @@ slideDown2
   box-sizing: border-box; }
 
 .quant_example_block {
-  background: transparent; }
+  background: transparent;
+  border-top: 1px dashed #ccc;
+  margin-top: 50px;
+  padding-top: 60px; }
 
 .quant-step {
-  width: 180px;
+  width: 200px;
   display: inline-block;
   vertical-align: top;
   margin: 0 10px 0 10px; }
@@ -2915,15 +2950,17 @@ slideDown2
   background: red; }
 
 .step_anno {
-  background: yellow;
   width: 100%;
-  margin-top: 8px; }
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 14px; }
 
 .q {
-  color: green; }
+  font-weight: 400; }
 
 .qr {
-  color: blue; }
+  color: #FF1E25;
+  font-weight: 400; }
 
 /*
 ==============================================
@@ -2960,24 +2997,44 @@ pulse
     opacity: 1; } }
 .rules {
   background: #229fff;
-  color: #fff; }
+  color: #fff;
+  padding: 80px 0;
+  font-size: 16px; }
+
+.experience {
+  padding: 80px 0;
+  color: #333;
+  font-size: 16px; }
 
 .links_block {
-  text-align: center; }
+  text-align: center;
+  margin-top: 40px; }
 
 .one_link {
   text-align: left;
   display: inline-block;
   vertical-align: top;
-  width: 200px; }
+  width: 220px;
+  margin: 0 10px 20px 10px; }
+
+.link_name {
+  font-size: 18px; }
 
 .go_link {
-  font-size: 10px; }
+  font-size: 13px;
+  color: #229fff; }
+
+.go_link:hover {
+  text-decoration: none; }
 
 .withus {
   background: #0262AD url("../images/beams.png") top left repeat-x;
   color: #fff;
-  padding: 50px 0px; }
+  padding: 80px 0px;
+  font-size: 16px; }
+
+.withus-block {
+  margin-top: 30px; }
 
 .withus-1 {
   display: inline-block;
@@ -2992,12 +3049,15 @@ pulse
   margin: 0 auto; }
 
 .withus-anno {
-  width: 200px; }
+  width: 200px;
+  font-size: 15px; }
 
 .pdf {
   background: #232323;
   padding: 80px 0;
-  color: #fff; }
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400; }
 
 .pdf-1 {
   display: inline-block;
@@ -3014,8 +3074,23 @@ pulse
 .pdf-anno {
   width: 200px; }
 
-.contatcs-block {
-  position: relative; }
+.contacts {
+  padding: 80px 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  background: url("http://satin.kz/uploads/8310_happy-feedback-background.png") right bottom no-repeat; }
+  .contacts p {
+    margin-top: 0 !important;
+    margin-bottom: 0px; }
+  .contacts p.sep {
+    margin-top: 10px !important; }
+  .contacts .hea {
+    font-weight: 400; }
+
+.contacts-block {
+  position: relative;
+  margin-top: 40px; }
 
 .contacts-left {
   position: relative;
@@ -3025,15 +3100,13 @@ pulse
 .contacts-right {
   position: relative;
   float: right;
-  width: 50%;
-  background: olive; }
+  width: 50%; }
 
 .contacts-details {
   position: relative;
   display: block;
-  width: 90%;
-  margin: 0 auto;
-  background: red; }
+  width: 60%;
+  margin: 0 auto; }
 
 .myform {
   width: 100%;
@@ -3071,6 +3144,18 @@ pulse
   margin-right: 5%; }
 
 @media screen and (max-width: 767px) {
+  h1 {
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important; }
+
+  h2 {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 25px !important;
+    margin-top: 0 !important; }
+
   .show {
     display: block !important;
     visibility: hidden; }
@@ -3109,9 +3194,31 @@ pulse
     float: right;
     margin-right: 5%; }
 
+  .about, .pluses, .work {
+    padding: 0 0 50px 0px !important; }
+
+  .quant {
+    padding: 50px 0 50px 0px !important; }
+
+  .rules {
+    padding: 40px 0 0px 0px !important; }
+
+  .withus {
+    padding: 40px 0 60px 0px !important; }
+
+  .pdf {
+    font-size: 13px; }
+
+  .experience {
+    padding: 40px 0; }
+
+  .contacts {
+    padding: 40px 0;
+    background: none; }
+
   .about_left {
     width: 90% !important;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     display: block; }
 
   .about_right {
@@ -3122,12 +3229,12 @@ pulse
 
   .pluses_right {
     width: 90% !important;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     display: block; }
 
   .work_left {
     width: 90% !important;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     display: block; }
 
   .work_right {
@@ -3143,7 +3250,10 @@ pulse
     margin: 0 10px 0 20px; }
 
   .quant_example_block {
-    margin-top: 30px; }
+    background: transparent;
+    border-top: 1px dashed #ccc;
+    margin-top: 30px;
+    padding-top: 40px; }
 
   .quant-step {
     width: 90%;
@@ -3159,7 +3269,11 @@ pulse
 
   .anno-block {
     margin: 0 auto;
-    width: 90%; }
+    width: 90%;
+    font-size: 14px; }
+
+  .anno-block-mar {
+    margin-top: 10px; }
 
   .city {
     width: 100%;
@@ -3182,7 +3296,8 @@ pulse
     margin: 0 auto; }
 
   .withus-anno {
-    width: 100%; }
+    width: 100%;
+    font-size: 13px; }
 
   .one_link {
     text-align: left;
@@ -3190,6 +3305,7 @@ pulse
     vertical-align: top;
     width: 45%; }
 
+   
   .pdf-1 {
     display: inline-block;
     vertical-align: top;
@@ -3208,6 +3324,9 @@ pulse
   .download {
     display: none; }
 
+  .contacts-block {
+    margin-top: 20px; }
+
   .contacts-left {
     display: block;
     width: 100%;
@@ -3220,7 +3339,8 @@ pulse
 
   .contacts-details {
     margin: 40px auto;
-    text-align: center; }
+    text-align: center;
+    width: 90%; }
 
   .myform {
     width: 90%;
@@ -3240,5 +3360,5 @@ pulse
     display: block !important;
     width: 100%;
     height: 200px;
-    background: olive;
+    background: transparent;
     position: relative; } }
