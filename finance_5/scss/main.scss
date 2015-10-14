@@ -3,17 +3,29 @@ $height:500px;
 $sky:#229fff;
 
 $workbg:black;
-$pdfbg:orange;
-$usbg:green;
+$pdfbg:#4C5360;
+$usbg:#4C5360;
 
 @import 'normalize';
 @import 'navmenu';
 @import 'anim';
+@import 'looper';
 
-body{font-family: 'Roboto', sans-serif;}
+body{font-family: 'Roboto', sans-serif; overflow-x:hidden;}
 h1{font-weight: 100; font-size: 50px; margin-bottom: 0!important; margin-top: 0!important;}
 h2{font-weight: 100; font-size: 30px; margin-bottom: 25px!important; margin-top: 0!important;}
 
+.vhid{visibility: hidden;}
+.marker{position: absolute; width: 1px; height: 1px; background: red; z-index: 200000;margin-top: -35%; visibility: hidden;}
+
+.disable{background: rgba(0,0,0, 0.1)!important; color:rgba(255,255,255, 0.7)!important; border-color:rgba(0,0,0, 0.0)!important;}
+.disable:hover{background: rgba(0,0,0, 0.1)!important; color:rgba(255,255,255, 0.7)!important; border-color:rgba(0,0,0, 0.0)!important;}
+
+.thk{position: fixed; width: 30%; padding: 50px; left:50%; margin-left: -15%; background: #2a7df5; z-index: 300500;text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); font-size: 16px; font-weight: 400; visibility: hidden; color:#fff;
+}
+
+.logo{display:block; width: 150px; margin-top: 15px;}
 
 .section{width:100%; border-bottom:1px solid #eee; min-height: $height;z-index:1;}
 .half{display:inline-block; vertical-align: middle; position: relative; z-index: 10;}
@@ -72,6 +84,53 @@ slideDown2
 		-webkit-transform: translateY(0%);
 	}
 }
+
+
+/*
+==============================================
+slideUp2
+==============================================
+*/
+
+
+.slideUp2{
+	animation-name: slideUp2;
+	-webkit-animation-name: slideUp2;	
+
+	animation-duration: 0.5s;	
+	-webkit-animation-duration: 0.5s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes slideUp2 {
+	0% {
+		transform: translateY(150%);
+	}
+				
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+@-webkit-keyframes slideUp2 {
+	0% {
+		-webkit-transform: translateY(150%);
+	}
+				
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+
+
+
+
+
+
 
 $btcolor:#229fff;
 

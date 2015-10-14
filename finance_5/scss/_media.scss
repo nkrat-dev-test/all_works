@@ -1,10 +1,12 @@
 @media screen and (max-width: 767px) {
+
+.marker{margin-top: -85%;}
 	
 h1{font-weight: 100; font-size: 40px; margin-bottom: 0!important; margin-top: 0!important;}
-h2{font-weight: 100; font-size: 20px; margin-bottom: 25px!important; margin-top: 0!important;}
+h2{font-weight: 300; font-size: 18px; margin-bottom: 25px!important; margin-top: 0!important;}
 
-.schemes{text-align: center;}
-.sch_btn{display:inline-block; vertical-align: top; font-size: 14px; text-transform:uppercase; cursor:pointer; margin: 0 2% 0 2%;}
+.schemes{text-align: left; width: 90%;}
+.sch_btn{display:inline-block; vertical-align: top; font-size: 14px; text-transform:uppercase; cursor:pointer; margin: 0 5% 0 0; }
 	
 	
 	
@@ -57,8 +59,8 @@ h2{font-weight: 100; font-size: 20px; margin-bottom: 25px!important; margin-top:
 .quant-side{width: 90%; text-align: left;}
 .quant-center{width: 200px; height: 200px; margin: 0 10px 0 20px;}	
 .quant_example_block{background: transparent; border-top:1px dashed #ccc; margin-top: 30px; padding-top: 40px;}
-.quant-step{width: 90%;  display:block; vertical-align: top; margin: 0 auto 30px auto;}
-.step_anno{background: yellow; width: 70%; margin: 0 auto;}
+.quant-step{width: 90%;  display:block; vertical-align: top; margin: 0 auto 40px auto;}
+.step_anno{ width: 65%; margin: 0 auto;}
 
 
 .anno-block{margin: 0 auto; width: 90%; font-size: 14px;}
