@@ -1,0 +1,13 @@
+$width:1000px;
+
+@import 'normalize';
+@import 'anim';
+@import 'navmenu';
+@import 'contacts';
+@import 'footer';
+@import 'media';
+
+.section{height: 3000px; background: #eee;}
+.inner{width: $width; margin: 0 auto;}
+
+
