@@ -364,12 +364,6 @@ td,
 th {
   padding: 0; }
 
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
-*/
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -453,7 +447,56 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: flash;
   animation-name: flash; }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/*====BOUNCE MOUSE=====*/
+@-webkit-keyframes bounceMouse {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0); } }
+@keyframes bounceMouse {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0); } }
+.bounceMouse {
+  -webkit-animation-name: bounceMouse;
+  animation-name: bounceMouse;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s; }
+
+/*====end==*/
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -2537,6 +2580,55 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.13);
+  font-weight: 400; }
+
+td {
+  border: 1px solid #eee;
+  color: #666; }
+
+th {
+  padding: 14px !important;
+  background: #58585A;
+  color: #fff;
+  text-align: center !important;
+  font-weight: 700;
+  font-size: 18px; }
+
+td {
+  padding: 14px !important;
+  line-height: 20px;
+  font-size: 14px;
+  background: #fff; }
+
+td.center {
+  text-align: center;
+  width: 25%;
+  vertical-align: middle; }
+
+td span {
+  color: #3E8ACC; }
+
+td.center span {
+  color: #ff5055; }
+
+td.center.gr span {
+  color: #7BC04B !important; }
+
+.sepx {
+  background: #eee; }
+
+.summary {
+  font-weight: 700;
+  padding: 40px 20px 40px 20px;
+  font-size: 16px; }
+
+span.regio {
+  color: #ff5055; }
+
 header {
   position: fixed;
   width: 100%;
@@ -2600,7 +2692,8 @@ header {
   position: absolute;
   min-width: 5px;
   margin-top: 70px;
-  font-size: 14px; }
+  font-size: 14px;
+  border-radius: 0 0 4px 4px; }
   .langs ul {
     margin: 0 !important;
     padding: 0 !important; }
@@ -2610,7 +2703,7 @@ header {
       text-transform: uppercase;
       text-align: center;
       list-style: none;
-      border-bottom: 1px solid #eee;
+      border-top: 1px solid #eee;
       line-height: 15px;
       padding: 8px 20px; }
       .langs ul li a {
@@ -2641,7 +2734,7 @@ header {
     background: #fff;
     position: absolute;
     margin-top: 70px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+    border-radius: 0 0 4px 4px; }
     .nav ul {
       margin: 0 !important;
       padding: 0 !important; }
@@ -2651,7 +2744,7 @@ header {
         text-transform: uppercase;
         text-align: center;
         list-style: none;
-        border-bottom: 1px solid #eee;
+        border-top: 1px solid #eee;
         line-height: 15px;
         padding: 15px 0; }
         .nav ul li a {
@@ -2731,6 +2824,9 @@ slideUp2
   .contacts .hea {
     font-weight: 400; }
 
+.add-details {
+  margin-top: 50px !important; }
+
 .contacts-block {
   position: relative;
   margin-top: 40px; }
@@ -2761,8 +2857,8 @@ slideUp2
   box-sizing: border-box;
   margin-bottom: 10px;
   outline: none;
-  border-radius: 4px;
-  border: 1px solid #9caabb;
+  border-radius: 0px;
+  border: 2px solid #acadad;
   color: #333;
   font-weight: 400; }
 
@@ -2809,8 +2905,8 @@ slideUp2
 
 .myform input[type="text"]:focus,
 .myform textarea:focus {
-  border: 1px solid #a8bae3;
-  box-shadow: 0 0 3px rgba(95, 162, 245, 0.5); }
+  border: 2px solid #77c6fd;
+  box-shadow: 0 0 6px rgba(119, 198, 253, 0.9); }
 
 .tx {
   resize: none;
@@ -2870,8 +2966,48 @@ slideUp2
 
   .field {
     width: 100%; } }
+.start {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ccc; }
+
+.overlay {
+  position: absolute;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%; }
+
+.loops {
+  position: absolute;
+  z-index: 5;
+  background: orange;
+  width: 100%;
+  height: 100%; }
+
+.next {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  bottom: 7%;
+  left: 50%;
+  margin-left: -35px;
+  background: url("../images/svg/mouse.svg");
+  display: block; }
+
+.scroll {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  bottom: 7%;
+  left: 50%;
+  margin-left: -35px;
+  display: block;
+  background: url("../images/svg/d.svg"); }
+
 .section {
-  height: 3000px;
+  min-height: 500px;
   background: #eee; }
 
 .inner {

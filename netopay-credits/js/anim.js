@@ -5,11 +5,11 @@ $('.mobnav').click( function(menu){
         $('.langs').removeClass('show');
         
  setTimeout(function(){
-  $('.nav').addClass('animated flipInX');
+  $('.nav').addClass('animated slideInDown');
 }, 1);
     });
 $(document).click( function(){
-	    $('.nav').removeClass('flipInX');
+	    $('.nav').removeClass('slideInDown');
         $('.nav').removeClass('show');
         
         
@@ -23,7 +23,7 @@ $(document).click( function(){
         langmenu.stopPropagation();
         $('.langs').toggleClass('show');
         $('.nav').removeClass('show');
-        $('.nav').removeClass('flipInX');
+        $('.nav').removeClass('slideInDown');
         
  setTimeout(function(){
   $('.langs').addClass('animated slideInDown');
