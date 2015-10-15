@@ -2693,7 +2693,10 @@ header {
   min-width: 5px;
   margin-top: 70px;
   font-size: 14px;
-  border-radius: 0 0 4px 4px; }
+  border-radius: 0 0 4px 4px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
   .langs ul {
     margin: 0 !important;
     padding: 0 !important; }
@@ -2734,7 +2737,10 @@ header {
     background: #fff;
     position: absolute;
     margin-top: 70px;
-    border-radius: 0 0 4px 4px; }
+    border-radius: 0 0 4px 4px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee; }
     .nav ul {
       margin: 0 !important;
       padding: 0 !important; }
@@ -2858,7 +2864,7 @@ slideUp2
   margin-bottom: 10px;
   outline: none;
   border-radius: 0px;
-  border: 2px solid #acadad;
+  border: 2px solid #eee;
   color: #333;
   font-weight: 400; }
 
@@ -2939,7 +2945,7 @@ slideUp2
 
 @media screen and (max-width: 767px) {
   .inner {
-    width: 90% !important; }
+    width: 100% !important; }
 
   .contacts-block {
     margin-top: 20px; }

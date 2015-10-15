@@ -13,7 +13,7 @@
 
 
 .myform{width: 100%; display:block!important;}
-.field{width: 100%; padding:20px; box-sizing: border-box; margin-bottom: 10px; outline:none; border-radius: 0px; border:2px solid #acadad; color:#333; font-weight: 400;}
+.field{width: 100%; padding:20px; box-sizing: border-box; margin-bottom: 10px; outline:none; border-radius: 0px; border:2px solid #eee; color:#333; font-weight: 400;}
 
 /* сдвиг placeholder-а вправо при фокусе*/
 .field::-webkit-input-placeholder       {text-indent: 0px; opacity:1;   transition:  text-indent 0.3s ease, opacity 0.3s ease;}

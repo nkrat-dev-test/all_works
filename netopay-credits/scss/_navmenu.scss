@@ -1,5 +1,7 @@
+$nav-border:#eee;
+
 header{position: fixed; width: 100%; height: 70px; background: #fff; z-index: 100500; line-height: 70px;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid $nav-border;
 }
 .headroom--top {display:block;}
 .headroom--not-top {display:block;}
@@ -34,7 +36,7 @@ header{position: fixed; width: 100%; height: 70px; background: #fff; z-index: 10
 
 
 .langs{display:none; right: 30px; background: #fff; position: absolute; min-width: 5px; margin-top: 70px;
-	  font-size: 14px; border-radius: 0 0 4px 4px;
+	  font-size: 14px; border-radius: 0 0 4px 4px; border-left:1px solid $nav-border; border-right:1px solid $nav-border; border-bottom: 1px solid $nav-border;
 	ul{ margin: 0!important; padding: 0!important;
 		
 		li{display: list-item; margin: 0px 0 0px 0;  text-transform: uppercase; text-align: center; list-style: none; border-top: 1px solid #eee; line-height: 15px; padding: 8px 20px;
@@ -61,7 +63,7 @@ header{position: fixed; width: 100%; height: 70px; background: #fff; z-index: 10
 
 @media screen and (max-width: 767px) {
 .nav{display:none; width: 90%; margin-left: 5%; background: #fff; position: absolute;  margin-top: 70px;
-	border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px; border-left:1px solid $nav-border; border-right:1px solid $nav-border; border-bottom: 1px solid $nav-border;
 	 //box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 	
 	ul{ margin: 0!important; padding: 0!important; 

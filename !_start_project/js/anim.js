@@ -1,15 +1,17 @@
 $('.mobnav').click( function(menu){
         menu.stopPropagation();
         $('.nav').toggleClass('show');
-       $('.langs').removeClass('slideInDown');
+       $('.langs').removeClass('flipInX');
         $('.langs').removeClass('show');
+         $('.langs').removeClass('animated');
         
  setTimeout(function(){
-  $('.nav').addClass('animated slideInDown');
+  $('.nav').addClass('animated flipInX');
 }, 1);
     });
 $(document).click( function(){
-	    $('.nav').removeClass('slideInDown');
+	    $('.nav').removeClass('animated');
+	    $('.nav').removeClass('flipInX');
         $('.nav').removeClass('show');
         
         
@@ -23,14 +25,16 @@ $(document).click( function(){
         langmenu.stopPropagation();
         $('.langs').toggleClass('show');
         $('.nav').removeClass('show');
-        $('.nav').removeClass('slideInDown');
+        $('.nav').removeClass('flipInX');
+        $('.nav').removeClass('animated');
         
  setTimeout(function(){
-  $('.langs').addClass('animated slideInDown');
+  $('.langs').addClass('animated flipInX');
 }, 1);
     });
 $(document).click( function(){
-	    $('.langs').removeClass('slideInDown');
+	    $('.langs').removeClass('animated');
+	    $('.langs').removeClass('flipInX');
         $('.langs').removeClass('show');
         
         
