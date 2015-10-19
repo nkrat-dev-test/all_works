@@ -200,16 +200,16 @@ $("#sch1").click(function() {
 $('.prop_sel2').click( function(){
 	    $('.prop_sel1').removeClass('pressed');
 	    $(this).addClass('pressed');
-	    $("#p1").fadeOut();
-	    $("#p2").fadeIn();
+	    $("#p1").fadeOut(0);
+	    $("#p2").fadeIn(0);
 	    
 });
 
 $('.prop_sel1').click( function(){
 	    $('.prop_sel2').removeClass('pressed');
 	    $(this).addClass('pressed');
-	    $("#p2").fadeOut();
-	    $("#p1").fadeIn();
+	    $("#p2").fadeOut(0);
+	    $("#p1").fadeIn(0);
 	    
 });
 

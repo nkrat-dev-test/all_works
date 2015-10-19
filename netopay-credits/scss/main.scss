@@ -3,18 +3,22 @@ $s-min-height:500px;
 
 $props:#fff;
 $selborder:Red;
-$pressed:orange;
+$pressed:#229fff;
 
 
 @import 'normalize';
 @import 'anim';
+@import 'as';
 @import 'tables';
 @import 'navmenu';
 @import 'contacts';
 @import 'footer';
 @import 'media';
 
+body{color:#333; font-family: 'Roboto';}
 
+
+h1{font-weight: 100!important; text-transform: uppercase; font-size: 45px; }
 .center{text-align: center;}
 
 .start{position: relative; width: 100%; height: 100%; background: #ccc;}
@@ -41,11 +45,11 @@ $pressed:orange;
 .i3{background: url('../images/svg/icon_3.svg') center center no-repeat; background-size: cover;}
 .i4{background: url('../images/svg/icon_4.svg') center center no-repeat; background-size: cover;}
 
-.propositions{padding: 150px 0;}
-.prop_container{position: relative; width: 100%; min-height: 400px; background: gray; text-align: center;}
+.propositions{padding: 60px 0;}
+.prop_container{position: relative; width: 100%; min-height: 400px; background: transparent; text-align: center; margin-top: 80px;}
 .prop_selector{text-align: center; font-size: 0;}
 
-.props{display:inline-block; vertical-align: top; padding: 20px; font-size: 18px; text-transform: uppercase; font-size: 100; color:#232323;
+.props{display:inline-block; vertical-align: top; padding: 15px 50px; font-size: 18px; text-transform: uppercase; font-weight: 300; color:#229fff;
 	background: $props; cursor: pointer;
 }
 .prop_sel1{border-top:1px solid $pressed; border-left:1px solid $pressed; border-bottom: 1px solid $pressed; border-radius: 4px 0 0 4px; }
@@ -57,8 +61,48 @@ $pressed:orange;
 
 
 .prop{position: absolute; width: 100%; height: 100%;} 
-.prop_left{display:inline-block; vertical-align: top; background: red; width: 430px; text-align: left;}
-.prop_right{display: inline-block; vertical-align: top; background: olive; width: 530px; margin-left: 30px; text-align: left;}
+.prop_left{display:inline-block; vertical-align: top;  width: 430px; text-align: left;}
+.prop_right{display: inline-block; vertical-align: top;  width: 500px; margin-left: 50px; text-align: left;}
+.prop_right ul{margin: 0!important; padding: 0!important; 
+	li{
+		margin-bottom: 5px; list-style-type: square; font-weight: 400; font-size: 17px; color:#333;
+	}
+}
+
+.and{margin-top: 30px; font-size: 20px; margin-bottom: 10px; font-weight: 700; color:#8D9093;}
+ul.add_list{
+	li{
+		list-style-type: none; font-size: 15px; color:#8D9093; font-weight: 400; line-height: 16px;
+	}
+}
+
+
+
+.prop_desc{font-size: 13px; margin-top: 30px; color:#666;}
+
+.prop_anim{position: relative; width: 100%; height: 250px; }
+
+.prop_elem{position: absolute; width: 100%; height: 100%; display:block;}
+.g1{background: url('../images/svg/g_anim/grid.svg') center center no-repeat; background-size: cover;}
+.g2{background: url('../images/svg/g_anim/01.svg') center center no-repeat; background-size: cover;}
+.g3{background: url('../images/svg/g_anim/02.svg') center center no-repeat; background-size: cover;}
+.g4{background: url('../images/svg/g_anim/03.svg') center center no-repeat; background-size: cover;}
+.g5{background: url('../images/svg/g_anim/04.svg') center center no-repeat; background-size: cover;}
+
+.m1{background: url('../images/svg/m_anim/01.svg') center center no-repeat; background-size: cover;}
+.m2{background: url('../images/svg/m_anim/02.svg') center center no-repeat; background-size: cover;}
+.m3{background: url('../images/svg/m_anim/03.svg') center center no-repeat; background-size: cover; }
+.m4{background: url('../images/svg/m_anim/04.svg') center center no-repeat; background-size: cover; z-index: 10;}
+.m5{background: url('../images/svg/m_anim/05.svg') center center no-repeat; background-size: cover;}
+.m6{background: url('../images/svg/m_anim/06.svg') center center no-repeat; background-size: cover;}
+.m7{background: url('../images/svg/m_anim/07.svg') center center no-repeat; background-size: cover; z-index:7;}
+.m8{background: url('../images/svg/m_anim/08.svg') center center no-repeat; background-size: cover; z-index:8;}
+.m9{background: url('../images/svg/m_anim/09.svg') center center no-repeat; background-size: cover; z-index:9;}
+.m10{background: url('../images/svg/m_anim/10.svg') center center no-repeat; background-size: cover; z-index:10;}
+.m11{background: url('../images/svg/m_anim/11.svg') center center no-repeat; background-size: cover; z-index:11;}
+.m12{background: url('../images/svg/m_anim/12.svg') center center no-repeat; background-size: cover; z-index:12;}
+.m13{background: url('../images/svg/m_anim/13.svg') center center no-repeat; background-size: cover; z-index:13;}
+.m14{background: url('../images/svg/m_anim/14.svg') center center no-repeat; background-size: cover; z-index:0;}
 
 
 
