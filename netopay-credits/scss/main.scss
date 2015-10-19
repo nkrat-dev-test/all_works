@@ -1,6 +1,11 @@
 $width:1000px;
 $s-min-height:500px;
 
+$props:#fff;
+$selborder:Red;
+$pressed:orange;
+
+
 @import 'normalize';
 @import 'anim';
 @import 'tables';
@@ -10,6 +15,8 @@ $s-min-height:500px;
 @import 'media';
 
 
+.center{text-align: center;}
+
 .start{position: relative; width: 100%; height: 100%; background: #ccc;}
 .overlay{position: absolute; z-index: 10; background: rgba(0,0,0,0.0); width: 100%; height: 100%;}
 .loops{position: absolute; z-index: 5; background: url('../images/pu.jpg') center center no-repeat; background-size: cover; width: 100%; height: 100%;}
@@ -17,8 +24,44 @@ $s-min-height:500px;
 .scroll{position: absolute; width:70px; height: 70px; bottom:7%; left:50%; margin-left:-35px; display:block; background: url('../images/svg/d.svg');}
 .hello{position: absolute; width:40%; display:block; height: auto; left:50%; margin-left: -20%; top:20%;}
 
-.section{min-height: $s-min-height; background: #eee;}
+.section{min-height: $s-min-height;}
+.grid{background: url('../images/grid.png'); border-bottom: 1px solid #eee;}
 
 .inner{width: $width; margin: 0 auto;}
+
+
+.advantages{padding: 150px 0; background: #229fff; color:#fff;}
+.advantages_block{text-align: center;}
+.advantage{display:inline-block; display:inline-block; vertical-align: top; width: 455px; text-align: left; margin-bottom: 60px; margin-left: 20px;}
+.adv_icon{height: 70px; width:70px; margin-right: 20px;  display:inline-block; vertical-align: middle;}
+.adv_anno{display:inline-block; vertical-align: middle;  width: 350px; font-size: 16px; font-weight: 400; line-height: 20px;}
+
+.i1{background: url('../images/svg/icon_1.svg') center center no-repeat; background-size: cover;}
+.i2{background: url('../images/svg/icon_2.svg') center center no-repeat; background-size: cover;}
+.i3{background: url('../images/svg/icon_3.svg') center center no-repeat; background-size: cover;}
+.i4{background: url('../images/svg/icon_4.svg') center center no-repeat; background-size: cover;}
+
+.propositions{padding: 150px 0;}
+.prop_container{position: relative; width: 100%; min-height: 400px; background: gray; text-align: center;}
+.prop_selector{text-align: center; font-size: 0;}
+
+.props{display:inline-block; vertical-align: top; padding: 20px; font-size: 18px; text-transform: uppercase; font-size: 100; color:#232323;
+	background: $props; cursor: pointer;
+}
+.prop_sel1{border-top:1px solid $pressed; border-left:1px solid $pressed; border-bottom: 1px solid $pressed; border-radius: 4px 0 0 4px; }
+.prop_sel2{border:1px solid $pressed; border-radius: 0 4px 4px 0;}
+
+
+
+.pressed{border-color:$pressed; background: $pressed; color:#fff;}
+
+
+.prop{position: absolute; width: 100%; height: 100%;} 
+.prop_left{display:inline-block; vertical-align: top; background: red; width: 430px; text-align: left;}
+.prop_right{display: inline-block; vertical-align: top; background: olive; width: 530px; margin-left: 30px; text-align: left;}
+
+
+
+.laws{padding: 150px 0; background: #f1f1f1;}
 
 

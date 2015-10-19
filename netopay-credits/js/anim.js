@@ -197,7 +197,21 @@ $("#sch1").click(function() {
 
 
 
+$('.prop_sel2').click( function(){
+	    $('.prop_sel1').removeClass('pressed');
+	    $(this).addClass('pressed');
+	    $("#p1").fadeOut();
+	    $("#p2").fadeIn();
+	    
+});
 
+$('.prop_sel1').click( function(){
+	    $('.prop_sel2').removeClass('pressed');
+	    $(this).addClass('pressed');
+	    $("#p2").fadeOut();
+	    $("#p1").fadeIn();
+	    
+});
 
 
 

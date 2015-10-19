@@ -66,6 +66,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/grid.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15547,
+		"inputAbbreviatedPath": "\/images\/grid.png",
+		"outputAbbreviatedPath": "\/images\/grid.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/pu.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
