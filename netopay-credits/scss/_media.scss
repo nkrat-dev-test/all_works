@@ -1,12 +1,117 @@
+$n:40px;
+$n2: $n/2;
+
+
 @media screen and (max-width: 767px) {
 
+h1{font-weight: 100!important; text-transform: uppercase; font-size: 26px!important; }
+
+
+
+
 .inner{width: 100%!important;}
+.next{position: absolute; width:$n; height: $n; bottom:7%; left:50%; margin-left:-$n2; background: url('../images/svg/mouse.svg'); display:block;}
+.scroll{position: absolute; width:$n; height: $n; bottom:7%; left:50%; margin-left:-$n2; display:block; background: url('../images/svg/d.svg');}
+
+
+.hello{position: absolute; width:40%; display:block; height: auto; left:50%; margin-left: -20%; top:20%;}
+
+
 
 .contacts-block{ margin-top: 20px;}
 .contacts-left{display:block; width: 100%; margin: 0 auto;}
 .contacts-right{display:block!important; width: 100%; margin: 0 auto;}
 .contacts-details{margin: 40px auto; text-align: center; width: 90%;}
 .myform{width: 90%; display:inline-block;  margin: 0 auto!important;}
-.field{width: 100%;}	
+.field{width: 100%;}
+
+
+
+.advantages{padding: 40px 0 60px 0!important; background: #229fff; color:#fff;}
+.advantages_block{text-align: center; margin-top: 20px!important;}
+.advantage{display:inline-block; display:inline-block; vertical-align: top; width: 90%!important; text-align: center; margin-bottom: 30px!important; margin-left: 0px!important;}
+.adv_icon{height: 40px; width:40px; margin-right: 0px; margin-bottom: 5px;  display:inline-block; vertical-align: middle;}
+.adv_anno{display:inline-block; vertical-align: middle;  width: 100%; font-size: 14px; font-weight: 400; line-height: 20px;}
+
+
+
+
+
+
+.propositions{padding: 30px 0 50px 0;}
+.prop_container{position: relative; width: 100%; min-height: 100px!important; background: transparent; text-align: center; margin-top: 20px!important;}
+.prop_selector{text-align: center; font-size: 0;}
+
+.props{display:inline-block; vertical-align: top; padding: 10px 20px; font-size: 14px; text-transform: uppercase; font-weight: 300; color:#229fff;
+	background: $props; cursor: pointer;
+}
+.prop_sel1{border-top:1px solid $pressed; border-left:1px solid $pressed; border-bottom: 1px solid $pressed; border-radius: 4px 0 0 4px; }
+.prop_sel2{border:1px solid $pressed; border-radius: 0 4px 4px 0;}
+
+
+
+.pressed{border-color:$pressed; background: $pressed; color:#fff;}
+
+
+.prop{position: relative; width: 100%; height: 100%;} 
+.prop_left{display:inline-block; vertical-align: top;  width: 90%!important;  text-align: left;}
+.prop_right{display: inline-block; vertical-align: top;  width: 90%!important; margin: 0px auto!important; text-align: left;}
+.prop_right ul{margin: 30px 0 0 0!important; padding: 0!important; 
+	li{
+		margin-bottom: 5px; list-style-type: square; font-weight: 400; font-size: 15px; color:#333; list-style-position: inside;
+	}
+}
+
+.and{margin-top: 15px; font-size: 20px; margin-bottom: 6px; font-weight: 700; color:#8D9093;}
+ul.add_list{
+	margin: 0!important; padding: 0!important;
+	li{
+		list-style-type: none; font-size: 15px; color:#8D9093; font-weight: 400; line-height: 16px;
+	}
+}
+
+
+
+.prop_desc{font-size: 13px; margin-top: 30px; color:#666;}
+
+
+
+
+.laws{padding: 5px 0 0 0!important; background: #f1f1f1;}
+
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px
+}
+
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px
+}	
 	
+
+.btn{width: 100%;}	
+
+
+.prop_enter{padding: 30px 0 0 0;}
+
+.b_link{
+	display:inline-block; border:1px solid $btcolor;  font-weight: 500; border-radius: 4px; background: $btcolor; padding: 16px 30px; color:#fff; font-size: 13px;
+	-webkit-transition: all 0.1s ease-out;
+             -moz-transition: all 0.2s ease-out;
+             -o-transition: all 0.2s ease-out;
+             transition: all 0.2s ease-out; text-decoration: none;
+
+}
+.b_link:hover{background:$bhover; border-color:$bhover;}
+
+
+
+.thk{position: fixed; width: 90%; padding: 50px 0!important; left:50%; margin-left: -45%; background: $sky; z-index: 300500;text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); font-size: 16px; font-weight: 400; visibility: hidden; color:#fff;
+}
+
+
 }

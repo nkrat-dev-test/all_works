@@ -11,6 +11,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/b1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16098,
+		"inputAbbreviatedPath": "\/images\/b1.png",
+		"outputAbbreviatedPath": "\/images\/b1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16058,
+		"inputAbbreviatedPath": "\/images\/b2.png",
+		"outputAbbreviatedPath": "\/images\/b2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bgs\/01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -62,6 +84,17 @@
 		"initialSize": 518907,
 		"inputAbbreviatedPath": "\/images\/bgs\/05.jpg",
 		"outputAbbreviatedPath": "\/images\/bgs\/05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bx.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16103,
+		"inputAbbreviatedPath": "\/images\/bx.png",
+		"outputAbbreviatedPath": "\/images\/bx.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -288,6 +321,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/notify.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/notify.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/_anim.scss": {
 		"createSourceMap": 0,

@@ -19,6 +19,7 @@
   %script{src:"js/min/check-min.js"}
  
  %body
+  .thk.off	Ваше повідомлення відправлено. Дякуємо!
   
   
   %header
@@ -59,29 +60,28 @@
    .loops 
    
    
-    #slides
-     .slides-container
-      %img{src:"images/pu.jpg"}
-      %img{src:"images/pu.jpg"}
+    
       
    
       
   %section.section.grid
+  
+  
   %section.advantages
    .inner
     %h1.center Возможности
     .advantages_block
      .advantage
-      .adv_icon.i1
+      .adv_icon.i1.pulse
       .adv_anno Взаимодействие Кредиторов и Заемщиков из разных географических регионов в режиме реального времени
      .advantage
-      .adv_icon.i2
+      .adv_icon.i2.pulse
       .adv_anno Обеспечение финансовой и технологической безопасности операций, осуществляемых Пользователями сервиса
      .advantage
-      .adv_icon.i3
+      .adv_icon.i3.pulse
       .adv_anno Доступ Заемщиков к национальным и международным кредитным ресурсам
      .advantage
-      .adv_icon.i4
+      .adv_icon.i4.pulse
       .adv_anno Самостоятельное определение условий сделки ее участниками
   
   %section.propositions
@@ -94,6 +94,7 @@
      #p1.prop
       .prop_left
        .prop_anim
+        %img.imr{src:'images/b1.png'}
         .prop_elem.g1
         .prop_elem.g2.pullUp
         .prop_elem.g3.pullUp
@@ -112,10 +113,13 @@
         %li Финансовая и технологическая безопасность операций
         %li Самостоятельное определение условий сделки
         %li Возможность анализа и контроля заключенных сделок 
+      .prop_enter
+       %a.b_link{href:'#'} Вход или регистрация как Кредитор  
       
      #p2.prop.off
       .prop_left
        .prop_anim
+        %img.imr{src:'images/b2.png'}
         .prop_elem.m13.hatch
         .prop_elem.m12.slideDown2
         .prop_elem.m1.hatch
@@ -144,13 +148,15 @@
         %li Возможность управления активами в режиме online
         %li Финансовая и технологическая безопасность операций
         %li Самостоятельное определение условий сделки
-        %li Возможность анализа и контроля заключенных сделок   
+        %li Возможность анализа и контроля заключенных сделок
+      .prop_enter
+       %a.b_link{href:'#'} Вход или регистрация как Заемщик     
       .clear 
      
      
   %section.laws
    .inner
-    %h1.center laws
+    %h1.center Законодательство
     %table
      %tr
       %td.number 1
@@ -190,16 +196,17 @@
        %p.hea N.KRAT Group GmbH
        %p.sep 44287 м. Дортмунд, Німеччина
        %p вул. Рінгофенштрассе, 43
-       %p.sep Факс: +49 231 444 781 01
-       %p Тел: +49 231 444 781 00
+       %p.sep Телефон: +49 231 444 781 00
+       %p Факс: +49 231 444 781 01
        %p e-mail: de@nkrat.net       
       .contacts-details.add-details
-       %p.hea sadasd
-       %p.sep dhaskjdh
-       %p dsgfhdsgf
-       %p.sep hdskdhasjh
-       %p shfjkdshf
-       %p asgdashgd
+       %p.hea Представительство в Украине
+       %p.sep ООО «Нетопей Кредит Украина»
+       %p.sep ул. Новоконстантиновская, 13/10
+       %p 04080 г. Киев, Украина
+       %p.sep Телефон: +380 44 205 56 77
+       %p Факс: +380 44 205 56 78
+       %p e-mail: ua@nkrat.net 
      .clear   
   
   .footer
