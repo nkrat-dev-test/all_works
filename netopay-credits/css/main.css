@@ -4457,6 +4457,9 @@ ul.add_list li {
   border-color: #0262AD; }
 
 @media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden; }
+
   h1 {
     font-weight: 100 !important;
     text-transform: uppercase;
@@ -4576,7 +4579,7 @@ ul.add_list li {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 300;
-    color: #229fff;
+    color: #838587;
     background: #fff;
     cursor: pointer; }
 
@@ -4698,4 +4701,7 @@ ul.add_list li {
     font-size: 16px;
     font-weight: 400;
     visibility: hidden;
-    color: #fff; } }
+    color: #fff; }
+
+  .contacts {
+    padding: 50px 0 40px 0; } }
