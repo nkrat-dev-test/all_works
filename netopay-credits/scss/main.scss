@@ -158,4 +158,16 @@ ul.add_list{
 .b_link:hover{background:$bhover; border-color:$bhover;}
 
 
+
+.impr{position: relative;  margin:0 auto; width: 1000px; z-index:0; padding: 100px 0; }
+
+
+.info{font-size: 16px; color:#333;
+	
+	h3{margin-top: 50px!important; margin-bottom: 10px!important; font-size: 24px; line-height: 24px; font-weight: 400;}
+	p{line-height: 24px; font-weight: 300;}
+	
+}
+
+
 @import 'media';
