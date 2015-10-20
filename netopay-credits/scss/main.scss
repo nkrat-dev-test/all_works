@@ -26,6 +26,7 @@ body{color:#333; font-family: 'Roboto';}
 
 h1{font-weight: 100!important; text-transform: uppercase; font-size: 45px; }
 .center{text-align: center;}
+h3{font-size: 18px; margin: 0!important; font-weight: 500; color:#333; }
 
 .start{position: relative; width: 100%; height: 100%; background: #ccc;}
 .overlay{position: absolute; z-index: 10; background: rgba(0,0,0,0.0); width: 100%; height: 100%;}
@@ -35,7 +36,19 @@ h1{font-weight: 100!important; text-transform: uppercase; font-size: 45px; }
 .hello{position: absolute; width:40%; display:block; height: auto; left:50%; margin-left: -20%; top:20%;}
 
 .section{min-height: $s-min-height;}
-.grid{background: url('../images/grid.pngx'); border-bottom: 1px solid #eee; min-height: 700px;}
+.grid{background: url('../images/grid.pngx'); border-bottom: 0px solid #eee; min-height: 100px; padding: 70px 0 100px 0;
+	.block_desc{width: 80%; margin: 0 auto;}
+	p{font-size: 16px; color:#333; font-weight: 300;}
+	.for_scheme{border-top:1px solid #eee;  margin-top: 40px;}
+	.big_image{display:inline-block; vertical-align: top; width: 690px; border-right:1px solid #eee; padding-top:40px;}
+	.schimg{padding: 0px 0 0 0!important;}
+	.side{display:inline-block; vertical-align: top;  width: 280px; padding: 40px 0 10px 20px; color:#666;}
+	ul{margin: 0!important; padding: 20px 0 0 17px!important;
+		li{
+			font-size: 15px; list-style-type: circle; margin-bottom: 8px; 
+		}
+	}
+}
 
 .inner{width: $width; margin: 0 auto;}
 
