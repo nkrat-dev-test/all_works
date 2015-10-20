@@ -26,8 +26,8 @@
    .logo
     %a{href:'/'}
      %img{src:"images/svg/logo.svg"}
-   .langnav EN
-   .mobnav MENU
+   .langnav RU
+   .mobnav МЕНЮ
    
    .langs
     %ul
@@ -41,15 +41,15 @@
    .nav
     %ul
      %li
-      %a{href:'#'}  link1
+      %a{href:'#about'}  О сервисе
      %li
-      %a{href:'#'}  link1
+      %a{href:'#advantages'}  Возможности
      %li
-      %a{href:'#'}  link1
+      %a{href:'#propositions'}  Преимущества
      %li
-      %a{href:'#'}  link1
+      %a{href:'#laws'}  Законодательство
      %li
-      %a{href:'#'}  link1
+      %a{href:'#contact'}  Контакты
      
   %section.start
    .overlay
@@ -64,7 +64,7 @@
       
    
       
-  %section.section.grid
+  %section.section.grid#about
    .inner
     %h1.center О сервисе
     .block_desc 
@@ -83,7 +83,7 @@
        %li погашение кредитов/возврат выданных кредитов    
   
   
-  %section.advantages
+  %section.advantages#advantages
    .inner
     %h1.center Возможности
     .advantages_block
@@ -100,7 +100,7 @@
       .adv_icon.i4.pulse
       .adv_anno Самостоятельное определение условий сделки ее участниками
   
-  %section.propositions
+  %section.propositions#propositions
    .inner
     %h1.center Предложения
     .prop_selector
@@ -170,7 +170,7 @@
       .clear 
      
      
-  %section.laws
+  %section.laws#laws
    .inner
     %h1.center Законодательство
     %table
@@ -196,9 +196,9 @@
       %td.date от 20.12.2001 № 2908–III
     
   
-  %section.contacts
+  %section.contacts#contact
    .inner
-    %h1.center Контакти
+    %h1.center Контакты
     .contacts-block
      .contacts-left
       .myform

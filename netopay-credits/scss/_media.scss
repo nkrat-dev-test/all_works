@@ -2,6 +2,23 @@ $n:40px;
 $n2: $n/2;
 
 
+@media screen and (max-width: 1024px) {
+	.grid{background: url('../images/grid.pngx'); border-bottom: 0px solid #eee; min-height: 100px; padding: 50px 0 50px 0;
+	.block_desc{width: 96%; margin: 0 auto;}
+	p{font-size: 13px; color:#333; font-weight: 400;}
+	.for_scheme{border-top:0px solid #eee;  margin-top: 0px;}
+	.big_image{display:inline-block; vertical-align: top; width: 100%; border-right:0px solid #eee; padding-top:40px;}
+	.schimg{padding: 0px 0 0 0!important;}
+	.side{display:inline-block; vertical-align: top;  width: 90%; padding: 20px 0 10px 5%; color:#666;}
+	ul{margin: 0!important; padding: 20px 0 0 17px!important;
+		li{
+			font-size: 15px; list-style-type: circle; margin-bottom: 8px; 
+		}
+	}
+}
+	
+}
+
 @media screen and (max-width: 767px) {
 	
 body{overflow-x: hidden;}	
