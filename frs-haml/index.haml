@@ -78,15 +78,18 @@
     .mission_block
      
      .one_mission
-      .mission_icon icon
+      .mission_icon
+       %img{src:'images/svg/goverment.svg'}
       .mission_anno Детінізація економіки держави
       
      .one_mission
-      .mission_icon icon
+      .mission_icon
+       %img{src:'images/svg/business.svg'}
       .mission_anno Підвищення інвестиційної привабливості бізнесу
       
      .one_mission
-      .mission_icon icon
+      .mission_icon
+       %img{src:'images/svg/people.svg'}
       .mission_anno Підвищення рівня життя населення
       
        
@@ -95,34 +98,116 @@
    .inner
     %h1.center Як це працює
     .work_block
-     .scheme scheme here
+     .scheme
+      %img{src:'images/test/sch.svg'}
      .side
       %h2 Плюси Фіскальної Розрахункової Системи для користувачiв
       .side_row
-       .side_icon icon
+       .side_icon
+        %img{src:'images/svg/online.svg'}
        .side_anno Об'єднання і робота всіх учасників в єдиному інформаційному просторі та в режимі реального часу
       .side_row
-       .side_icon icon
+       .side_icon
+        %img{src:'images/svg/check.svg'}
        .side_anno видача фіскального чека в електронному вигляді та на паперовому носії 
       
       .side_row
-       .side_icon icon
+       .side_icon
+        %img{src:'images/svg/connect.svg'}
        .side_anno Безпечне довірче середовище передачі фіскальних даних 
        
       .side_row
-       .side_icon icon
+       .side_icon
+        %img{src:'images/svg/keep.svg'}
        .side_anno Реєстрація та зберігання фіскальних даних  
     
   
   %section.section.methods
    .inner
-    %h1.center methods 
+    .methods_block
+     %table.m
+      %tr
+       %td Застарілі методи з використанням безлічі пристроїв
+       %td.icon
+       %td Сучасний метод «Фіскальна розрахункова система»
+      %tr
+       %td.inf-l
+        %ul
+         %li Необхідність залучення бюджетних коштів
+         %li Висока вартість адміністрування РРО
+         %li Висока складова корупції
+       %td.icon
+        .ticon
+         %img{src:'images/svg/goverment_gray.svg'}
+       %td.inf-r 
+        %ul
+         %li Відсутність бюджетних витрат на введення ФРС в експлуатацію на державному рівні
+         %li Низька вартість адміністрування РРО
+         %li Відсутність можливості організації корупційних схем
+      %tr
+       %td.inf-l
+        %ul
+         %li Вартість касових апаратів від 4 500 до 17 700 грн
+         %li Вартість обслуговування від 200 грн/місяць
+       %td.icon
+        .ticon
+         %img{src:'images/svg/business_gray.svg'}
+       %td.inf-r
+        %ul
+         %li Відсутність початкових інвестицій
+         %li Вартість обслуговування від 20 до 150 грн/місяць
+      %tr
+       %td.inf-l
+        %ul
+         %li Підвищення вартості товарів та послуг та згода з існуванням корупції
+       %td.icon
+        .ticon
+         %img{src:'images/svg/people_gray.svg'}
+       %td.inf-r
+        %ul
+         %li Зниження вартості товарів та послуг та підвищення рівня життя
+  
+  
+  
+  
+  
   
   
   %section.section.pluses
    .inner
-    %h1.center pluses
+    %h1.center Переваги ФРС
+    .pluses_block
+     
+     .one_plus
+      .plus_icon 
+       %img{src:'images/svg/shop_color.svg'}
+      .plus_anno.for_b Для підприємців
+      .plus_list
+       %ul
+        %li Відсутність необхідності інвестицій для підключення спеціального касового обладнання та адаптації програмних комплексів
+        %li Спрощення процедури реєстрації РРО та подання звітності
+        %li Можливість застосування при розрахунках будь-якого апаратного засобу (компютера, смартфона, планшета)     
+        %li Зменшення вартості обслуговування РРО
+     
+     .one_plus
+      .plus_icon
+       %img{src:'images/svg/goverment_color.svg'}
+      .plus_anno.for_g Для держави
+      .plus_list
+       %ul
+        %li Зниження ризиків маніпуляції даними РРО та ухилення від сплати податків
+        %li Спрощення процедури реєстрації та адміністрування РРО
+        %li Одержання фіскальних даних в режимі реального часу
+        %li Достовірність, автентичність та цілісність одержуваної інформації
+        %li Скорочення податкових перевірок
     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   %section.section.connect
    .inner
     %h1.center connect           

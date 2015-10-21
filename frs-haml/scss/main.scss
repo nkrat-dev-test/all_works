@@ -7,7 +7,7 @@ $darkblue:#17233A;
 
 
 $missionbg:#229fff;
-$plusesbg:#2E3234;
+$plusesbg:#2D3133;
 $ongrayfont:#B8B8B8;
 
 @import 'normalize';
@@ -25,7 +25,7 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 
 .start{position: relative; width: 100%; height: 100%; }
 .overlay{position: absolute; z-index: 10; background: rgba(0,0,0,0.0); width: 100%; height: 100%;}
-.loops{position: absolute; z-index: 5; background: #ccc url('http://wallpaperstock.net/wallpapers/thumbs1/36810wide.png') right bottom no-repeat; background-size: cover; width: 100%; height: 100%;}
+.loops{position: absolute; z-index: 5; background: #ccc url('http://wallpaperstock.net/wallpapers/thumbs1/36810wide.png') center center no-repeat; background-size: cover; width: 100%; height: 100%;}
 .next{position: absolute; width:70px; height: 70px; bottom:7%; left:50%; margin-left:-35px; background: url('../images/svg/mouse.svg'); display:block;}
 .scroll{position: absolute; width:70px; height: 70px; bottom:7%; left:50%; margin-left:-35px; display:block; background: url('../images/svg/d.svg');}
 
@@ -46,21 +46,21 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 .mission{background: $missionbg; color:#fff; padding: 120px 0 140px 0!important;
 	.mission_block{text-align: center; margin-top: 60px;}
 	.one_mission{display:inline-block; vertical-align: top; width: 240px; min-height: 200px; margin: 0 15px 0 15px;}
-	.mission_icon{width: 130px; height: 130px; margin: 0 auto; border:2px solid #fff; border-radius: 1000px;}
+	.mission_icon{width: 130px; height: 130px; margin: 0 auto; }
 	.mission_anno{font-size: 18px; margin-top: 20px;}
 	h1{font-weight: 300;}
 }
 
 
-.work{
-	.work_block{border-top:0px solid #eee; border-bottom: 1px solid #eee; margin-top: 50px;}
-	.scheme{display:inline-block; vertical-align: top; border-right: 1px solid #eee; width: 650px; min-height: 400px; padding: 20px 0 20px 0;}
+.work{padding: 80px 0 0 0!important;
+	.work_block{border-top:0px solid #eee; border-bottom: 0px solid #eee; margin-top: 50px; }
+	.scheme{display:inline-block; vertical-align: top; border-right: 0px solid #eee; width: 650px; min-height: 100px; padding: 20px 0 120px 0;}
 	.side{display:inline-block; vertical-align: top; padding: 20px 0px 0 20px; width: 320px; }
 	.side_row{margin-top: 20px;}
-	.side_icon{width: 46px; height: 46px; border-radius: 1000px; border:2px solid #229fff; margin-right: 15px; display:inline-block; vertical-align: middle;}
-	.side_anno{display:inline-block; vertical-align: middle; width: 250px; font-size: 14px;}
+	.side_icon{width: 50px; height: 50px;  margin-right: 15px; display:inline-block; vertical-align: middle;}
+	.side_anno{display:inline-block; vertical-align: middle; width: 250px; font-size: 14px; color:#9f9e9e;}
 	h1{font-weight: 300;}
-	h2{font-weight: 700; color:#888888; font-size:20px; margin: 0!important; padding: 0!important;}
+	h2{font-weight: 700; color:#9f9e9e; font-size:20px; margin: 0!important; padding: 0!important;}
 }
 
 
@@ -70,11 +70,38 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 
 
 
-.methods{background: $superlight;}
-.pluses{background: $plusesbg; color: $ongrayfont;}
+.methods{border-top:1px solid #eee; padding: 0!important;
+	.methods_block{
+		.ticon{width: 70px; height: 70px;  margin: 0 auto;}
+	}
+}
+
+
+.pluses{background: $plusesbg; color: $ongrayfont;
+	.pluses_block{text-align: center; font-size: 0; margin-top: 40px;}
+	.one_plus{display:inline-block; vertical-align: top; width: 440px; margin-left: 25px; margin-right: 25px;}
+	.plus_icon{display:block; margin: 0 auto; width: 200px; height: 200px;}
+	.plus_anno{font-size: 24px; margin-top: 0px; color:#fff; font-weight: 400;}
+	.for_g{color:#1BA4E2;}
+	.for_b{color:#83C016;}
+	.plus_list{text-align: left; margin-top: 30px;
+		ul{margin: 0 0 0 20px!important; padding: 0!important;
+			li{
+				font-size: 15px; margin-bottom: 8px; font-weight: 500; list-style-type: decimal;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
 .connect{}
 
-.laws{background: #eee; }
+.laws{background: #f1f1f1; }
 
 
 
