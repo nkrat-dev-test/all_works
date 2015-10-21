@@ -1,0 +1,196 @@
+!!! 5
+%html
+ %head
+  %title FRS HAML
+  %meta{name:"Content-Type", charset:"UTF-8"}
+  %meta{name:"description", content:""}
+  %meta{name:"keywords", content:""}
+  %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, user-scalable=yes"}
+  
+  %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
+  
+  %link{href:"css/main.css", rel:"stylesheet", type:"text/css", media:"screen"}
+  %link{href:"https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"screen"}
+  %script{src:"js/min/jquery-min.js"}
+  %script{src:"js/min/head-min.js"}
+  %script{src:"js/min/headjq-min.js"}
+  %script{src:"js/min/slides-min.js"}
+  %script{src:"js/min/form-min.js"}
+  %script{src:"js/min/check-min.js"}
+ 
+ %body
+  
+  
+  %header
+   .logo
+    %a{href:'/'}
+     %img{src:"images/svg/logo.svg"}
+   .langnav EN
+   .mobnav MENU
+   
+   .langs
+    %ul
+     %li
+      %a{href:'#'} UA
+     %li
+      %a{href:'#'} EN
+     %li
+      %a{href:'#'} DE
+   
+   .nav
+    %ul
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  link1
+     
+  %section.start
+   .overlay
+    .hello
+     %img{src:'images/svg/st.svg'}
+    .next 
+    .scroll.animated.bounceMouse 
+   .loops 
+   
+   
+    #slides
+     .slides-container
+      %img{src:""}
+      %img{src:""}
+      
+    
+    
+      
+  %section.section.what
+   .inner
+    %h1.center Що таке ФРС?
+    .big_text Фіскальна розрахункова система – це автоматизована система обліку розрахунково-касових операцій, реалізована у вигляді хмарного рішення та доступна учасникам через захищені канали звязку інтернет    
+    
+  %section.section.mission
+   .inner
+    %h1.center МІСІЯ ФРС
+    .mission_block
+     
+     .one_mission
+      .mission_icon icon
+      .mission_anno Детінізація економіки держави
+      
+     .one_mission
+      .mission_icon icon
+      .mission_anno Підвищення інвестиційної привабливості бізнесу
+      
+     .one_mission
+      .mission_icon icon
+      .mission_anno Підвищення рівня життя населення
+      
+       
+    
+  %section.section.work
+   .inner
+    %h1.center Як це працює
+    .work_block
+     .scheme scheme here
+     .side
+      %h2 Плюси Фіскальної Розрахункової Системи для користувачiв
+      .side_row
+       .side_icon icon
+       .side_anno Об'єднання і робота всіх учасників в єдиному інформаційному просторі та в режимі реального часу
+      .side_row
+       .side_icon icon
+       .side_anno видача фіскального чека в електронному вигляді та на паперовому носії 
+      
+      .side_row
+       .side_icon icon
+       .side_anno Безпечне довірче середовище передачі фіскальних даних 
+       
+      .side_row
+       .side_icon icon
+       .side_anno Реєстрація та зберігання фіскальних даних  
+    
+  
+  %section.section.methods
+   .inner
+    %h1.center methods 
+  
+  
+  %section.section.pluses
+   .inner
+    %h1.center pluses
+    
+  %section.section.connect
+   .inner
+    %h1.center connect           
+  
+  
+  
+  
+  
+  
+  %section.section.laws
+   .inner
+    %h1.center Законодательство
+    %p У грудні 2014 року прийнято Закон України «Про внесення змін до Податкового кодексу України та деяких законодавчих актів України щодо податкової реформи» N71 -VIII від 28 грудня 2014 року	
+    %p З 1 липня 2015 податковою реформою передбачено поетапне поширення зобов'язань використання РРО на всі фінансові установи, Національного оператора поштового зв'язку та інших суб'єктів господарювання   
+    %h2.center Законодавчі вимоги по строкам впровадження РРО
+    %table
+     %tr
+      %td.number 1
+      %td.name Підприємці – платники єдиного податку 3-ї групи (дохід від 1,5 млн. до 20 млн. грн на рік) 
+      %td.date з 1 липня 2015 року
+     %tr
+      %td.number 2
+      %td.name Підприємці – платники єдиного податку 2 -ї групи (дохід від 300 тис. до 1,5 млн. грн. на рік) при доході понад 1 млн. грн. на рік) 
+      %td.date з 1 січня 2016 року
+     %tr
+      %td.number 3
+      %td.name Оператори терміналів самообслуговування та поповнення рахунків, незалежно від форм власності
+      %td.date з 1 січня 2016 року
+     %tr
+      %td.number 4
+      %td.name Фінансові небанківські організації
+      %td.date з 1 січня 2016 року
+     
+  
+  %section.section.contacts
+   .inner
+    %h1.center Контакти
+    .contacts-block
+     .contacts-left
+      .myform
+       %form{id:'cform', method:'post', action:'notify.php'}
+        %input{class:'field', type:'text', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
+        %input{class:'field', type:'text', placeholder:'Тема', id:'sb', name:'sb', onkeyup:'check();'}
+        %textarea{class:'field tx', placeholder:'Текст повідомлення', id:'feed', name:'feed'}
+        %button{type:'submit', id:'send', class:'btn disable'} Відправити
+     .contacts-right
+      .contacts-details
+       %p.hea N.KRAT Group GmbH
+       %p.sep 44287 м. Дортмунд, Німеччина
+       %p вул. Рінгофенштрассе, 43
+       %p.sep Факс: +49 231 444 781 01
+       %p Тел: +49 231 444 781 00
+       %p e-mail: de@nkrat.net       
+      .contacts-details.add-details
+       %p.hea sadasd
+       %p.sep dhaskjdh
+       %p dsgfhdsgf
+       %p.sep hdskdhasjh
+       %p shfjkdshf
+       %p asgdashgd
+     .clear   
+  
+  .footer
+   .fleft
+    %img{src:'images/svg/footer_logo.svg'}
+   .fright.imp
+    %a{href:'imprint.html', class:'to_imp'} Imprint
+   .clear
+    
+  %script{src:"js/min/anim-min.js"}    
+      
