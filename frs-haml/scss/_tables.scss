@@ -106,7 +106,7 @@ table.m td.inf-l {
     color:#666;
     ul{margin: 0 0 0 20px!important; padding: 0!important; list-style-type: decimal;
 	      li{
-		      color:#bcbcbc;  
+		      color:#bcbcbc; font-size: 14px; 
 	      }
       }
     
@@ -118,13 +118,14 @@ table.m td.inf-r {
     color:#666;
       ul{margin: 0 0 0 15px!important; padding: 0!important; list-style-type: decimal;
 	      li{
-		      color:#666; 
+		      color:#666; font-size: 14px;
 	      }
       }
     
 }
 
 table.m td.icon{width: 180px; vertical-align: middle; text-align: center;}
+table.m td.heads{ text-align: center; font-size: 17px; font-weight: 500; color:#666;}
 
 
 

@@ -2696,7 +2696,8 @@ table.m td.inf-l {
     padding: 0 !important;
     list-style-type: decimal; }
     table.m td.inf-l ul li {
-      color: #bcbcbc; }
+      color: #bcbcbc;
+      font-size: 14px; }
 
 table.m td.inf-r {
   border-top: 1px solid #eee;
@@ -2707,12 +2708,19 @@ table.m td.inf-r {
     padding: 0 !important;
     list-style-type: decimal; }
     table.m td.inf-r ul li {
-      color: #666; }
+      color: #666;
+      font-size: 14px; }
 
 table.m td.icon {
   width: 180px;
   vertical-align: middle;
   text-align: center; }
+
+table.m td.heads {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: #666; }
 
 header {
   position: fixed;
@@ -2906,7 +2914,8 @@ slideUp2
   padding: 80px 0;
   color: #333;
   font-size: 16px;
-  font-weight: 300; }
+  font-weight: 300;
+  background: url("../images/bg-contacts.svg") bottom right no-repeat; }
   .contacts p {
     margin-top: 0 !important;
     margin-bottom: 0px; }
@@ -3007,14 +3016,16 @@ slideUp2
 .footer {
   height: 100px;
   line-height: 100px;
-  border-top: 1px solid #eee; }
+  border-top: 0px solid #eee;
+  background: #0B1924;
+  display: block;
+  width: 100%; }
 
 .fleft {
   float: left;
   margin-left: 5%;
   display: block;
-  width: 100px;
-  margin-top: 5px; }
+  width: 100px; }
 
 .fright {
   float: right;
@@ -3044,6 +3055,11 @@ h1 {
   margin: 0 0 !important;
   padding: 0 0 !important; }
 
+.logo {
+  display: block;
+  width: 190px;
+  margin-top: 15px; }
+
 .start {
   position: relative;
   width: 100%;
@@ -3059,7 +3075,7 @@ h1 {
 .loops {
   position: absolute;
   z-index: 5;
-  background: #ccc url("http://wallpaperstock.net/wallpapers/thumbs1/36810wide.png") center center no-repeat;
+  background: #0B1924 url("../images/bg.svg") bottom center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%; }
@@ -3084,6 +3100,16 @@ h1 {
   display: block;
   background: url("../images/svg/d.svg"); }
 
+.hello {
+  width: 300px;
+  height: 300px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -150px; }
+
 .section {
   min-height: 200px;
   padding: 80px 0; }
@@ -3105,7 +3131,7 @@ h1 {
     font-weight: 300; }
 
 .mission {
-  background: #229fff;
+  background: #0B1924 url("../images/pattern.png") top left;
   color: #fff;
   padding: 120px 0 140px 0 !important; }
   .mission .mission_block {
@@ -3123,12 +3149,13 @@ h1 {
     margin: 0 auto; }
   .mission .mission_anno {
     font-size: 18px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-weight: 700; }
   .mission h1 {
     font-weight: 300; }
 
 .work {
-  padding: 80px 0 0 0 !important; }
+  padding: 120px 0 120px 0 !important; }
   .work .work_block {
     border-top: 0px solid #eee;
     border-bottom: 0px solid #eee;
@@ -3138,8 +3165,10 @@ h1 {
     vertical-align: top;
     border-right: 0px solid #eee;
     width: 650px;
+    height: 450px;
     min-height: 100px;
-    padding: 20px 0 120px 0; }
+    padding: 20px 0 50px 0;
+    position: relative; }
   .work .side {
     display: inline-block;
     vertical-align: top;
@@ -3167,22 +3196,26 @@ h1 {
     font-size: 20px;
     margin: 0 !important;
     padding: 0 !important; }
+  .work .absolute_scheme {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: -80px; }
 
-.methods {
-  border-top: 1px solid #eee;
-  padding: 0 !important; }
-  .methods .methods_block .ticon {
-    width: 70px;
-    height: 70px;
-    margin: 0 auto; }
+.methods_block .ticon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto; }
 
 .pluses {
-  background: #2D3133;
-  color: #B8B8B8; }
+  background: #0B1924;
+  color: #fff;
+  padding: 80px 0 120px 0 !important; }
   .pluses .pluses_block {
     text-align: center;
     font-size: 0;
-    margin-top: 40px; }
+    margin-top: 30px; }
   .pluses .one_plus {
     display: inline-block;
     vertical-align: top;
@@ -3198,11 +3231,11 @@ h1 {
     font-size: 24px;
     margin-top: 0px;
     color: #fff;
-    font-weight: 400; }
+    font-weight: 700; }
   .pluses .for_g {
     color: #1BA4E2; }
   .pluses .for_b {
-    color: #83C016; }
+    color: #FFCA00; }
   .pluses .plus_list {
     text-align: left;
     margin-top: 30px; }
@@ -3215,8 +3248,62 @@ h1 {
         font-weight: 500;
         list-style-type: decimal; }
 
+.connect .connect_block {
+  text-align: center;
+  margin: 50px 0; }
+.connect .one_connect {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  margin: 0 10px 0 10px;
+  border-radius: 0px; }
+.connect .connect_number {
+  padding-top: 35px;
+  padding-bottom: 60px;
+  font-size: 50px;
+  border-radius: 0px 0px 0 0;
+  color: #fff; }
+.connect .con_ico {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; }
+.connect .connect_icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 70px; }
+.connect .connect_desc {
+  color: #666666;
+  padding: 50px 10px 0 10px;
+  min-height: 100px;
+  font-size: 15px;
+  border-radius: 0px 0px 0px 0px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd; }
+.connect .extra_pad {
+  padding: 50px 20px 0 20px !important; }
+.connect .colorized_1 {
+  background: #ff2250; }
+.connect .colorized_2 {
+  background: #60047A; }
+.connect .colorized_3 {
+  background: #FFCA00; }
+.connect .colorized_4 {
+  background: #83C016; }
+.connect p {
+  color: #999;
+  font-weight: 300;
+  font-size: 18px; }
+
 .laws {
-  background: #f1f1f1; }
+  background: #fafafa; }
+  .laws p {
+    color: #999;
+    font-size: 14px; }
 
 @media screen and (max-width: 767px) {
   .inner {
