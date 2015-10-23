@@ -1254,22 +1254,23 @@ bounce
 
 /*
 ==============================================
-pulse
+pulsedx
 ==============================================
 */
 
-.pulse{
-	animation-name: pulse;
-	-webkit-animation-name: pulse;	
+.pulsedx{
+	animation-name: pulsedx;
+	-webkit-animation-name: pulsedx;	
 
 	animation-duration: 1.5s;	
 	-webkit-animation-duration: 1.5s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
+	visibility: visible!important;
 }
 
-@keyframes pulse {
+@keyframes pulsedx {
 	0% {
 		transform: scale(0.9);
 		opacity: 0.7;		
@@ -1284,7 +1285,7 @@ pulse
 	}			
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes pulsedx {
 	0% {
 		-webkit-transform: scale(0.95);
 		opacity: 0.7;		

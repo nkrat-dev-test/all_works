@@ -164,16 +164,23 @@ function onScroll(event){
 
 
     
+    
       $(document).ready(function () {
-    var rmarker = $('#m6');
+    var rmarker = $('#mp');
 
     $(window).scroll(function () {
         var y = $(this).scrollTop();
-        var z = $('#m6').offset().top;
+        var z = $('#mp').offset().top;
 
         if (y >= z) {
 
+        $('#plus1').addClass('animated flipInX');
+        
+        setTimeout(function(){
+$('#plus2').addClass('animated flipInX');
+}, 400);
 
+        
        
         
         }
@@ -182,6 +189,41 @@ function onScroll(event){
     });  
     
     
+    
+    
+    
+    $(document).ready(function () {
+    var rmarker = $('#mc');
+
+    $(window).scroll(function () {
+        var y = $(this).scrollTop();
+        var z = $('#mc').offset().top;
+
+        if (y >= z) {
+
+$('#connect1').addClass('animated flipInY');
+        
+setTimeout(function(){
+$('#connect2').addClass('animated flipInY');
+}, 400);
+
+setTimeout(function(){
+$('#connect3').addClass('animated flipInY');
+}, 800);
+
+setTimeout(function(){
+$('#connect4').addClass('animated flipInY');
+}, 1200);
+
+        
+       
+        
+        }
+        
+    });
+    });  
+    
+
 
 
 

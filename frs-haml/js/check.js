@@ -1,5 +1,6 @@
 $(document).ready(function() { 
-            $('#cform').ajaxForm(function() { 
+            $('#cform').ajaxForm(function() {
+	           
 	            $("#em").val('');
 	            $("#sb").val('');
 	            $("#feed").val('');

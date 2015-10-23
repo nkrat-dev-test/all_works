@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FRS HAML</title>
+    <title>Фіскальна розрахункова система</title>
     <meta charset='UTF-8' name='Content-Type'>
-    <meta content='' name='description'>
-    <meta content='' name='keywords'>
+    <meta content='Фіскальна розрахункова система' name='description'>
+    <meta content='Фіскальна розрахункова система' name='keywords'>
     <meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport'>
     <link href='images/favicon.png' rel='icon' type='image/png'>
     <link href='css/main.css' media='screen' rel='stylesheet' type='text/css'>
@@ -17,14 +17,20 @@
     <script src='js/min/check-min.js'></script>
   </head>
   <body>
+    <div class='thk off'>Ваше повідомлення відправлено. Дякуємо!</div>
     <header>
-      <div class='logo'>
+      <div class='logo desktop'>
         <a href='/'>
           <img src='images/svg/logo.svg'>
         </a>
       </div>
-      <div class='langnav'>EN</div>
-      <div class='mobnav'>MENU</div>
+      <div class='logo mobile'>
+        <a href='/'>
+          <img src='images/svg/mob-logo.svg'>
+        </a>
+      </div>
+      <div class='langnav unpub'>EN</div>
+      <div class='mobnav'>MEНЮ</div>
       <div class='langs'>
         <ul>
           <li>
@@ -41,19 +47,25 @@
       <div class='nav'>
         <ul>
           <li>
-            <a href='#'> link1</a>
+            <a href='#what'> Про ФРС</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#mission'> Місія</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#work'> Як працює</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#plus'> Переваги</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#connect'> Підключення</a>
+          </li>
+          <li>
+            <a href='#law'> Законодавство</a>
+          </li>
+          <li>
+            <a href='#contact'> Контакти</a>
           </li>
         </ul>
       </div>
@@ -65,6 +77,9 @@
         </div>
         <div class='next'></div>
         <div class='scroll animated bounceMouse'></div>
+        <div class='partners'>
+          <img src='images/svg/partners.svg'>
+        </div>
       </div>
       <div class='loops'>
         <div id='slides'>
@@ -75,30 +90,30 @@
         </div>
       </div>
     </section>
-    <section class='section what'>
+    <section class='section what' id='what'>
       <div class='inner'>
         <h1 class='center'>Що таке ФРС?</h1>
         <div class='big_text'>Фіскальна розрахункова система – це автоматизована система обліку розрахунково-касових операцій, реалізована у вигляді хмарного рішення та доступна учасникам через захищені канали звязку інтернет</div>
       </div>
     </section>
-    <section class='section mission'>
+    <section class='section mission' id='mission'>
       <div class='inner'>
         <h1 class='center'>МІСІЯ ФРС</h1>
         <div class='mission_block'>
           <div class='one_mission'>
-            <div class='mission_icon'>
+            <div class='mission_icon pulsedx'>
               <img src='images/svg/goverment.svg'>
             </div>
             <div class='mission_anno'>Детінізація економіки держави</div>
           </div>
           <div class='one_mission'>
-            <div class='mission_icon'>
+            <div class='mission_icon pulsedx'>
               <img src='images/svg/business.svg'>
             </div>
             <div class='mission_anno'>Підвищення інвестиційної привабливості бізнесу</div>
           </div>
           <div class='one_mission'>
-            <div class='mission_icon'>
+            <div class='mission_icon pulsedx'>
               <img src='images/svg/people.svg'>
             </div>
             <div class='mission_anno'>Підвищення рівня життя населення</div>
@@ -106,7 +121,7 @@
         </div>
       </div>
     </section>
-    <section class='section work'>
+    <section class='section work' id='work'>
       <div class='inner'>
         <h1 class='center'>Як це працює</h1>
         <div class='work_block'>
@@ -211,12 +226,13 @@
         </div>
       </div>
     </section>
-    <section class='section pluses'>
+    <section class='section pluses' id='plus'>
+      <div class='marker' id='mp'></div>
       <div class='inner'>
         <h1 class='center'>Переваги ФРС</h1>
         <div class='pluses_block'>
           <div class='one_plus'>
-            <div class='plus_icon'>
+            <div class='plus_icon' id='plus1'>
               <img src='images/svg/shop_white.svg'>
             </div>
             <div class='plus_anno for_b'>Для підприємців</div>
@@ -230,7 +246,7 @@
             </div>
           </div>
           <div class='one_plus'>
-            <div class='plus_icon'>
+            <div class='plus_icon' id='plus2'>
               <img src='images/svg/goverment_white.svg'>
             </div>
             <div class='plus_anno for_g'>Для держави</div>
@@ -247,12 +263,13 @@
         </div>
       </div>
     </section>
-    <section class='section connect'>
+    <section class='section connect' id='connect'>
+      <div class='marker' id='mc'></div>
       <div class='inner'>
         <h1 class='center'>ПІДКЛЮЧЕННЯ</h1>
         <p class='center'>Порядок підключення до ФРC юридичних осіб або фізичних осіб-підприємців</p>
         <div class='connect_block'>
-          <div class='one_connect'>
+          <div class='one_connect' id='connect1'>
             <div class='connect_number colorized_1'>
               <div class='con_ico'>
                 <img src='images/svg/cloud1.svg'>
@@ -261,9 +278,9 @@
             <div class='connect_icon'>
               <img src='images/svg/step_1.svg'>
             </div>
-            <div class='connect_desc'>Реєстрація продавця товарів/послуг у ФРС</div>
+            <div class='connect_desc'>Реєстрація продавця товарів або послуг у ФРС</div>
           </div>
-          <div class='one_connect'>
+          <div class='one_connect' id='connect2'>
             <div class='connect_number colorized_2'>
               <div class='con_ico'>
                 <img src='images/svg/cloud2.svg'>
@@ -274,7 +291,7 @@
             </div>
             <div class='connect_desc extra_pad'>Реєстрація точок продажів та апаратних засобів у ФРС</div>
           </div>
-          <div class='one_connect'>
+          <div class='one_connect' id='connect3'>
             <div class='connect_number colorized_3'>
               <div class='con_ico'>
                 <img src='images/svg/cloud3.svg'>
@@ -283,9 +300,9 @@
             <div class='connect_icon'>
               <img src='images/svg/step_3.svg'>
             </div>
-            <div class='connect_desc'>Інсталяція/інтеграція клієнтського програмного забезпечення</div>
+            <div class='connect_desc'>Інсталяція та інтеграція клієнтського програмного забезпечення</div>
           </div>
-          <div class='one_connect'>
+          <div class='one_connect' id='connect4'>
             <div class='connect_number colorized_4'>
               <div class='con_ico'>
                 <img src='images/svg/cloud4.svg'>
@@ -300,7 +317,7 @@
         <p class='center'>Після підключення до сервісу ФРС продавці товарів та послуг можуть використовувати в якості реєстрації розрахункових операцій для виконання фіскальної функції смартфони, планшети, комп'ютери, термінали самообслуговування</p>
       </div>
     </section>
-    <section class='section laws'>
+    <section class='section laws' id='law'>
       <div class='inner'>
         <h1 class='center'>Законодавство</h1>
         <div class='mob'>
@@ -332,7 +349,7 @@
         </table>
       </div>
     </section>
-    <section class='section contacts'>
+    <section class='section contacts' id='contact'>
       <div class='inner'>
         <h1 class='center'>Контакти</h1>
         <div class='contacts-block'>
@@ -356,7 +373,7 @@
               <p>e-mail: de@nkrat.net</p>
             </div>
             <div class='contacts-details add-details'>
-              <p class='hea'>Представництво в Украине</p>
+              <p class='hea'>Представництво в Україні</p>
               <p class='sep'>вул. Новокостянтиніська, 13/10</p>
               <p>04080 м. Київ, Україна</p>
               <p class='sep'>Телефон: +380 44 205 56 77</p>

@@ -1,10 +1,10 @@
 !!! 5
 %html
  %head
-  %title FRS HAML
+  %title Фіскальна розрахункова система
   %meta{name:"Content-Type", charset:"UTF-8"}
-  %meta{name:"description", content:""}
-  %meta{name:"keywords", content:""}
+  %meta{name:"description", content:"Фіскальна розрахункова система"}
+  %meta{name:"keywords", content:"Фіскальна розрахункова система"}
   %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, user-scalable=yes"}
   
   %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
@@ -19,14 +19,18 @@
   %script{src:"js/min/check-min.js"}
  
  %body
+  .thk.off	Ваше повідомлення відправлено. Дякуємо!
   
   
   %header
-   .logo
+   .logo.desktop
     %a{href:'/'}
      %img{src:"images/svg/logo.svg"}
-   .langnav EN
-   .mobnav MENU
+   .logo.mobile
+    %a{href:'/'}
+     %img{src:"images/svg/mob-logo.svg"}  
+   .langnav.unpub EN
+   .mobnav MEНЮ
    
    .langs
     %ul
@@ -40,22 +44,28 @@
    .nav
     %ul
      %li
-      %a{href:'#'}  link1
+      %a{href:'#what'}  Про ФРС
      %li
-      %a{href:'#'}  link1
+      %a{href:'#mission'}  Місія
      %li
-      %a{href:'#'}  link1
+      %a{href:'#work'}  Як працює
      %li
-      %a{href:'#'}  link1
+      %a{href:'#plus'}  Переваги
      %li
-      %a{href:'#'}  link1
+      %a{href:'#connect'}  Підключення 
+     %li
+      %a{href:'#law'}  Законодавство
+     %li
+      %a{href:'#contact'}  Контакти
      
   %section.start
    .overlay
     .hello
      %img{src:'images/svg/hello.svg'}
     .next 
-    .scroll.animated.bounceMouse 
+    .scroll.animated.bounceMouse
+    .partners
+     %img{src:'images/svg/partners.svg'} 
    .loops 
    
    
@@ -67,34 +77,34 @@
     
     
       
-  %section.section.what
+  %section.section.what#what
    .inner
     %h1.center Що таке ФРС?
     .big_text Фіскальна розрахункова система – це автоматизована система обліку розрахунково-касових операцій, реалізована у вигляді хмарного рішення та доступна учасникам через захищені канали звязку інтернет    
     
-  %section.section.mission
+  %section.section.mission#mission
    .inner
     %h1.center МІСІЯ ФРС
     .mission_block
      
      .one_mission
-      .mission_icon
+      .mission_icon.pulsedx
        %img{src:'images/svg/goverment.svg'}
       .mission_anno Детінізація економіки держави
       
      .one_mission
-      .mission_icon
+      .mission_icon.pulsedx
        %img{src:'images/svg/business.svg'}
       .mission_anno Підвищення інвестиційної привабливості бізнесу
       
      .one_mission
-      .mission_icon
+      .mission_icon.pulsedx
        %img{src:'images/svg/people.svg'}
       .mission_anno Підвищення рівня життя населення
       
        
     
-  %section.section.work
+  %section.section.work#work
    .inner
     %h1.center Як це працює
     .work_block
@@ -173,13 +183,14 @@
   
   
   
-  %section.section.pluses
+  %section.section.pluses#plus
+   .marker#mp
    .inner
     %h1.center Переваги ФРС
     .pluses_block
      
      .one_plus
-      .plus_icon 
+      .plus_icon#plus1
        %img{src:'images/svg/shop_white.svg'}
       .plus_anno.for_b Для підприємців
       .plus_list
@@ -190,7 +201,7 @@
         %li Зменшення вартості обслуговування розрахунково-касових операцій
      
      .one_plus
-      .plus_icon
+      .plus_icon#plus2
        %img{src:'images/svg/goverment_white.svg'}
       .plus_anno.for_g Для держави
       .plus_list
@@ -208,33 +219,34 @@
  
  
  
-  %section.section.connect
+  %section.section.connect#connect
+   .marker#mc
    .inner
     %h1.center ПІДКЛЮЧЕННЯ
     %p.center Порядок підключення до ФРC юридичних осіб або фізичних осіб-підприємців
     .connect_block
-     .one_connect
+     .one_connect#connect1
       .connect_number.colorized_1
        .con_ico
         %img{src:'images/svg/cloud1.svg'}
       .connect_icon
        %img{src:'images/svg/step_1.svg'}
-      .connect_desc Реєстрація продавця товарів/послуг у ФРС 
-     .one_connect
+      .connect_desc Реєстрація продавця товарів або послуг у ФРС 
+     .one_connect#connect2
       .connect_number.colorized_2
        .con_ico
         %img{src:'images/svg/cloud2.svg'}
       .connect_icon
        %img{src:'images/svg/step_2.svg'}
       .connect_desc.extra_pad Реєстрація точок продажів та апаратних засобів у ФРС 
-     .one_connect
+     .one_connect#connect3
       .connect_number.colorized_3
        .con_ico
         %img{src:'images/svg/cloud3.svg'}
       .connect_icon
        %img{src:'images/svg/step_3.svg'}
-      .connect_desc Інсталяція/інтеграція клієнтського програмного забезпечення 
-     .one_connect
+      .connect_desc Інсталяція та інтеграція клієнтського програмного забезпечення 
+     .one_connect#connect4
       .connect_number.colorized_4
        .con_ico
         %img{src:'images/svg/cloud4.svg'}
@@ -247,7 +259,7 @@
   
   
   
-  %section.section.laws
+  %section.section.laws#law
    .inner
     %h1.center Законодавство
     .mob
@@ -273,7 +285,7 @@
       %td.date з 1 січня 2016 року
      
   
-  %section.section.contacts
+  %section.section.contacts#contact
    .inner
     %h1.center Контакти
     .contacts-block
@@ -293,7 +305,7 @@
        %p Факс: +49 231 444 781 01
        %p e-mail: de@nkrat.net       
       .contacts-details.add-details
-       %p.hea Представництво в Украине
+       %p.hea Представництво в Україні
        %p.sep вул. Новокостянтиніська, 13/10
        %p 04080 м. Київ, Україна
        %p.sep Телефон: +380 44 205 56 77

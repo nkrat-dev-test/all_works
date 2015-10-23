@@ -17,6 +17,7 @@ $sky:#229fff;
 
 @import 'normalize';
 @import 'anim';
+//@import 'as';
 @import 'tables';
 @import 'navmenu';
 @import 'contacts';
@@ -24,6 +25,7 @@ $sky:#229fff;
 
 
 .center{text-align: center;}
+.mobile{display:none!important;}
 
 body{font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color:#666; }
 h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!important; padding: 0 0!important; color:#888888;}
@@ -88,7 +90,7 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 .pluses{background: $plusesbg; color: #fff; padding: 80px 0 120px 0!important;
 	.pluses_block{text-align: center; font-size: 0; margin-top: 30px;}
 	.one_plus{display:inline-block; vertical-align: top; width: 440px; margin-left: 25px; margin-right: 25px;}
-	.plus_icon{display:block; margin: 0 auto; width: 200px; height: 200px;}
+	.plus_icon{display:block; margin: 0 auto; width: 200px; height: 200px; visibility: hidden;}
 	.plus_anno{font-size: 24px; margin-top: 0px; color:#fff; font-weight: 700;}
 	.for_g{color:#ffffff;}
 	.for_b{color:#ffffff;}
@@ -111,6 +113,7 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 .connect{
 	.connect_block{text-align: center; margin: 50px 0; }
 	.one_connect{display:inline-block; vertical-align: top; width: 220px;  margin:0 10px 0 10px; border-radius: 0px; //box-shadow: 0 0 7px rgba(0,0,0,0.13); 
+		visibility: hidden;
 		}
 	.connect_number{  padding-top: 35px; padding-bottom: 60px; font-size: 50px; border-radius: 0px 0px 0 0; color:#fff;}
 	.con_ico{display:block; width: 100px; height: 100px; margin: 0 auto;}
@@ -143,12 +146,24 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 
 
 
+.impr{position: relative;  margin:0 auto; width: 1000px; z-index:0; padding: 100px 0; font-weight: 300; font-size: 18px;
+	h1{font-weight: 100;}
+}
+
+.info{font-size: 16px; color:#333;
+	
+	h3{margin-top: 50px!important; margin-bottom: 10px!important; font-size: 24px; line-height: 24px; font-weight: 400;}
+	p{line-height: 24px; font-weight: 300;}
+	
+}
 
 
+.marker{position: absolute; width: 1px; height: 1px; background: red; z-index:200000; margin-top: -40%; visibility: hidden;}
+
+.min_logo{display:block; background: yellow!important; width: 90px; height: 60px;}
 
 
-
-
+.partners{width: 200px; display:block; position: absolute; right: 40px; bottom:40px;}
 
 
 @import 'media';
