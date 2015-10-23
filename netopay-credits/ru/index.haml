@@ -1,0 +1,233 @@
+!!! 5
+%html
+ %head
+  %title Netopay Credit
+  %meta{name:"Content-Type", charset:"UTF-8"}
+  %meta{name:"description", content:""}
+  %meta{name:"keywords", content:""}
+  %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, user-scalable=yes"}
+  
+  %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
+  
+  %link{href:"css/main.css", rel:"stylesheet", type:"text/css", media:"screen"}
+  %link{href:"https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"screen"}
+  %script{src:"js/min/jquery-min.js"}
+  %script{src:"js/min/head-min.js"}
+  %script{src:"js/min/headjq-min.js"}
+  %script{src:"js/min/slides-min.js"}
+  %script{src:"js/min/form-min.js"}
+  %script{src:"js/min/check-min.js"}
+ 
+ %body
+  .thk.off	Ваше сообщение отправлено. Спасибо!
+  
+  
+  %header
+   .logo
+    %a{href:'/ru'}
+     %img{src:"images/svg/logo.svg"}
+   .langnav RU
+   .mobnav МЕНЮ
+   
+   .langs
+    %ul
+     %li
+      %a{href:'/ua'} UA
+     %li
+      %a{href:'/ru'} RU
+        
+   .nav
+    %ul
+     %li
+      %a{href:'#about'}  О сервисе
+     %li
+      %a{href:'#advantages'}  Возможности
+     %li
+      %a{href:'#propositions'}  Предложения
+     %li
+      %a{href:'#laws'}  Законодательство
+     %li
+      %a{href:'#contact'}  Контакты
+     
+  %section.start#home
+   .overlay
+    .hello
+     %img{src:'images/svg/start.svg'}
+    .next 
+    .scroll.animated.bounceMouse 
+   .loops 
+   
+   
+    
+      
+   
+      
+  %section.section.grid#about
+   .inner
+    %h1.center О сервисе
+    .block_desc 
+     %p.center NETOPAY CREDIT — сервис микрокредитования, обеспечивающий возможность международного взаимодействия национальных бирж микрокредитования через интернет
+    .for_scheme
+     .big_image
+      %img{src:'images/svg/scheme3.svg',class:'schimg'}
+     .side
+      %h3 Функции сервиса Netopay Credit для пользователей: 
+      %ul
+       %li регистрация в сервисе 
+       %li подача и поиск Предложений и Заявок
+       %li определение условий кредитования
+       %li заключение Кредитных соглашений (выдача/получение кредитов)
+       %li контроль выполнения условий сделок 
+       %li погашение кредитов/возврат выданных кредитов    
+  
+  
+  %section.advantages#advantages
+   .inner
+    %h1.center Возможности
+    .advantages_block
+     .advantage
+      .adv_icon.i1.pulse
+      .adv_anno Взаимодействие Кредиторов и Заемщиков из разных географических регионов в режиме реального времени
+     .advantage
+      .adv_icon.i2.pulse
+      .adv_anno Обеспечение финансовой и технологической безопасности операций, осуществляемых Пользователями сервиса
+     .advantage
+      .adv_icon.i3.pulse
+      .adv_anno Доступ Заемщиков к национальным и международным кредитным ресурсам
+     .advantage
+      .adv_icon.i4.pulse
+      .adv_anno Самостоятельное определение условий сделки ее участниками
+  
+  %section.propositions#propositions
+   .inner
+    %h1.center Предложения
+    .prop_selector
+     .prop_sel1.props.pressed кредиторам
+     .prop_sel2.props заемщикам
+    .prop_container
+     #p1.prop
+      .prop_left
+       .prop_anim
+        %img.imr{src:'images/b1.png'}
+        .prop_elem.g1
+        .prop_elem.g2.pullUp
+        .prop_elem.g3.pullUp
+        .prop_elem.g4.pullUp
+        .prop_elem.g5.pullUp
+        
+       .prop_desc Кредитор — это юридическое лицо, предоставляющее финансовые услуги и сервисы в соответствии с законодательством страны регистрации
+      .prop_right
+       %ul
+        %li Выход на рынок микрокредитования стран СНГ
+        %li Увеличение объемов кредитования и доходности собственного бизнеса
+        %li Возможность выбора Заемщиков
+       .and А так же
+       %ul.add_list
+        %li Возможность управления активами в режиме online
+        %li Финансовая и технологическая безопасность операций
+        %li Самостоятельное определение условий сделки
+        %li Возможность анализа и контроля заключенных сделок 
+      .prop_enter.unpub
+       %a.b_link{href:'#'} Вход или регистрация как Кредитор  
+      
+     #p2.prop.off
+      .prop_left
+       .prop_anim
+        %img.imr{src:'images/b2.png'}
+        .prop_elem.m13.hatch
+        .prop_elem.m12.slideDown2
+        .prop_elem.m1.hatch
+        .prop_elem.m9.fadeTop
+        .prop_elem.m10.pullUp
+        .prop_elem.m11.slideRight2
+        .prop_elem.m2.fadeTop2
+        .prop_elem.m7.pullUp
+        .prop_elem.m3.fadeTop
+        .prop_elem.m4.slideLeft2
+        .prop_elem.m5.slideUp2
+        .prop_elem.m6.slideDown2
+        .prop_elem.m8.fadeTop
+        .prop_elem.m14.slideUp2
+        
+        
+        
+       .prop_desc Заемщик — юридическое лицо, ведущее коммерческую деятельность в соответствии с законодательством страны регистрации
+      .prop_right
+       %ul
+        %li Доступ к международным и национальным кредитным ресурсам
+        %li Выгодные условия кредитования
+        %li Возможность выбора Кредиторов
+       .and А так же
+       %ul.add_list
+        %li Возможность управления активами в режиме online
+        %li Финансовая и технологическая безопасность операций
+        %li Самостоятельное определение условий сделки
+        %li Возможность анализа и контроля заключенных сделок
+      .prop_enter.unpub
+       %a.b_link{href:'#'} Вход или регистрация как Заемщик     
+      .clear 
+     
+     
+  %section.laws#laws
+   .inner
+    %h1.center Законодательство
+    %table
+     %tr
+      %td.number 1
+      %td.name  Распоряжение «Об утверждении Лицензионных условий проведения деятельности по предоставлению финансовых кредитов за счет привлеченных средств кредитными учреждениями» 
+      %td.date от 18.10.2005 № 4802
+     %tr
+      %td.number 2
+      %td.name Распоряжение «Об утверждении Положения о порядке предоставления финансовых услуг ломбардами» 
+      %td.date от 26.04.2005  № 3981 
+     %tr
+      %td.number 3
+      %td.name Закон Украины «Об электронной коммерции» 
+      %td.date от 03.09.2015 № 675–VIII
+     %tr
+      %td.number 4
+      %td.name Закон Украины «О финансовых услугах и государственном регулировании рынков финансовых услуг»
+      %td.date от 12.07.2001 № 2664–III
+     %tr
+      %td.number 5
+      %td.name Закон Украины «О кредитных союзах»
+      %td.date от 20.12.2001 № 2908–III
+    
+  
+  %section.contacts#contact
+   .inner
+    %h1.center Контакты
+    .contacts-block
+     .contacts-left
+      .myform
+       %form{id:'cform', method:'post', action:'/notify.php'}
+        %input{class:'field', type:'text', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
+        %input{class:'field', type:'text', placeholder:'Тема', id:'sb', name:'sb', onkeyup:'check();'}
+        %textarea{class:'field tx', placeholder:'Текст сообщения', id:'feed', name:'feed'}
+        %button{type:'submit', id:'send', class:'btn disable'} Отправить
+     .contacts-right
+      .contacts-details
+       %p.hea N.KRAT Group GmbH
+       %p.sep 44287 г. Дортмунд, Германия
+       %p ул. Рингофенштрассе, 43
+       %p.sep Телефон: +49 231 444 781 00
+       %p Факс: +49 231 444 781 01
+       %p e-mail: de@nkrat.net       
+      .contacts-details.add-details
+       %p.hea Представительство в Украине
+       %p.sep ул. Новоконстантиновская, 13/10
+       %p 04080 г. Киев, Украина
+       %p.sep Телефон: +380 44 205 56 77
+       %p Факс: +380 44 205 56 78
+       %p e-mail: ua@nkrat.net 
+     .clear   
+  
+  .footer
+   .fleft
+    %img{src:'images/svg/footer_logo.svg'}
+   .fright.imp
+    %a{href:'imprint.html', class:'to_imp'} Imprint
+   .clear
+    
+  %script{src:"js/min/anim-min.js"}    
+      

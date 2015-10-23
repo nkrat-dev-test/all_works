@@ -2911,11 +2911,12 @@ slideUp2
   100% {
     -webkit-transform: translateY(0%); } }
 .contacts {
-  padding: 80px 0;
+  padding: 80px 0 120px 0 !important;
   color: #333;
   font-size: 16px;
   font-weight: 300;
-  background: url("../images/bg-contacts.svg") bottom right no-repeat; }
+  background: url("../images/bg-contacts.svg") bottom right no-repeat;
+  position: relative; }
   .contacts p {
     margin-top: 0 !important;
     margin-bottom: 0px; }
@@ -3013,6 +3014,49 @@ slideUp2
   height: 280px;
   overflow-x: hidden; }
 
+.disable {
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  border-color: transparent !important; }
+
+.disable:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  border-color: transparent !important; }
+
+.thk {
+  position: fixed;
+  width: 30%;
+  padding: 50px;
+  left: 50%;
+  margin-left: -15%;
+  background: #2a7df5;
+  z-index: 300500;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  visibility: hidden;
+  color: #fff; }
+
+.btn {
+  display: inline-block;
+  border: 1px solid #229fff;
+  font-weight: 500;
+  border-radius: 4px;
+  background: #229fff;
+  padding: 16px 30px;
+  color: #fff;
+  font-size: 18px;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+
+.btn:hover {
+  background: #0262AD;
+  border-color: #0262AD; }
+
 .footer {
   height: 100px;
   line-height: 100px;
@@ -3053,7 +3097,8 @@ h1 {
   font-weight: 300;
   font-size: 40px;
   margin: 0 0 !important;
-  padding: 0 0 !important; }
+  padding: 0 0 !important;
+  color: #888888; }
 
 .logo {
   display: block;
@@ -3152,7 +3197,8 @@ h1 {
     margin-top: 20px;
     font-weight: 700; }
   .mission h1 {
-    font-weight: 300; }
+    font-weight: 300;
+    color: #fff; }
 
 .work {
   padding: 120px 0 120px 0 !important; }
@@ -3247,6 +3293,8 @@ h1 {
         margin-bottom: 8px;
         font-weight: 500;
         list-style-type: decimal; }
+  .pluses h1 {
+    color: #fff; }
 
 .connect .connect_block {
   text-align: center;
@@ -3304,8 +3352,14 @@ h1 {
   .laws p {
     color: #999;
     font-size: 14px; }
+  .laws h1 {
+    margin-bottom: 50px !important; }
+  .laws h2 {
+    font-weight: 100;
+    font-size: 24px;
+    margin-top: 60px; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   .inner {
     width: 100% !important; }
 
@@ -3333,4 +3387,165 @@ h1 {
     margin: 0 auto !important; }
 
   .field {
-    width: 100%; } }
+    width: 100%; }
+
+  .btn {
+    width: 100%; }
+
+  .thk {
+    position: fixed;
+    width: 90%;
+    padding: 50px 0 !important;
+    left: 50%;
+    margin-left: -45%;
+    background: #229fff;
+    z-index: 300500;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    visibility: hidden;
+    color: #fff; }
+
+  .big_text {
+    width: 90% !important;
+    margin: 0 auto;
+    font-size: 16px !important; }
+
+  .mission {
+    background: #3A5A98 url("../images/patternx.png") top left;
+    color: #fff;
+    padding: 50px 0 50px 0 !important; }
+    .mission .mission_block {
+      text-align: center;
+      margin-top: 60px; }
+    .mission .one_mission {
+      display: inline-block;
+      vertical-align: top;
+      width: 240px;
+      min-height: 200px;
+      margin: 0 15px 0 15px;
+      margin-bottom: 40px; }
+    .mission .mission_icon {
+      width: 130px;
+      height: 130px;
+      margin: 0 auto; }
+    .mission .mission_anno {
+      font-size: 18px;
+      margin-top: 20px;
+      font-weight: 700; }
+    .mission h1 {
+      font-weight: 300;
+      color: #fff; }
+
+  .work {
+    padding: 50px 0 80px 0 !important; }
+    .work .work_block {
+      border-top: 0px solid #eee;
+      border-bottom: 0px solid #eee;
+      margin-top: 50px; }
+    .work .scheme {
+      display: inline-block;
+      vertical-align: top;
+      border-right: 0px solid #eee;
+      width: 100%;
+      height: auto;
+      min-height: 100px;
+      padding: 60px 0 50px 0;
+      position: relative; }
+    .work .side {
+      display: inline-block;
+      vertical-align: top;
+      padding: 0px 0px 0 20px;
+      width: 100%; }
+    .work .side_row {
+      margin-top: 20px; }
+    .work .side_icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+      display: inline-block;
+      vertical-align: middle; }
+    .work .side_anno {
+      display: inline-block;
+      vertical-align: middle;
+      width: 60%;
+      font-size: 14px;
+      color: #9f9e9e; }
+    .work h1 {
+      font-weight: 300; }
+    .work h2 {
+      font-weight: 700;
+      color: #9f9e9e;
+      font-size: 20px;
+      margin: 0 !important;
+      padding: 0 !important; }
+    .work .absolute_scheme {
+      position: relative;
+      width: 100%;
+      display: block; }
+
+  .connect .connect_block {
+    text-align: center;
+    margin: 50px 0; }
+  .connect .one_connect {
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    margin: 0 10px 0 10px;
+    border-radius: 0px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.13);
+    margin-bottom: 30px; }
+  .connect .connect_number {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    border-radius: 0px 0px 0 0;
+    color: #fff; }
+  .connect .con_ico {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto; }
+  .connect .connect_icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -20px; }
+  .connect .connect_desc {
+    color: #666666;
+    padding: 50px 10px 0 10px;
+    min-height: 100px;
+    font-size: 19px;
+    border-radius: 0px 0px 0px 0px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd; }
+  .connect .extra_pad {
+    padding: 50px 20px 0 20px !important; }
+  .connect .colorized_1 {
+    background: #ff5055; }
+  .connect .colorized_2 {
+    background: #59C8E0; }
+  .connect .colorized_3 {
+    background: #FFCA00; }
+  .connect .colorized_4 {
+    background: #02D1AC; }
+  .connect p {
+    color: #666;
+    font-weight: 300;
+    font-size: 18px; }
+
+  .mob {
+    width: 90%;
+    margin: 0 auto; }
+
+  .connect {
+    width: 90%;
+    margin: 0 auto; }
+
+  .methods_block {
+    display: none; } }

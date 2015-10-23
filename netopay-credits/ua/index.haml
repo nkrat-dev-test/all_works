@@ -1,0 +1,234 @@
+!!! 5
+%html
+ %head
+  %title Netopay Credit
+  %meta{name:"Content-Type", charset:"UTF-8"}
+  %meta{name:"description", content:""}
+  %meta{name:"keywords", content:""}
+  %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, user-scalable=yes"}
+  
+  %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
+  
+  %link{href:"css/main.css", rel:"stylesheet", type:"text/css", media:"screen"}
+  %link{href:"https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"screen"}
+  %script{src:"js/min/jquery-min.js"}
+  %script{src:"js/min/head-min.js"}
+  %script{src:"js/min/headjq-min.js"}
+  %script{src:"js/min/slides-min.js"}
+  %script{src:"js/min/form-min.js"}
+  %script{src:"js/min/check-min.js"}
+ 
+ %body
+  .thk.off	Ваше повідомлення відправлено. Дякуємо!
+  
+  
+  %header
+   .logo
+    %a{href:'/ua'}
+     %img{src:"images/svg/logo.svg"}
+   .langnav UA
+   .mobnav МЕНЮ
+   
+   .langs
+    %ul
+     %li
+      %a{href:'/ua'} UA
+     %li
+      %a{href:'/ru'} RU
+     
+   
+   .nav
+    %ul
+     %li
+      %a{href:'#about'}  Про сервіс
+     %li
+      %a{href:'#advantages'}  Можливості
+     %li
+      %a{href:'#propositions'}  Пропозиції
+     %li
+      %a{href:'#laws'}  Законодавство
+     %li
+      %a{href:'#contact'}  Контакти
+     
+  %section.start#home
+   .overlay
+    .hello
+     %img{src:'images/svg/startua.svg'}
+    .next 
+    .scroll.animated.bounceMouse 
+   .loops 
+   
+   
+    
+      
+   
+      
+  %section.section.grid#about
+   .inner
+    %h1.center Про сервіс
+    .block_desc 
+     %p.center NETOPAY CREDIT — сервіс мікрокредитування, що забезпечує можливість міжнародної взаємодії національних бірж мікрокредитування через інтернет
+    .for_scheme
+     .big_image
+      %img{src:'images/svg/scheme3ua.svg',class:'schimg'}
+     .side
+      %h3 Функції сервісу Netopay Credit для користувачів:
+      %ul
+       %li реєстрація в сервісі 
+       %li подача та пошук Пропозицій та Заявок
+       %li визначення умов кредитування
+       %li укладання кредитних угод (видача / отримання кредитів)
+       %li контроль виконання умов угод 
+       %li погашення кредитів / повернення виданих кредитів    
+  
+  
+  %section.advantages#advantages
+   .inner
+    %h1.center Можливості
+    .advantages_block
+     .advantage
+      .adv_icon.i1.pulse
+      .adv_anno Взаємодія Кредиторів та Позичальників з різних географічних регіонів в режимі реального часу
+     .advantage
+      .adv_icon.i2.pulse
+      .adv_anno Забезпечення фінансової та технологічної безпеки операцій, що здійснюються Користувачами сервісу
+     .advantage
+      .adv_icon.i3.pulse
+      .adv_anno Доступ Позичальників до національних та міжнародних кредитних ресурсів
+     .advantage
+      .adv_icon.i4.pulse
+      .adv_anno Самостійне визначення умов угоди її учасниками
+  
+  %section.propositions#propositions
+   .inner
+    %h1.center Пропозиції
+    .prop_selector
+     .prop_sel1.props.pressed.long кредиторам
+     .prop_sel2.props Позичальникам
+    .prop_container
+     #p1.prop
+      .prop_left
+       .prop_anim
+        %img.imr{src:'images/b1.png'}
+        .prop_elem.g1
+        .prop_elem.g2.pullUp
+        .prop_elem.g3.pullUp
+        .prop_elem.g4.pullUp
+        .prop_elem.g5.pullUp
+        
+       .prop_desc Кредитор — це юридична особа, яка надає фінансові послуги і сервіси відповідно до законодавства країни реєстрації
+      .prop_right
+       %ul
+        %li Вихід на ринок мікрокредитування країн СНД
+        %li Збільшення обсягів кредитування та прибутковості власного бізнесу
+        %li Можливість вибору Позичальників
+       .and А також
+       %ul.add_list
+        %li Можливість управління активами в режимі online
+        %li Фінансова та технологічна безпека операцій
+        %li Самостійне визначення умов угоди
+        %li Можливість аналізу та контролю укладених угод 
+      .prop_enter.unpub
+       %a.b_link{href:'#'} Вход или регистрация как Кредитор  
+      
+     #p2.prop.off
+      .prop_left
+       .prop_anim
+        %img.imr{src:'images/b2.png'}
+        .prop_elem.m13.hatch
+        .prop_elem.m12.slideDown2
+        .prop_elem.m1.hatch
+        .prop_elem.m9.fadeTop
+        .prop_elem.m10.pullUp
+        .prop_elem.m11.slideRight2
+        .prop_elem.m2.fadeTop2
+        .prop_elem.m7.pullUp
+        .prop_elem.m3.fadeTop
+        .prop_elem.m4.slideLeft2
+        .prop_elem.m5.slideUp2
+        .prop_elem.m6.slideDown2
+        .prop_elem.m8.fadeTop
+        .prop_elem.m14.slideUp2
+        
+        
+        
+       .prop_desc Позичальник – юридична особа, що здійснює комерційну діяльність відповідно до законодавства країни реєстрації
+      .prop_right
+       %ul
+        %li Доступ до міжнародних та національних кредитних ресурсів
+        %li Вигідні умови кредитування
+        %li Можливість вибору Кредиторів
+       .and А також
+       %ul.add_list
+        %li Можливість управління активами в режимі online
+        %li Фінансова та технологічна безпека операцій
+        %li Самостійне визначення умов угоди
+        %li Можливість аналізу та контролю укладених угод 
+      .prop_enter.unpub
+       %a.b_link{href:'#'} Вход или регистрация как Заемщик     
+      .clear 
+     
+     
+  %section.laws#laws
+   .inner
+    %h1.center Законодавство
+    %table
+     %tr
+      %td.number 1
+      %td.name  Розпорядження «Про затвердження Ліцензійних умов провадження діяльності з надання фінансових кредитів за рахунок залучених коштів кредитними установами» 
+      %td.date від 18.10.2005 № 4802
+     %tr
+      %td.number 2
+      %td.name Розпорядження «Про затвердження Положення про порядок надання фінансових послуг ломбардами»  
+      %td.date від 26.04.2005  № 3981 
+     %tr
+      %td.number 3
+      %td.name Закон України «Про електронну комерцію»  
+      %td.date від 03.09.2015 № 675–VIII
+     %tr
+      %td.number 4
+      %td.name Закон України «Про фінансові послуги та державне регулювання ринків фінансових послуг» 
+      %td.date від 12.07.2001 № 2664–III
+     %tr
+      %td.number 5
+      %td.name Закон України «Про кредитні спілки»
+      %td.date від 20.12.2001 № 2908–III
+    
+  
+  %section.contacts#contact
+   .inner
+    %h1.center Контакти
+    .contacts-block
+     .contacts-left
+      .myform
+       %form{id:'cform', method:'post', action:'/notify.php'}
+        %input{class:'field', type:'text', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
+        %input{class:'field', type:'text', placeholder:'Тема', id:'sb', name:'sb', onkeyup:'check();'}
+        %textarea{class:'field tx', placeholder:'Текст повідомлення', id:'feed', name:'feed'}
+        %button{type:'submit', id:'send', class:'btn disable'} Надіслати
+     .contacts-right
+      .contacts-details
+       %p.hea N.KRAT Group GmbH
+       %p.sep 44287 м. Дортмунд, Німеччина
+       %p ул. Рінгофенштрассе, 43
+       %p.sep Телефон: +49 231 444 781 00
+       %p Факс: +49 231 444 781 01
+       %p e-mail: de@nkrat.net       
+      .contacts-details.add-details
+       %p.hea Представництво в Україні
+       %p.sep вул. Новокостянтинівська, 13/10
+       %p 04080 м. Київ, Україна
+       %p.sep Телефон: +380 44 205 56 77
+       %p Факс: +380 44 205 56 78
+       %p e-mail: ua@nkrat.net 
+     .clear   
+  
+  .footer
+   .fleft
+    %img{src:'images/svg/footer_logo.svg'}
+   .fright.imp
+    %a{href:'imprint.html', class:'to_imp'} Imprint
+   .clear
+    
+  %script{src:"js/min/anim-min.js"}    
+      

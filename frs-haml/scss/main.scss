@@ -10,6 +10,11 @@ $missionbg:#3A5A98;
 $plusesbg:#0C99D0;
 $ongrayfont:#B8B8B8;
 
+$btcolor:#229fff;
+$bhover:#0262AD;
+
+$sky:#229fff;
+
 @import 'normalize';
 @import 'anim';
 @import 'tables';
@@ -21,7 +26,7 @@ $ongrayfont:#B8B8B8;
 .center{text-align: center;}
 
 body{font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 400; color:#666; }
-h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!important; padding: 0 0!important;}
+h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!important; padding: 0 0!important; color:#888888;}
 .logo{display:block; width: 190px; margin-top: 15px;}
 
 .start{position: relative; width: 100%; height: 100%; }
@@ -51,7 +56,7 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 	.one_mission{display:inline-block; vertical-align: top; width: 240px; min-height: 200px; margin: 0 15px 0 15px;}
 	.mission_icon{width: 130px; height: 130px; margin: 0 auto; }
 	.mission_anno{font-size: 18px; margin-top: 20px; font-weight: 700;}
-	h1{font-weight: 300;}
+	h1{font-weight: 300; color:#fff;}
 }
 
 
@@ -94,6 +99,7 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 			}
 		}
 	}
+	h1{color:#fff;}
 }
 
 
@@ -128,6 +134,8 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 
 .laws{background: #fafafa; 
 	p{color:#999; font-size: 14px;}
+	h1{margin-bottom: 50px!important;}
+	h2{font-weight: 100; font-size: 24px; margin-top: 60px;}
 }
 
 

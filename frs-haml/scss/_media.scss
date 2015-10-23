@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
 
 .inner{width: 100%!important;}
 
@@ -8,5 +8,66 @@
 .contacts-details{margin: 40px auto; text-align: center; width: 90%;}
 .myform{width: 90%; display:inline-block;  margin: 0 auto!important;}
 .field{width: 100%;}	
+
+
+.btn{width: 100%;}	
+.thk{position: fixed; width: 90%; padding: 50px 0!important; left:50%; margin-left: -45%; background: $sky; z-index: 300500;text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); font-size: 16px; font-weight: 400; visibility: hidden; color:#fff;
+}
+
+.big_text{width: 90%!important; margin: 0 auto; font-size: 16px!important;}
+
+
+
+.mission{background: $missionbg url('../images/patternx.png') top left; color:#fff; padding: 50px 0 50px 0!important;
+	.mission_block{text-align: center; margin-top: 60px;}
+	.one_mission{display:inline-block; vertical-align: top; width: 240px; min-height: 200px; margin: 0 15px 0 15px; margin-bottom: 40px;}
+	.mission_icon{width: 130px; height: 130px; margin: 0 auto; }
+	.mission_anno{font-size: 18px; margin-top: 20px; font-weight: 700;}
+	h1{font-weight: 300; color:#fff;}
+}
+
+
+
+
+.work{padding: 50px 0 80px 0!important;
+	.work_block{border-top:0px solid #eee; border-bottom: 0px solid #eee; margin-top: 50px; }
+	.scheme{display:inline-block; vertical-align: top; border-right: 0px solid #eee; width: 100%; height: auto; min-height: 100px; padding: 60px 0 50px 0; position: relative;}
+	.side{display:inline-block; vertical-align: top; padding: 0px 0px 0 20px; width: 100%;  }
+	.side_row{margin-top: 20px;}
+	.side_icon{width: 50px; height: 50px;  margin-right: 15px; display:inline-block; vertical-align: middle;}
+	.side_anno{display:inline-block; vertical-align: middle; width: 60%; font-size: 14px; color:#9f9e9e;}
+	h1{font-weight: 300;}
+	h2{font-weight: 700; color:#9f9e9e; font-size:20px; margin: 0!important; padding: 0!important;}
+	
+	.absolute_scheme{position: relative; width: 100%; display:block;}
+}
+
+.connect{
+	.connect_block{text-align: center; margin: 50px 0; }
+	.one_connect{display:inline-block; vertical-align: top; width: 90%;  margin:0 10px 0 10px; border-radius: 0px; box-shadow: 0 0 7px rgba(0,0,0,0.13);
+		margin-bottom: 30px;
+		}
+	.connect_number{  padding-top: 30px; padding-bottom: 40px; font-size: 50px; border-radius: 0px 0px 0 0; color:#fff;}
+	.con_ico{display:block; width: 60px; height: 60px; margin: 0 auto;}
+	.connect_icon{display: block; width: 40px; height: 40px;  position: absolute; margin-top:-20px; left: 50%; margin-left: -20px;}
+	.connect_desc{color:#666666; padding: 50px 10px 0 10px;  min-height: 100px; font-size: 19px; border-radius: 0px 0px 0px 0px; 
+		border-bottom:1px solid #ddd; border-left:1px solid #ddd; border-right: 1px solid #ddd;
+	 
+	}
+	
+	.extra_pad{padding: 50px 20px 0 20px!important;}
+	.colorized_1{background: #ff5055;}
+	.colorized_2{background: #59C8E0;}
+	.colorized_3{background: #FFCA00;}
+	.colorized_4{background: #02D1AC;}
+	p{color:#666; font-weight: 300; font-size: 18px;}
+}
+
+
+
+.mob{width: 90%; margin: 0 auto;}
+.connect{width: 90%; margin: 0 auto;}
+.methods_block{display:none;}
 	
 }

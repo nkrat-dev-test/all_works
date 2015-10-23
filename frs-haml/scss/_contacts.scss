@@ -1,4 +1,4 @@
-.contacts{padding: 80px 0; color:#333; font-size: 16px; font-weight: 300; background: url('../images/bg-contacts.svg') bottom right no-repeat;
+.contacts{padding: 80px 0 120px 0!important; color:#333; font-size: 16px; font-weight: 300; background: url('../images/bg-contacts.svg') bottom right no-repeat; position: relative;
 	p{margin-top: 0!important; margin-bottom: 0px;}
 	p.sep{margin-top: 10px!important;}
 	.hea{font-weight: 400;}
@@ -34,3 +34,20 @@
 
 
 .tx{resize: none; height: 280px; overflow-x: hidden;}
+
+
+.disable{background: rgba(0,0,0, 0.1)!important; color:rgba(255,255,255, 0.7)!important; border-color:rgba(0,0,0, 0.0)!important;}
+.disable:hover{background: rgba(0,0,0, 0.1)!important; color:rgba(255,255,255, 0.7)!important; border-color:rgba(0,0,0, 0.0)!important;}
+
+.thk{position: fixed; width: 30%; padding: 50px; left:50%; margin-left: -15%; background: #2a7df5; z-index: 300500;text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); font-size: 16px; font-weight: 400; visibility: hidden; color:#fff;
+}
+
+.btn{display:inline-block; border:1px solid $btcolor;  font-weight: 500; border-radius: 4px; background: $btcolor; padding: 16px 30px; color:#fff; font-size: 18px;
+	-webkit-transition: all 0.1s ease-out;
+             -moz-transition: all 0.2s ease-out;
+             -o-transition: all 0.2s ease-out;
+             transition: all 0.2s ease-out;
+}
+
+.btn:hover{background:$bhover; border-color:$bhover;}
