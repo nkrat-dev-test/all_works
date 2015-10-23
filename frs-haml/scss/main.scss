@@ -6,8 +6,8 @@ $superlight:#FAFAFA;
 $darkblue:#17233A;
 
 
-$missionbg:#0B1924;
-$plusesbg:#0B1924;
+$missionbg:#3A5A98;
+$plusesbg:#0C99D0;
 $ongrayfont:#B8B8B8;
 
 @import 'normalize';
@@ -26,7 +26,7 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 
 .start{position: relative; width: 100%; height: 100%; }
 .overlay{position: absolute; z-index: 10; background: rgba(0,0,0,0.0); width: 100%; height: 100%;}
-.loops{position: absolute; z-index: 5; background: #0B1924 url('../images/bg.svg') bottom center no-repeat; background-size: cover; width: 100%; height: 100%;}
+.loops{position: absolute; z-index: 5; background: #354459 url('../images/bgl.svg') bottom center no-repeat; background-size: cover; width: 100%; height: 100%;}
 .next{position: absolute; width:70px; height: 70px; bottom:7%; left:50%; margin-left:-35px; background: url('../images/svg/mouse.svg'); display:block;}
 .scroll{position: absolute; width:70px; height: 70px; bottom:7%; left:50%; margin-left:-35px; display:block; background: url('../images/svg/d.svg');}
 
@@ -46,7 +46,7 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 }
 
 
-.mission{background: $missionbg url('../images/pattern.png') top left; color:#fff; padding: 120px 0 140px 0!important;
+.mission{background: $missionbg url('../images/patternx.png') top left; color:#fff; padding: 120px 0 140px 0!important;
 	.mission_block{text-align: center; margin-top: 60px;}
 	.one_mission{display:inline-block; vertical-align: top; width: 240px; min-height: 200px; margin: 0 15px 0 15px;}
 	.mission_icon{width: 130px; height: 130px; margin: 0 auto; }
@@ -85,8 +85,8 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 	.one_plus{display:inline-block; vertical-align: top; width: 440px; margin-left: 25px; margin-right: 25px;}
 	.plus_icon{display:block; margin: 0 auto; width: 200px; height: 200px;}
 	.plus_anno{font-size: 24px; margin-top: 0px; color:#fff; font-weight: 700;}
-	.for_g{color:#1BA4E2;}
-	.for_b{color:#FFCA00;}
+	.for_g{color:#ffffff;}
+	.for_b{color:#ffffff;}
 	.plus_list{text-align: left; margin-top: 30px;
 		ul{margin: 0 0 0 20px!important; padding: 0!important;
 			li{
@@ -115,11 +115,11 @@ h1{text-transform: uppercase; font-weight: 300; font-size: 40px; margin: 0 0!imp
 	}
 	
 	.extra_pad{padding: 50px 20px 0 20px!important;}
-	.colorized_1{background: #ff2250;}
-	.colorized_2{background: #60047A;}
+	.colorized_1{background: #ff5055;}
+	.colorized_2{background: #59C8E0;}
 	.colorized_3{background: #FFCA00;}
-	.colorized_4{background: #83C016;}
-	p{color:#999; font-weight: 300; font-size: 18px;}
+	.colorized_4{background: #02D1AC;}
+	p{color:#666; font-weight: 300; font-size: 18px;}
 }
 
 

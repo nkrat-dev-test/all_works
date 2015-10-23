@@ -3075,7 +3075,7 @@ h1 {
 .loops {
   position: absolute;
   z-index: 5;
-  background: #0B1924 url("../images/bg.svg") bottom center no-repeat;
+  background: #354459 url("../images/bgl.svg") bottom center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%; }
@@ -3131,7 +3131,7 @@ h1 {
     font-weight: 300; }
 
 .mission {
-  background: #0B1924 url("../images/pattern.png") top left;
+  background: #3A5A98 url("../images/patternx.png") top left;
   color: #fff;
   padding: 120px 0 140px 0 !important; }
   .mission .mission_block {
@@ -3209,7 +3209,7 @@ h1 {
   margin: 0 auto; }
 
 .pluses {
-  background: #0B1924;
+  background: #0C99D0;
   color: #fff;
   padding: 80px 0 120px 0 !important; }
   .pluses .pluses_block {
@@ -3233,9 +3233,9 @@ h1 {
     color: #fff;
     font-weight: 700; }
   .pluses .for_g {
-    color: #1BA4E2; }
+    color: #ffffff; }
   .pluses .for_b {
-    color: #FFCA00; }
+    color: #ffffff; }
   .pluses .plus_list {
     text-align: left;
     margin-top: 30px; }
@@ -3287,15 +3287,15 @@ h1 {
 .connect .extra_pad {
   padding: 50px 20px 0 20px !important; }
 .connect .colorized_1 {
-  background: #ff2250; }
+  background: #ff5055; }
 .connect .colorized_2 {
-  background: #60047A; }
+  background: #59C8E0; }
 .connect .colorized_3 {
   background: #FFCA00; }
 .connect .colorized_4 {
-  background: #83C016; }
+  background: #02D1AC; }
 .connect p {
-  color: #999;
+  color: #666;
   font-weight: 300;
   font-size: 18px; }
 
