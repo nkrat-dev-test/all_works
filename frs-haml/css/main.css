@@ -3118,6 +3118,20 @@ slideUp2
 .to_imp:hover {
   text-decoration: underline; }
 
+canvas#spiders {
+  height: 100vh; }
+
+.spiders {
+  background: #354459;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }
+
 .center {
   text-align: center; }
 
@@ -3158,7 +3172,7 @@ h1 {
 .loops {
   position: absolute;
   z-index: 5;
-  background: #354459 url("../images/bgl.svg") bottom center no-repeat;
+  background: transparent url("../images/bgl.svg") bottom center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%; }

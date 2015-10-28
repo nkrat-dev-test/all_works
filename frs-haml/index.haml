@@ -17,6 +17,7 @@
   %script{src:"js/min/slides-min.js"}
   %script{src:"js/min/form-min.js"}
   %script{src:"js/min/check-min.js"}
+  %script{src:"js/min/beams-min.js"}
  
  %body
   %script{src:'js/min/mail-min.js'}
@@ -71,9 +72,11 @@
     .scroll.animated.bounceMouse
     .partners
      %img{src:'images/svg/partners.svg'} 
-   .loops 
    
+   .spiders
+    %canvas#spiders{width:'1920', height:'720'}
    
+   .loops
     #slides
      .slides-container
       %img{src:""}
