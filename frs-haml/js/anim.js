@@ -65,7 +65,11 @@ $(document).click( function(){
 
 
 
-
+$('.scroll').click( function(){
+	    $('html, body').animate({
+        scrollTop: $(".what").offset().top
+    }, 600, 'swing');
+}); 
 
 
 

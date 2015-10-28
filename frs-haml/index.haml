@@ -19,8 +19,13 @@
   %script{src:"js/min/check-min.js"}
  
  %body
+  %script{src:'js/min/mail-min.js'}
   .thk.off	Ваше повідомлення відправлено. Дякуємо!
   
+  
+ 
+
+
   
   %header
    .logo.desktop
@@ -291,7 +296,7 @@
     .contacts-block
      .contacts-left
       .myform
-       %form{id:'cform', method:'post', action:'notify.php'}
+       %form{id:'myform', method:'post', action:''}
         %input{class:'field', type:'text', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
         %input{class:'field', type:'text', placeholder:'Тема', id:'sb', name:'sb', onkeyup:'check();'}
         %textarea{class:'field tx', placeholder:'Текст повідомлення', id:'feed', name:'feed'}
