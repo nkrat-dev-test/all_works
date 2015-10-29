@@ -2958,6 +2958,9 @@ slideUp2
     margin-top: 10px !important; }
   .contacts .hea {
     font-weight: 400; }
+  .contacts a {
+    color: inherit;
+    text-decoration: none; }
 
 .add-details {
   margin-top: 50px !important; }
@@ -3228,7 +3231,7 @@ h1 {
     font-weight: 300; }
 
 .mission {
-  background: #3A5A98 url("../images/patternx.png") top left;
+  background: #3A5A98;
   color: #fff;
   padding: 120px 0 140px 0 !important; }
   .mission .mission_block {
