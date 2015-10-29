@@ -119,7 +119,7 @@
 	    echo '<div id="ppp" style="font-size: 40px;">'.$total.'</div>';   
 	    }else{$total = 0;
 		    echo '<div id="ppp" style="font-size: 40px; display:none;">'.$total.'</div>'; 
-		    echo '<div style="font-size: 40px; ">Tie!</div>';
+		    echo '<div style="font-size: 40px; ">-</div>';
 		    	    }
     
     

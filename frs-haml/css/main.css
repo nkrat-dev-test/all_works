@@ -3673,60 +3673,62 @@ h1 {
     .pluses h1 {
       color: #fff; }
 
-  .connect .connect_block {
-    text-align: center;
-    margin: 50px 0; }
-  .connect .one_connect {
-    display: inline-block;
-    vertical-align: top;
-    width: 90%;
-    margin: 0 10px 0 10px;
-    border-radius: 0px;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.13);
-    margin-bottom: 30px; }
-  .connect .connect_number {
-    padding-top: 30px;
-    padding-bottom: 40px;
-    font-size: 50px;
-    border-radius: 0px 0px 0 0;
-    color: #fff; }
-  .connect .con_ico {
-    display: block;
-    width: 60px;
-    height: 60px;
-    margin: 0 auto; }
-  .connect .connect_icon {
-    display: block;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    margin-top: -20px;
-    left: 50%;
-    margin-left: -20px; }
-  .connect .connect_desc {
-    color: #666666;
-    padding: 50px 10px 0 10px;
-    min-height: 100px;
-    font-size: 15px;
-    font-weight: 500;
-    border-radius: 0px 0px 0px 0px;
-    border-bottom: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd; }
-  .connect .extra_pad {
-    padding: 50px 20px 0 20px !important; }
-  .connect .colorized_1 {
-    background: #ff5055; }
-  .connect .colorized_2 {
-    background: #59C8E0; }
-  .connect .colorized_3 {
-    background: #FFCA00; }
-  .connect .colorized_4 {
-    background: #02D1AC; }
-  .connect p {
-    color: #666;
-    font-weight: 400;
-    font-size: 14px; }
+  .connect {
+    padding-bottom: 40px; }
+    .connect .connect_block {
+      text-align: center;
+      margin: 50px 0 20px 0; }
+    .connect .one_connect {
+      display: inline-block;
+      vertical-align: top;
+      width: 90%;
+      margin: 0 10px 0 10px;
+      border-radius: 0px;
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.13);
+      margin-bottom: 30px; }
+    .connect .connect_number {
+      padding-top: 30px;
+      padding-bottom: 40px;
+      font-size: 50px;
+      border-radius: 0px 0px 0 0;
+      color: #fff; }
+    .connect .con_ico {
+      display: block;
+      width: 60px;
+      height: 60px;
+      margin: 0 auto; }
+    .connect .connect_icon {
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      margin-top: -20px;
+      left: 50%;
+      margin-left: -20px; }
+    .connect .connect_desc {
+      color: #666666;
+      padding: 50px 10px 0 10px;
+      min-height: 100px;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 0px 0px 0px 0px;
+      border-bottom: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd; }
+    .connect .extra_pad {
+      padding: 50px 20px 0 20px !important; }
+    .connect .colorized_1 {
+      background: #ff5055; }
+    .connect .colorized_2 {
+      background: #59C8E0; }
+    .connect .colorized_3 {
+      background: #FFCA00; }
+    .connect .colorized_4 {
+      background: #02D1AC; }
+    .connect p {
+      color: #666;
+      font-weight: 400;
+      font-size: 14px; }
 
   .laws {
     background: #fafafa;
@@ -3767,4 +3769,7 @@ h1 {
     display: block;
     position: absolute;
     right: 20px !important;
-    bottom: 7%; } }
+    bottom: 7%; }
+
+  #spiders {
+    display: none; } }
