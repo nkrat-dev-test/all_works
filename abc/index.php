@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,12 +10,18 @@
 <meta name="viewport" content="width=device-width"  >
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
+<link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
 
 
 
+
+
+
+<div class="page">
 
 
 
@@ -29,10 +36,15 @@
 	<input type="text" placeholder="player B" name="player_b" value="Robot" hidden>
 	<hr>
 	
-	<div id="ctrl" style="display: none;">
-	<input type="radio" id="ch1" name="player_a_object" value="1"> - stone
-	<input type="radio" id="ch2" name="player_a_object" value="2"> - paper
-	<input type="radio" id="ch3" name="player_a_object" value="3"> - scissors
+	<div id="ctrl">
+	<input class="r1" type="radio"  id="ch1" name="player_a_object" value="1">
+	<label for="ch1"></label>
+	
+	<input class="r2" type="radio" id="ch2" name="player_a_object" value="2">
+	<label for="ch2"></label>
+	
+	<input class="r3" type="radio" id="ch3" name="player_a_object" value="3">
+	<label for="ch3"></label>
 	</div>
 
     <!--<h3>Player B</h3>
@@ -45,7 +57,7 @@
 	<input type="text" id="score" name="score" value="0" hidden>
 </form>
 <div id="result" style="margin-top: 100px;"></div>
-
+</div>
 
 
 <button id="start" style="font-size: 40px; display:none;">start</button>
@@ -54,6 +66,7 @@
 
 
 <script>
+
    
 
 

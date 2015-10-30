@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Lang test</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery-cookie.js" charset="utf-8" type="text/javascript"></script>
+	<script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+	<script src="js/langpack/nonDynamic.js" charset="utf-8" type="text/javascript"></script>
+	<script type="text/javascript">
+		var lang = new Lang('en');
+		//lang.dynamic('th', 'js/langpack/th.json');
+	</script>
+	<style>
+		body {
+			font-family: Verdana, Geneva, sans-serif;
+			font-size: 12px;
+		}
+
+		#langChanger {
+			margin-bottom: 10px;
+		}
+
+		.sectionTitle {
+			font-weight: bold;
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body>
+
+
+<div id="langChanger"><a href="#" onclick="window.lang.change('en'); return false;">EN</a> | <a href="#"
+																											   onclick="window.lang.change('ua'); return false;">UA</a>
+	
+	
+	
+	| <a href="#" onclick="window.lang.change('ru'); return false;">RU</a>
+	
+	
+	</div>
+
+   <div lang="en">Test text sample</div>
+   <input type="button" value="Alert" lang="en" onclick="alert(window.lang.translate('Alert message'));"/>
+   
+   <img lang="en" data-lang-token="FLAG" src="http://www.planwallpaper.com/static/images/i-should-buy-a-boat.jpg" style="width:150px; height: auto;">
+
+</body>
+</html>

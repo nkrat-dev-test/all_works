@@ -1,0 +1,22 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<circle style="fill:none;stroke:#4B60C2;stroke-miterlimit:10;" cx="60.2" cy="59.4" r="55.3"/>
+<g>
+	<g>
+		<ellipse style="fill:#FFFFFF;stroke:#4B60C2;stroke-miterlimit:10;" cx="60.2" cy="66.9" rx="19.7" ry="5"/>
+		<path style="fill:#FFFFFF;stroke:#4B60C2;stroke-miterlimit:10;" d="M40.5,77c0,2.8,8.8,5,19.7,5s19.7-2.3,19.7-5V66.9
+			c0,2.8-8.8,5-19.7,5s-19.7-2.3-19.7-5V77z"/>
+	</g>
+	<g>
+		<ellipse style="fill:#FFFFFF;stroke:#4B60C2;stroke-miterlimit:10;" cx="60.2" cy="54.4" rx="19.7" ry="5"/>
+		<path style="fill:#FFFFFF;stroke:#4B60C2;stroke-miterlimit:10;" d="M40.5,64.4c0,2.8,8.8,5,19.7,5s19.7-2.3,19.7-5V54.4
+			c0,2.8-8.8,5-19.7,5s-19.7-2.3-19.7-5V64.4z"/>
+	</g>
+	<g>
+		<ellipse style="fill:#FFFFFF;stroke:#4B60C2;stroke-miterlimit:10;" cx="60.2" cy="41.8" rx="19.7" ry="5"/>
+		<path style="fill:#FFFFFF;stroke:#4B60C2;stroke-miterlimit:10;" d="M40.5,51.8c0,2.8,8.8,5,19.7,5s19.7-2.3,19.7-5V41.8
+			c0,2.8-8.8,5-19.7,5s-19.7-2.3-19.7-5V51.8z"/>
+	</g>
+</g>
+</svg>

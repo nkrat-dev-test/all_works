@@ -1,0 +1,63 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	margin: 0; padding: 0; width: 100%;
+	height: 100%; background: #eee;
+}
+
+.page{width: 1000px; margin: 100px auto;}
+#result{border-radius: 10px; background: #fff; padding: 40px;}
+
+#ctrl{ height: 100px; text-align: center;}
+
+input[type="radio"]{
+    display:none;
+}
+
+
+input[type="radio"] + label
+{
+    background: #999;
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    border-radius: 1000px;
+    margin: 0 20px 0 20px;      
+}
+
+input[type="radio"]:checked + label
+{
+    background: #0080FF!important;
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+
+
+
+
+
+
+
+input.r1[type="radio"] + label{
+	background: url('http://thumb9.shutterstock.com/display_pic_with_logo/2953006/300748916/stock-vector-flat-design-icon-with-gem-stone-300748916.jpg') center center;
+	background-size: cover;
+}
+
+
+input.r2[type="radio"] + label{
+	background: url('http://dribbble.s3.amazonaws.com/users/35435/screenshots/1148173/shots68.jpg') center center;
+	background-size: cover;
+}
+
+
+input.r3[type="radio"] + label{
+	background: url('https://cdn0.iconfinder.com/data/icons/business-and-management-2/512/scissors_cut_cutting_off_office_tool_equipment_style_utensil_business_hair_tailor_barber_divide_salon_sale_flat_design_icon-512.png') center center;
+	background-size: cover;
+}

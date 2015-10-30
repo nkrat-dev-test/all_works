@@ -1,0 +1,12 @@
+{
+	"token": {
+		"Test text sample":"Русский кусок текста",
+		"Alert":"Ой-ой-ой!",
+		"Alert message":"Ой-ой-ой! - message",
+	},
+	"regex": [
+		["Budget", "งบประมาณ"],
+		["^Something at start of text", ""],
+		["This will be case insensitive", "i", ""]
+	]
+}
