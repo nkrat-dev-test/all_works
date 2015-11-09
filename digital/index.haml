@@ -19,17 +19,19 @@
   %script{src:"js/min/slides-min.js"}
   %script{src:"js/min/form-min.js"}
   %script{src:"js/min/check-min.js"}
-  
+    
  
- %body
+ %body 
+  %script{src:'../mail/mail-min.js'}
+  .thk.off	Ваше повідомлення відправлено. Дякуємо!
   
   
   %header
    .logo
     %a{href:'/'}
      %img{src:"images/svg/logo.svg"}
-   .langnav EN
-   .mobnav MENU
+   .langnav UA
+   .mobnav MЕНЮ
    
    .langs
     %ul
@@ -43,15 +45,18 @@
    .nav
     %ul
      %li
-      %a{href:'#'}  link1
+      %a{href:'#'}  Про сервіс
      %li
-      %a{href:'#'}  link1
+      %a{href:'#'}  Переваги
      %li
-      %a{href:'#'}  link1
+      %a{href:'#'}  Як це працює
      %li
-      %a{href:'#'}  link1
+      %a{href:'#'}  варто знати
      %li
-      %a{href:'#'}  link1
+      %a{href:'#'}  законодавство
+     %li
+      %a{href:'#'}  контакти 
+      
      
   %section.start
    .overlay
@@ -97,87 +102,114 @@
   
   
   %section.time
-   %h1 Переваги netopay digital
+   %h1#src_title Переваги netopay digital
    .inner
     .timeline-all
      
-     .timeline-partical.p1{:"data-parallax" => '{"y": -550, "from-scroll": 0, "distance": 1000, "smoothness": 10}'}
-     .timeline-partical.p2{:"data-parallax" => '{"y": -1150, "from-scroll": 0, "distance": 1000, "smoothness": 40}'}
-     .timeline-partical.p3{:"data-parallax" => '{"y": -1850, "from-scroll": 0, "distance": 1000, "smoothness": 40}'}
-     .timeline-partical.p4{:"data-parallax" => '{"y": -1150, "from-scroll": 100, "distance": 1000, "smoothness": 40}'}
-     .timeline-partical.p5
-     .timeline-partical.p6
-     .timeline-partical.p7
-     .timeline-partical.p8
-     .timeline-partical.p9
-     .timeline-partical.p10
-     .timeline-partical.p11
-     .timeline-partical.p12
-     .timeline-partical.p13
-     .timeline-partical.p14
-     .timeline-partical.p15
-     .timeline-partical.p16
-     .timeline-partical.p17
-     .timeline-partical.p18
-     .timeline-partical.p19
-     .timeline-partical.p20
-     .timeline-partical.p21
-     .timeline-partical.p22
-     .timeline-partical.p23
-     .timeline-partical.p24
-     .timeline-partical.p25
-     .timeline-partical.p26
+     .timeline-partical.p1{:"data-parallax" => '{"y": -2250, "from-scroll": 300,  "distance": 800, "smoothness": 10, "duration":200}'}
+     .timeline-partical.p2{:"data-parallax" => '{"y": -2200, "from-scroll": 530,  "distance": 800, "smoothness": 40, "duration":300}'}
+     .timeline-partical.p3{:"data-parallax" => '{"y": -2000, "from-scroll": 430,  "distance": 800, "smoothness": 10, "duration":250}'}
+     .timeline-partical.p4{:"data-parallax" => '{"y": -1900, "from-scroll": 730,  "distance": 800, "smoothness": 50, "duration":450}'}
+     .timeline-partical.p5{:"data-parallax" => '{"y": -1700, "from-scroll": 830,  "distance": 800, "smoothness": 70, "duration":650}'}
+     .timeline-partical.p6{:"data-parallax" => '{"y": -1700, "from-scroll": 1400,  "distance": 800, "smoothness": 20, "duration":1250}'}
+     .timeline-partical.p7{:"data-parallax" => '{"y": -1700, "from-scroll": 1630,  "distance": 800, "smoothness": 80, "duration":850}'}
+     .timeline-partical.p8{:"data-parallax" => '{"y": -1500, "from-scroll": 1700,  "distance": 800, "smoothness": 10, "duration":250}'}
+     .timeline-partical.p9{:"data-parallax" => '{"y": -1900, "from-scroll": 1800,  "distance": 800, "smoothness": 30, "duration":340}'}
+     .timeline-partical.p10{:"data-parallax" => '{"y": -1800, "from-scroll": 2000,  "distance": 800, "smoothness": 30, "duration":340}'}
+     .timeline-partical.p11{:"data-parallax" => '{"y": -1800, "from-scroll": 2000,  "distance": 800, "smoothness": 30, "duration":340}'}
+     .timeline-partical.p12{:"data-parallax" => '{"y": -1800, "from-scroll": 1900,  "distance": 800, "smoothness": 10, "duration":440}'}
+     .timeline-partical.p13{:"data-parallax" => '{"y": -1800, "from-scroll": 1900,  "distance": 800, "smoothness": 20, "duration":400}'}
+     .timeline-partical.p14{:"data-parallax" => '{"y": -1800, "from-scroll": 2100,  "distance": 800, "smoothness": 40, "duration":640}'}
+     .timeline-partical.p15{:"data-parallax" => '{"y": -1800, "from-scroll": 2300,  "distance": 800, "smoothness": 40, "duration":640}'}
+     .timeline-partical.p16{:"data-parallax" => '{"y": -1800, "from-scroll": 2100,  "distance": 800, "smoothness": 40, "duration":640}'}
+     .timeline-partical.p17{:"data-parallax" => '{"y": -1800, "from-scroll": 2300,  "distance": 800, "smoothness": 80, "duration":540}'}
+     .timeline-partical.p18{:"data-parallax" => '{"y": -1600, "from-scroll": 2600,  "distance": 800, "smoothness": 80, "duration":740}'}
+     .timeline-partical.p19{:"data-parallax" => '{"y": -1800, "from-scroll": 2500,  "distance": 800, "smoothness": 50, "duration":540}'}
+     .timeline-partical.p20{:"data-parallax" => '{"y": -1800, "from-scroll": 2500,  "distance": 800, "smoothness": 50, "duration":540}'}
+     .timeline-partical.p21{:"data-parallax" => '{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'}
+     .timeline-partical.p22{:"data-parallax" => '{"y": -500, "from-scroll": 2800,  "distance": 800, "smoothness": 90, "duration":640}'}
+     .timeline-partical.p23{:"data-parallax" => '{"y": -1000, "from-scroll": 2900,  "distance": 800, "smoothness": 50, "duration":540}'}
+     .timeline-partical.p24{:"data-parallax" => '{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'}
+     .timeline-partical.p25{:"data-parallax" => '{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'}
+     .timeline-partical.p26{:"data-parallax" => '{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'}
      
      .timeline-axis
       .axis-center
      
      .timeline-block
       .timeline-content
-       .timeline-content-side.fl.tr.nums{:"data-parallax" => '{"y": -550,  "distance": 12000, "smoothness": 10}'} 1
+       .timeline-content-side.fl.tr.nums{:"data-parallax" => '{"x": 45, "from-scroll": 600,  "distance": 800, "smoothness": 10}'} 1
        .timeline-center{:"data-parallax" => '{"x": 16, "from-scroll": 0, "distance": 400, "smoothness": 10, "duration":10}'}
-       .timeline-content-side.fr.bordered{:"data-parallax" => '{"x": -20, "from-scroll": 0, "distance": 800, "smoothness": 10, "duration":100}'}
-        %p Забезпечення гарантій компаніям-виробникам в отриманні коштів, отриманих в результаті реалізації цифрових товарів і послуг кінцевим споживачам 
+       .timeline-content-side.fr.bordered{:"data-parallax" => '{"x": -44, "from-scroll": 600, "distance": 800, "smoothness": 10, "duration":100}'}
+        %p#src_1 Забезпечення гарантій компаніям-виробникам в отриманні коштів, отриманих в результаті реалізації цифрових товарів і послуг кінцевим споживачам 
        
      .timeline-block
       .timeline-content
-       .timeline-content-side.fl.bordered{:"data-parallax" => '{"x": 20, "from-scroll": 300, "distance": 800, "smoothness": 10, "duration":100}'}
-        %p Здійснення розрахунків з компаніями-нерезидентами у валюті відповідно до чинного законодавства
+       .timeline-content-side.fl.bordered{:"data-parallax" => '{"x": 47, "from-scroll": 700, "distance": 800, "smoothness": 10, "duration":100}'}
+        %p#src_2 Здійснення розрахунків з компаніями-нерезидентами у валюті відповідно до чинного законодавства
        .timeline-center{:"data-parallax" => '{"x": -15, "from-scroll": 300, "distance": 400, "smoothness": 10, "duration":10}'}
-       .timeline-content-side.fr.tl.nums 2  
+       .timeline-content-side.fr.tl.nums{:"data-parallax" => '{"x": -45, "from-scroll": 850,  "distance": 800, "smoothness": 10}'} 2  
        
        
      .timeline-block
       .timeline-content
-       .timeline-content-side.fl.tr.nums 3
+       .timeline-content-side.fl.tr.nums{:"data-parallax" => '{"x": 45, "from-scroll": 1100,  "distance": 800, "smoothness": 10}'} 3
        .timeline-center{:"data-parallax" => '{"x": 16, "from-scroll": 600, "distance": 400, "smoothness": 10, "duration":10}'}
-       .timeline-content-side.fr.bordered{:"data-parallax" => '{"x": -20, "from-scroll": 600, "distance": 800, "smoothness": 10, "duration":100}'}
-        %p Оптимізація витрат, пов'язаних з імпортом товарів і послуг, і зменшення податкових витрат 
+       .timeline-content-side.fr.bordered{:"data-parallax" => '{"x": -44, "from-scroll": 1000, "distance": 800, "smoothness": 10, "duration":100}'}
+        %p#src_3 Оптимізація витрат, пов'язаних з імпортом товарів і послуг, і зменшення податкових витрат 
        
      .timeline-block
       .timeline-content
-       .timeline-content-side.fl.bordered{:"data-parallax" => '{"x": 20, "from-scroll": 900, "distance": 800, "smoothness": 10, "duration":100}'}
-        %p Забезпечення можливості універсального ціноутворення на товари і послуги в режимі реального часу і мінімізація валютних ризиків купівлі/продажу валюти на регіональних ринках для компаній-виробників
+       .timeline-content-side.fl.bordered{:"data-parallax" => '{"x": 47, "from-scroll": 1300, "distance": 800, "smoothness": 10, "duration":100}'}
+        %p#src_4 Забезпечення можливості універсального ціноутворення на товари і послуги в режимі реального часу і мінімізація валютних ризиків купівлі/продажу валюти на регіональних ринках для компаній-виробників
        .timeline-center{:"data-parallax" => '{"x": -15, "from-scroll": 900, "distance": 400, "smoothness": 10, "duration":10}'}
-       .timeline-content-side.fr.tl.nums 4 
+       .timeline-content-side.fr.tl.nums{:"data-parallax" => '{"x": -45, "from-scroll": 1350,  "distance": 800, "smoothness": 10}'} 4 
        
      .timeline-block
       .timeline-content
-       .timeline-content-side.fl.tr.nums 5
+       .timeline-content-side.fl.tr.nums{:"data-parallax" => '{"x": 45, "from-scroll": 1650,  "distance": 800, "smoothness": 10}'} 5
        .timeline-center{:"data-parallax" => '{"x": 16, "from-scroll": 1200, "distance": 400, "smoothness": 10, "duration":10}'}
-       .timeline-content-side.fr.bordered{:"data-parallax" => '{"x": -20, "from-scroll": 1200, "distance": 800, "smoothness": 10, "duration":100}'}
-        %p Забезпечення інформаційної та фінансової безпеки всіх учасників бізнес-процесів імпорту та продажу цифрових товарів/послуг кінцевим споживачам 
+       .timeline-content-side.fr.bordered{:"data-parallax" => '{"x": -45, "from-scroll": 1600, "distance": 800, "smoothness": 10, "duration":100}'}
+        %p#src_5 Забезпечення інформаційної та фінансової безпеки всіх учасників бізнес-процесів імпорту та продажу цифрових товарів/послуг кінцевим споживачам 
        
      .timeline-block
       .timeline-content
-       .timeline-content-side.fl.bordered{:"data-parallax" => '{"x": 20, "from-scroll": 1500, "distance": 800, "smoothness": 10, "duration":100}'}
-        %p Встановлення юридично-значимих взаємин між учасниками сервісу при здійсненні ними купівлі/продажу цифрових товарів/послуг та фіксація фінансової відповідальності учасників
+       .timeline-content-side.fl.bordered{:"data-parallax" => '{"x": 47, "from-scroll": 1850, "distance": 800, "smoothness": 10, "duration":100}'}
+        %p#src_6 Встановлення юридично-значимих взаємин між учасниками сервісу при здійсненні ними купівлі/продажу цифрових товарів/послуг та фіксація фінансової відповідальності учасників
        .timeline-center{:"data-parallax" => '{"x": -15, "from-scroll": 1500, "distance": 400, "smoothness": 10, "duration":10}'}
-       .timeline-content-side.fr.tl.nums 6            
+       .timeline-content-side.fr.tl.nums{:"data-parallax" => '{"x": -45, "from-scroll": 2000,  "distance": 800, "smoothness": 10}'} 6            
     
     
     
     
-          
+  %section.time-mobile
+   .inner
+    %h1#for_title
+    
+    .mobile_timeline_block
+     .mobile_num.colorized_3 +
+     .mobile_content#for_src_1
+    
+    .mobile_timeline_block
+     .mobile_num.colorized_3 +
+     .mobile_content#for_src_2
+    
+    .mobile_timeline_block
+     .mobile_num.colorized_3 +
+     .mobile_content#for_src_3
+     
+    .mobile_timeline_block
+     .mobile_num.colorized_3 +
+     .mobile_content#for_src_4
+     
+    .mobile_timeline_block
+     .mobile_num.colorized_3 +
+     .mobile_content#for_src_5
+     
+    .mobile_timeline_block
+     .mobile_num.colorized_3 +
+     .mobile_content#for_src_6     
+             
   
   
   %section.scheme
@@ -240,7 +272,7 @@
     .contacts-block
      .contacts-left
       .myform
-       %form{id:'cform', method:'post', action:'notify.php'}
+       %form{id:'myform', method:'post', action:''}
         %input{class:'field', type:'text', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
         %input{class:'field', type:'text', placeholder:'Тема', id:'sb', name:'sb', onkeyup:'check();'}
         %textarea{class:'field tx', placeholder:'Текст повідомлення', id:'feed', name:'feed'}
@@ -270,5 +302,7 @@
    .clear
   
     
-  %script{src:"js/min/anim-min.js"}    
+  %script{src:"js/min/anim-min.js"}
+  %script{src:"js/min/copy-min.js"}
+   
       

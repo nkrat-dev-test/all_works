@@ -19,14 +19,16 @@
     <script src='js/min/check-min.js'></script>
   </head>
   <body>
+    <script src='../mail/mail-min.js'></script>
+    <div class='thk off'>Ваше повідомлення відправлено. Дякуємо!</div>
     <header>
       <div class='logo'>
         <a href='/'>
           <img src='images/svg/logo.svg'>
         </a>
       </div>
-      <div class='langnav'>EN</div>
-      <div class='mobnav'>MENU</div>
+      <div class='langnav'>UA</div>
+      <div class='mobnav'>MЕНЮ</div>
       <div class='langs'>
         <ul>
           <li>
@@ -43,19 +45,22 @@
       <div class='nav'>
         <ul>
           <li>
-            <a href='#'> link1</a>
+            <a href='#'> Про сервіс</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#'> Переваги</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#'> Як це працює</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#'> варто знати</a>
           </li>
           <li>
-            <a href='#'> link1</a>
+            <a href='#'> законодавство</a>
+          </li>
+          <li>
+            <a href='#'> контакти</a>
           </li>
         </ul>
       </div>
@@ -87,92 +92,121 @@
       </div>
     </section>
     <section class='time'>
-      <h1>Переваги netopay digital</h1>
+      <h1 id='src_title'>Переваги netopay digital</h1>
       <div class='inner'>
         <div class='timeline-all'>
-          <div class='timeline-partical p1' data-parallax='{"y": -550, "from-scroll": 0, "distance": 1000, "smoothness": 10}'></div>
-          <div class='timeline-partical p2' data-parallax='{"y": -1150, "from-scroll": 0, "distance": 1000, "smoothness": 40}'></div>
-          <div class='timeline-partical p3' data-parallax='{"y": -1850, "from-scroll": 0, "distance": 1000, "smoothness": 40}'></div>
-          <div class='timeline-partical p4' data-parallax='{"y": -1150, "from-scroll": 100, "distance": 1000, "smoothness": 40}'></div>
-          <div class='timeline-partical p5'></div>
-          <div class='timeline-partical p6'></div>
-          <div class='timeline-partical p7'></div>
-          <div class='timeline-partical p8'></div>
-          <div class='timeline-partical p9'></div>
-          <div class='timeline-partical p10'></div>
-          <div class='timeline-partical p11'></div>
-          <div class='timeline-partical p12'></div>
-          <div class='timeline-partical p13'></div>
-          <div class='timeline-partical p14'></div>
-          <div class='timeline-partical p15'></div>
-          <div class='timeline-partical p16'></div>
-          <div class='timeline-partical p17'></div>
-          <div class='timeline-partical p18'></div>
-          <div class='timeline-partical p19'></div>
-          <div class='timeline-partical p20'></div>
-          <div class='timeline-partical p21'></div>
-          <div class='timeline-partical p22'></div>
-          <div class='timeline-partical p23'></div>
-          <div class='timeline-partical p24'></div>
-          <div class='timeline-partical p25'></div>
-          <div class='timeline-partical p26'></div>
+          <div class='timeline-partical p1' data-parallax='{"y": -2250, "from-scroll": 300,  "distance": 800, "smoothness": 10, "duration":200}'></div>
+          <div class='timeline-partical p2' data-parallax='{"y": -2200, "from-scroll": 530,  "distance": 800, "smoothness": 40, "duration":300}'></div>
+          <div class='timeline-partical p3' data-parallax='{"y": -2000, "from-scroll": 430,  "distance": 800, "smoothness": 10, "duration":250}'></div>
+          <div class='timeline-partical p4' data-parallax='{"y": -1900, "from-scroll": 730,  "distance": 800, "smoothness": 50, "duration":450}'></div>
+          <div class='timeline-partical p5' data-parallax='{"y": -1700, "from-scroll": 830,  "distance": 800, "smoothness": 70, "duration":650}'></div>
+          <div class='timeline-partical p6' data-parallax='{"y": -1700, "from-scroll": 1400,  "distance": 800, "smoothness": 20, "duration":1250}'></div>
+          <div class='timeline-partical p7' data-parallax='{"y": -1700, "from-scroll": 1630,  "distance": 800, "smoothness": 80, "duration":850}'></div>
+          <div class='timeline-partical p8' data-parallax='{"y": -1500, "from-scroll": 1700,  "distance": 800, "smoothness": 10, "duration":250}'></div>
+          <div class='timeline-partical p9' data-parallax='{"y": -1900, "from-scroll": 1800,  "distance": 800, "smoothness": 30, "duration":340}'></div>
+          <div class='timeline-partical p10' data-parallax='{"y": -1800, "from-scroll": 2000,  "distance": 800, "smoothness": 30, "duration":340}'></div>
+          <div class='timeline-partical p11' data-parallax='{"y": -1800, "from-scroll": 2000,  "distance": 800, "smoothness": 30, "duration":340}'></div>
+          <div class='timeline-partical p12' data-parallax='{"y": -1800, "from-scroll": 1900,  "distance": 800, "smoothness": 10, "duration":440}'></div>
+          <div class='timeline-partical p13' data-parallax='{"y": -1800, "from-scroll": 1900,  "distance": 800, "smoothness": 20, "duration":400}'></div>
+          <div class='timeline-partical p14' data-parallax='{"y": -1800, "from-scroll": 2100,  "distance": 800, "smoothness": 40, "duration":640}'></div>
+          <div class='timeline-partical p15' data-parallax='{"y": -1800, "from-scroll": 2300,  "distance": 800, "smoothness": 40, "duration":640}'></div>
+          <div class='timeline-partical p16' data-parallax='{"y": -1800, "from-scroll": 2100,  "distance": 800, "smoothness": 40, "duration":640}'></div>
+          <div class='timeline-partical p17' data-parallax='{"y": -1800, "from-scroll": 2300,  "distance": 800, "smoothness": 80, "duration":540}'></div>
+          <div class='timeline-partical p18' data-parallax='{"y": -1600, "from-scroll": 2600,  "distance": 800, "smoothness": 80, "duration":740}'></div>
+          <div class='timeline-partical p19' data-parallax='{"y": -1800, "from-scroll": 2500,  "distance": 800, "smoothness": 50, "duration":540}'></div>
+          <div class='timeline-partical p20' data-parallax='{"y": -1800, "from-scroll": 2500,  "distance": 800, "smoothness": 50, "duration":540}'></div>
+          <div class='timeline-partical p21' data-parallax='{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'></div>
+          <div class='timeline-partical p22' data-parallax='{"y": -500, "from-scroll": 2800,  "distance": 800, "smoothness": 90, "duration":640}'></div>
+          <div class='timeline-partical p23' data-parallax='{"y": -1000, "from-scroll": 2900,  "distance": 800, "smoothness": 50, "duration":540}'></div>
+          <div class='timeline-partical p24' data-parallax='{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'></div>
+          <div class='timeline-partical p25' data-parallax='{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'></div>
+          <div class='timeline-partical p26' data-parallax='{"y": -1000, "from-scroll": 2700,  "distance": 800, "smoothness": 50, "duration":540}'></div>
           <div class='timeline-axis'>
             <div class='axis-center'></div>
           </div>
           <div class='timeline-block'>
             <div class='timeline-content'>
-              <div class='timeline-content-side fl tr nums' data-parallax='{"y": -550,  "distance": 12000, "smoothness": 10}'>1</div>
+              <div class='timeline-content-side fl tr nums' data-parallax='{"x": 45, "from-scroll": 600,  "distance": 800, "smoothness": 10}'>1</div>
               <div class='timeline-center' data-parallax='{"x": 16, "from-scroll": 0, "distance": 400, "smoothness": 10, "duration":10}'></div>
-              <div class='timeline-content-side fr bordered' data-parallax='{"x": -20, "from-scroll": 0, "distance": 800, "smoothness": 10, "duration":100}'>
-                <p>Забезпечення гарантій компаніям-виробникам в отриманні коштів, отриманих в результаті реалізації цифрових товарів і послуг кінцевим споживачам</p>
+              <div class='timeline-content-side fr bordered' data-parallax='{"x": -44, "from-scroll": 600, "distance": 800, "smoothness": 10, "duration":100}'>
+                <p id='src_1'>Забезпечення гарантій компаніям-виробникам в отриманні коштів, отриманих в результаті реалізації цифрових товарів і послуг кінцевим споживачам</p>
               </div>
             </div>
           </div>
           <div class='timeline-block'>
             <div class='timeline-content'>
-              <div class='timeline-content-side fl bordered' data-parallax='{"x": 20, "from-scroll": 300, "distance": 800, "smoothness": 10, "duration":100}'>
-                <p>Здійснення розрахунків з компаніями-нерезидентами у валюті відповідно до чинного законодавства</p>
+              <div class='timeline-content-side fl bordered' data-parallax='{"x": 47, "from-scroll": 700, "distance": 800, "smoothness": 10, "duration":100}'>
+                <p id='src_2'>Здійснення розрахунків з компаніями-нерезидентами у валюті відповідно до чинного законодавства</p>
               </div>
               <div class='timeline-center' data-parallax='{"x": -15, "from-scroll": 300, "distance": 400, "smoothness": 10, "duration":10}'></div>
-              <div class='timeline-content-side fr tl nums'>2</div>
+              <div class='timeline-content-side fr tl nums' data-parallax='{"x": -45, "from-scroll": 850,  "distance": 800, "smoothness": 10}'>2</div>
             </div>
           </div>
           <div class='timeline-block'>
             <div class='timeline-content'>
-              <div class='timeline-content-side fl tr nums'>3</div>
+              <div class='timeline-content-side fl tr nums' data-parallax='{"x": 45, "from-scroll": 1100,  "distance": 800, "smoothness": 10}'>3</div>
               <div class='timeline-center' data-parallax='{"x": 16, "from-scroll": 600, "distance": 400, "smoothness": 10, "duration":10}'></div>
-              <div class='timeline-content-side fr bordered' data-parallax='{"x": -20, "from-scroll": 600, "distance": 800, "smoothness": 10, "duration":100}'>
-                <p>Оптимізація витрат, пов'язаних з імпортом товарів і послуг, і зменшення податкових витрат</p>
+              <div class='timeline-content-side fr bordered' data-parallax='{"x": -44, "from-scroll": 1000, "distance": 800, "smoothness": 10, "duration":100}'>
+                <p id='src_3'>Оптимізація витрат, пов'язаних з імпортом товарів і послуг, і зменшення податкових витрат</p>
               </div>
             </div>
           </div>
           <div class='timeline-block'>
             <div class='timeline-content'>
-              <div class='timeline-content-side fl bordered' data-parallax='{"x": 20, "from-scroll": 900, "distance": 800, "smoothness": 10, "duration":100}'>
-                <p>Забезпечення можливості універсального ціноутворення на товари і послуги в режимі реального часу і мінімізація валютних ризиків купівлі/продажу валюти на регіональних ринках для компаній-виробників</p>
+              <div class='timeline-content-side fl bordered' data-parallax='{"x": 47, "from-scroll": 1300, "distance": 800, "smoothness": 10, "duration":100}'>
+                <p id='src_4'>Забезпечення можливості універсального ціноутворення на товари і послуги в режимі реального часу і мінімізація валютних ризиків купівлі/продажу валюти на регіональних ринках для компаній-виробників</p>
               </div>
               <div class='timeline-center' data-parallax='{"x": -15, "from-scroll": 900, "distance": 400, "smoothness": 10, "duration":10}'></div>
-              <div class='timeline-content-side fr tl nums'>4</div>
+              <div class='timeline-content-side fr tl nums' data-parallax='{"x": -45, "from-scroll": 1350,  "distance": 800, "smoothness": 10}'>4</div>
             </div>
           </div>
           <div class='timeline-block'>
             <div class='timeline-content'>
-              <div class='timeline-content-side fl tr nums'>5</div>
+              <div class='timeline-content-side fl tr nums' data-parallax='{"x": 45, "from-scroll": 1650,  "distance": 800, "smoothness": 10}'>5</div>
               <div class='timeline-center' data-parallax='{"x": 16, "from-scroll": 1200, "distance": 400, "smoothness": 10, "duration":10}'></div>
-              <div class='timeline-content-side fr bordered' data-parallax='{"x": -20, "from-scroll": 1200, "distance": 800, "smoothness": 10, "duration":100}'>
-                <p>Забезпечення інформаційної та фінансової безпеки всіх учасників бізнес-процесів імпорту та продажу цифрових товарів/послуг кінцевим споживачам</p>
+              <div class='timeline-content-side fr bordered' data-parallax='{"x": -45, "from-scroll": 1600, "distance": 800, "smoothness": 10, "duration":100}'>
+                <p id='src_5'>Забезпечення інформаційної та фінансової безпеки всіх учасників бізнес-процесів імпорту та продажу цифрових товарів/послуг кінцевим споживачам</p>
               </div>
             </div>
           </div>
           <div class='timeline-block'>
             <div class='timeline-content'>
-              <div class='timeline-content-side fl bordered' data-parallax='{"x": 20, "from-scroll": 1500, "distance": 800, "smoothness": 10, "duration":100}'>
-                <p>Встановлення юридично-значимих взаємин між учасниками сервісу при здійсненні ними купівлі/продажу цифрових товарів/послуг та фіксація фінансової відповідальності учасників</p>
+              <div class='timeline-content-side fl bordered' data-parallax='{"x": 47, "from-scroll": 1850, "distance": 800, "smoothness": 10, "duration":100}'>
+                <p id='src_6'>Встановлення юридично-значимих взаємин між учасниками сервісу при здійсненні ними купівлі/продажу цифрових товарів/послуг та фіксація фінансової відповідальності учасників</p>
               </div>
               <div class='timeline-center' data-parallax='{"x": -15, "from-scroll": 1500, "distance": 400, "smoothness": 10, "duration":10}'></div>
-              <div class='timeline-content-side fr tl nums'>6</div>
+              <div class='timeline-content-side fr tl nums' data-parallax='{"x": -45, "from-scroll": 2000,  "distance": 800, "smoothness": 10}'>6</div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class='time-mobile'>
+      <div class='inner'>
+        <h1 id='for_title'></h1>
+        <div class='mobile_timeline_block'>
+          <div class='mobile_num colorized_3'>+</div>
+          <div class='mobile_content' id='for_src_1'></div>
+        </div>
+        <div class='mobile_timeline_block'>
+          <div class='mobile_num colorized_3'>+</div>
+          <div class='mobile_content' id='for_src_2'></div>
+        </div>
+        <div class='mobile_timeline_block'>
+          <div class='mobile_num colorized_3'>+</div>
+          <div class='mobile_content' id='for_src_3'></div>
+        </div>
+        <div class='mobile_timeline_block'>
+          <div class='mobile_num colorized_3'>+</div>
+          <div class='mobile_content' id='for_src_4'></div>
+        </div>
+        <div class='mobile_timeline_block'>
+          <div class='mobile_num colorized_3'>+</div>
+          <div class='mobile_content' id='for_src_5'></div>
+        </div>
+        <div class='mobile_timeline_block'>
+          <div class='mobile_num colorized_3'>+</div>
+          <div class='mobile_content' id='for_src_6'></div>
         </div>
       </div>
     </section>
@@ -218,7 +252,7 @@
         <div class='contacts-block'>
           <div class='contacts-left'>
             <div class='myform'>
-              <form action='notify.php' id='cform' method='post'>
+              <form action='' id='myform' method='post'>
                 <input class='field' id='em' name='em' onkeyup='check();' placeholder='E-mail' type='text'>
                 <input class='field' id='sb' name='sb' onkeyup='check();' placeholder='Тема' type='text'>
                 <textarea class='field tx' id='feed' name='feed' placeholder='Текст повідомлення'></textarea>
@@ -258,5 +292,6 @@
       <div class='clear'></div>
     </div>
     <script src='js/min/anim-min.js'></script>
+    <script src='js/min/copy-min.js'></script>
   </body>
 </html>

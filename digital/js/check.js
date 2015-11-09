@@ -1,5 +1,6 @@
 $(document).ready(function() { 
             $('#cform').ajaxForm(function() { 
+	            //alert();
 	            $("#em").val('');
 	            $("#sb").val('');
 	            $("#feed").val('');
