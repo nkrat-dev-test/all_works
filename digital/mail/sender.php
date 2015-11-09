@@ -1,10 +1,10 @@
 <?php
 	//echo 'OK';
-	//$account = 'd.forms@yandex.ru';
-	//$pass='nkratfeedbackforms';
+	$account = 'd.forms@yandex.ru';
+	$pass='nkratfeedbackforms';
 	
-	$account="boriskaborisenko@yandex.ru";
-	$pass = "476666624xyj";
+	//$account="boriskaborisenko@yandex.ru";
+	//$pass = "";
 	
 	$project='netopay.DIGITAL FEEDBACK';
 	

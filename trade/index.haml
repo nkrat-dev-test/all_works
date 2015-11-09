@@ -1,0 +1,123 @@
+!!! 5
+%html
+ %head
+  %title trade HAML
+  %meta{name:"Content-Type", charset:"UTF-8"}
+  %meta{name:"description", content:""}
+  %meta{name:"keywords", content:""}
+  %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, user-scalable=yes"}
+  
+  %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
+  
+  %link{href:"css/main.css", rel:"stylesheet", type:"text/css", media:"screen"}
+  %link{href:"https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"screen"}
+  %script{src:"js/min/jquery-min.js"}
+  %script{src:"js/min/easing-min.js"}
+  %script{src:"js/min/scroll-min.js"}
+  %script{src:"js/min/head-min.js"}
+  %script{src:"js/min/headjq-min.js"}
+  %script{src:"js/min/slides-min.js"}
+  %script{src:"js/min/form-min.js"}
+  %script{src:"js/min/check-min.js"}
+    
+ 
+ %body 
+  %script{src:'../mail/mail-min.js'}
+  .thk.off	Ваше повідомлення відправлено. Дякуємо!
+  
+  
+  %header
+   .logo
+    %a{href:'/'}
+     %img{src:"images/svg/logo.svg"}
+   .langnav UA
+   .mobnav MЕНЮ
+   
+   .langs
+    %ul
+     %li
+      %a{href:'#'} UA
+     %li
+      %a{href:'#'} EN
+     %li
+      %a{href:'#'} DE
+   
+   .nav
+    %ul
+     %li
+      %a{href:'#'}  Про сервіс
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  link1
+     %li
+      %a{href:'#'}  контакти 
+      
+     
+  %section.start
+   .overlay
+    .hello
+     %img{src:'images/svg/stua.svg'}
+    .next 
+    .scroll.animated.bounceMouse 
+   .loops 
+   
+   
+    #slides
+     .slides-container
+      %img{src:""}
+      %img{src:""}
+      
+  
+  
+  
+  
+  
+  %section.test test
+  
+  
+  
+  %section.contacts
+   .inner
+    %h1.center Контакти
+    .contacts-block
+     .contacts-left
+      .myform
+       %form{id:'myform', method:'post', action:''}
+        %input{class:'field', type:'text', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
+        %input{class:'field', type:'text', placeholder:'Тема', id:'sb', name:'sb', onkeyup:'check();'}
+        %textarea{class:'field tx', placeholder:'Текст повідомлення', id:'feed', name:'feed'}
+        %button{type:'submit', id:'send', class:'btn disable'} Відправити
+     .contacts-right
+      .contacts-details
+       %p.hea N.KRAT Group GmbH
+       %p.sep 44287 м. Дортмунд, Німеччина
+       %p вул. Рінгофенштрассе, 43
+       %p.sep Телефон: +49 231 444 781 00
+       %p Факс: +49 231 444 781 01
+       %p e-mail: de@nkrat.net       
+      .contacts-details.add-details
+       %p.hea Представництво в Україні
+       %p.sep вул. Новокостянтинівська, 13/10
+       %p 04080 м. Київ, Україна
+       %p.sep Телефон: +380 44 205 56 77
+       %p Факс: +380 44 205 56 78
+       %p e-mail: ua@nkrat.net 
+     .clear   
+  
+  .footer
+   .fleft
+    %img{src:'images/svg/footer_logo.svg'}
+   .fright.imp
+    %a{href:'imprint.html', class:'to_imp'} Imprint
+   .clear
+  
+    
+  %script{src:"js/min/anim-min.js"}
+  
+   
+      

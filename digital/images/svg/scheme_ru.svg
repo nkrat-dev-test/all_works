@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 735" enable-background="new 0 0 1000 735" xml:space="preserve">
+<rect x="1" y="0.1" fill="#FAFAFA" width="203" height="733.5"/>
+<rect x="797" y="0.1" fill="#FAFAFA" width="203" height="733.5"/>
+<rect x="399" y="0.1" fill="#FAFAFA" width="203" height="733.5"/>
+<rect x="681.9" y="96.4" fill="#28ABE4" width="34.2" height="8.6"/>
+<rect x="681.9" y="105" fill="#F7E646" width="34.2" height="8.6"/>
+<rect x="483.7" y="96.4" fill="#28ABE4" width="34.2" height="8.6"/>
+<rect x="483.7" y="105" fill="#F7E646" width="34.2" height="8.6"/>
+<path fill="none" stroke="#229FFF" stroke-miterlimit="10" d="M756.6,91H640.8c-16,0-28.9-13-28.9-28.9v0c0-16,13-28.9,28.9-28.9
+	h115.8c16,0,28.9,13,28.9,28.9v0C785.6,78,772.6,91,756.6,91z"/>
+<circle fill="#82C017" cx="106" cy="611" r="26"/>
+<circle fill="#FF534B" cx="106" cy="170" r="26"/>
+<path fill="none" stroke="#D4D4D4" stroke-miterlimit="10" d="M163.1,91H47.3c-16,0-28.9-13-28.9-28.9v0c0-16,13-28.9,28.9-28.9
+	h115.8c16,0,28.9,13,28.9,28.9v0C192,78,179.1,91,163.1,91z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="758.3333" y1="317.5" x2="837.6695" y2="317.5">
+	<stop  offset="0" style="stop-color:#3A0156"/>
+	<stop  offset="1" style="stop-color:#FF2250"/>
+</linearGradient>
+<polygon fill="url(#SVGID_1_)" points="872,317.5 859,310 859,315 738,315 738,310 725,317.5 738,325 738,320 859,320 859,325 "/>
+<polygon fill="#3A0156" points="673,317.5 660,310 660,315 539,315 539,310 526,317.5 539,325 539,320 660,320 660,325 "/>
+<polygon fill="#3A0156" points="474,317.5 461,310 461,315 342,315 342,310 329,317.5 342,325 342,320 461,320 461,325 "/>
+<g>
+	<g>
+		<line fill="none" stroke="#82C017" stroke-width="5" stroke-miterlimit="10" x1="872" y1="464.5" x2="157" y2="464.5"/>
+		<g>
+			<polygon fill="#82C017" points="160,454.5 142.7,464.5 160,474.5 			"/>
+		</g>
+	</g>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="231" y1="170.5" x2="168.9033" y2="170.5">
+	<stop  offset="0" style="stop-color:#3A0156"/>
+	<stop  offset="1" style="stop-color:#FF2250"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2_)" points="277,170.5 264,163 264,168 132,168 132,173 264,173 264,178 "/>
+<g>
+	<g>
+		<line fill="none" stroke="#82C017" stroke-width="5" stroke-miterlimit="10" x1="132" y1="612.5" x2="839" y2="612.5"/>
+		<g>
+			<polygon fill="#82C017" points="836,622.5 853.3,612.5 836,602.5 			"/>
+		</g>
+	</g>
+</g>
+<circle fill="#3A0156" cx="303" cy="317" r="26"/>
+<circle fill="#3A0156" cx="699" cy="317" r="26"/>
+<circle fill="#3A0156" cx="500" cy="317" r="26"/>
+<circle fill="#3A0156" cx="303" cy="170" r="26"/>
+<circle fill="#D9D9D9" cx="105" cy="464.5" r="8"/>
+<circle fill="#D9D9D9" cx="897" cy="612.5" r="8"/>
+<circle fill="#82C017" cx="898" cy="464" r="26"/>
+<circle fill="#FF534B" cx="898" cy="317" r="26"/>
+<path fill="none" stroke="#229FFF" stroke-miterlimit="10" d="M360.7,91H245C229,91,216,78,216,62v0c0-16,13-28.9,28.9-28.9h115.8
+	c16,0,28.9,13,28.9,28.9v0C389.7,78,376.7,91,360.7,91z"/>
+<path fill="none" stroke="#229FFF" stroke-miterlimit="10" d="M558.7,91H442.9c-16,0-28.9-13-28.9-28.9v0c0-16,13-28.9,28.9-28.9
+	h115.8c16,0,28.9,13,28.9,28.9v0C587.6,78,574.7,91,558.7,91z"/>
+<path fill="none" stroke="#D4D4D4" stroke-miterlimit="10" d="M954.6,91H838.8c-16,0-28.9-13-28.9-28.9v0c0-16,13-28.9,28.9-28.9
+	h115.8c16,0,28.9,13,28.9,28.9v0C983.5,78,970.5,91,954.6,91z"/>
+<text transform="matrix(1 0 0 1 40.7489 670.7539)"><tspan x="0" y="0" fill="#82C017" font-family="'Roboto-Regular'" font-size="13">Поставка цифрового</tspan><tspan x="-2.8" y="15.6" fill="#82C017" font-family="'Roboto-Regular'" font-size="13">товара потребителям</tspan></text>
+<text transform="matrix(1 0 0 1 33.2884 225.8595)"><tspan x="0" y="0" fill="#FF534B" font-family="'Roboto-Regular'" font-size="12">Производство цифровых</tspan><tspan x="27.1" y="14.4" fill="#FF534B" font-family="'Roboto-Regular'" font-size="12">товаров и услуг</tspan></text>
+<text transform="matrix(1 0 0 1 824.1883 514.5793)"><tspan x="0" y="0" fill="#82C017" font-family="'Roboto-Regular'" font-size="13">Предъявление Квантов</tspan><tspan x="20.5" y="15.6" fill="#82C017" font-family="'Roboto-Regular'" font-size="13">производителям</tspan></text>
+<text transform="matrix(1 0 0 1 816.5384 372.0537)"><tspan x="0" y="0" fill="#FF534B" font-family="'Roboto-Regular'" font-size="12">Оплата Квантов наличными</tspan><tspan x="-0.5" y="14.4" fill="#FF534B" font-family="'Roboto-Regular'" font-size="12">через терминалы или кассы</tspan></text>
+<text transform="matrix(1 0 0 1 618.0127 372.0537)"><tspan x="0" y="0" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">Прием наличных средств от</tspan><tspan x="18.3" y="14.4" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">потребителей в адрес</tspan><tspan x="-7.5" y="28.8" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">регионального дистрибьютора</tspan><tspan x="15.2" y="43.2" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">за полученные Кванты</tspan></text>
+<text transform="matrix(1 0 0 1 422.2227 372.0537)"><tspan x="0" y="0" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">Оформление поставленных</tspan><tspan x="-14.9" y="14.4" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">в Украину Квантов и реализация</tspan><tspan x="10.9" y="28.8" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">их потребителям через </tspan><tspan x="15.6" y="43.2" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">терминалы или кассы</tspan></text>
+<text transform="matrix(1 0 0 1 228.776 372.0537)"><tspan x="0" y="0" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">Отгрузка Квантов в адрес</tspan><tspan x="-14.1" y="14.4" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">регионального дистрибьютора</tspan></text>
+<text transform="matrix(1 0 0 1 212.1326 225.8596)"><tspan x="0" y="0" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">Выпуск эквивалентов ценности</tspan><tspan x="11.4" y="14.4" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">в электронном виде (Quant)</tspan><tspan x="61.2" y="28.8" fill="#ADADAD" font-family="'Roboto-Regular'" font-size="12">на товары</tspan></text>
+<text transform="matrix(1 0 0 1 889.0067 476.7073)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">7</text>
+<text transform="matrix(1 0 0 1 889.0067 328.0405)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">6</text>
+<text transform="matrix(1 0 0 1 690.3442 328.0405)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">5</text>
+<text transform="matrix(1 0 0 1 490.1323 328.0405)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">4</text>
+<text transform="matrix(1 0 0 1 295.3444 328.0405)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">3</text>
+<text transform="matrix(1 0 0 1 294.3443 181.0405)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">2</text>
+<text transform="matrix(1 0 0 1 97.3443 622.0406)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">8</text>
+<text transform="matrix(1 0 0 1 98.3444 182.0405)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="30.75">1</text>
+<text transform="matrix(1 0 0 1 53.0895 59.0174)"><tspan x="0" y="0" fill="#616161" font-family="'Roboto-Regular'" font-size="14">Производители</tspan><tspan x="-13.4" y="14.4" fill="#616161" font-family="'Roboto-Regular'" font-size="12">Нерезиденты Украины</tspan></text>
+<text transform="matrix(1 0 0 1 246.9085 67.0179)" fill="#28ABE4" font-family="'Roboto-Regular'" font-size="14">Netopay PDC LTD</text>
+<text transform="matrix(1 0 0 1 429.0482 67.0179)" fill="#28ABE4" font-family="'Roboto-Regular'" font-size="14">ООО «Нетопей Ди Си»</text>
+<text transform="matrix(1 0 0 1 661.1554 58.6184)"><tspan x="0" y="0" fill="#28ABE4" font-family="'Roboto-Regular'" font-size="14">Операторы</tspan><tspan x="-25.2" y="16.8" fill="#28ABE4" font-family="'Roboto-Regular'" font-size="14">терминалов и касс</tspan></text>
+<text transform="matrix(1 0 0 1 849.5123 59.0174)"><tspan x="0" y="0" fill="#616161" font-family="'Roboto-Regular'" font-size="14">Пользователи</tspan><tspan x="-11.1" y="14.4" fill="#616161" font-family="'Roboto-Regular'" font-size="12">Резиденты Украины</tspan></text>
+<rect x="288.8" y="96.4" fill="#FFFFFF" width="34.2" height="17.1"/>
+<polyline fill="#DF4E4E" points="323.1,103.3 307.7,103.3 307.7,96.4 304.2,96.4 304.2,103.3 288.8,103.3 288.8,106.7 304.2,106.7 
+	304.2,113.5 307.7,113.5 307.7,106.7 323.1,106.7 "/>
+<path fill="#DF4E4E" d="M311.7,107.8h2.6l8.9,4.4v1.3 M300.2,102.1h-2.6l-8.9-4.4v-1.3L300.2,102.1z M300.2,107.8h2.6l-11.4,5.7
+	h-2.6L300.2,107.8z M311.7,102.1h-2.6l11.4-5.7h2.6L311.7,102.1z"/>
+<path fill="#3A5A98" d="M288.8,107.8v3.8l7.6-3.8 M323.1,107.8v3.8l-7.6-3.8H323.1z M288.8,102.1v-3.8l7.6,3.8H288.8z M323.1,102.1
+	v-3.8l-7.6,3.8H323.1z M303.1,113.5v-5.2l-10.4,5.2H303.1z M308.8,113.5v-5.2l10.4,5.2H308.8z M303.1,96.4v5.2l-10.4-5.2H303.1z
+	 M308.8,96.4v5.2l10.4-5.2H308.8z"/>
+</svg>

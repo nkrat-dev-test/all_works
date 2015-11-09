@@ -2971,7 +2971,7 @@ h1 {
 .loops {
   position: absolute;
   z-index: 5;
-  background: #ccc url("http://img1.mxstatic.com/wallpapers/83a6f8feb42b24b93805c5200bbe239c_large.jpeg") center center no-repeat;
+  background: #ccc url("../images/bg.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%; }
