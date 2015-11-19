@@ -1,0 +1,436 @@
+!!! 5
+%html
+ %head
+  %title nkrat HAML
+  %meta{name:"Content-Type", charset:"UTF-8"}
+  %meta{name:"description", content:""}
+  %meta{name:"keywords", content:""}
+  %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, user-scalable=yes"}
+  
+  %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
+  
+  %link{href:"css/main.css", rel:"stylesheet", type:"text/css", media:"screen"}
+  %link{href:"https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"all"}
+  %link{href:"https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"all"}
+  
+  %script{src:"js/min/jquery-min.js"}
+  %script{src:"js/min/easing-min.js"}
+  %script{src:"js/min/scroll-min.js"}
+  %script{src:"js/min/head-min.js"}
+  %script{src:"js/min/headjq-min.js"}
+  
+  %script{src:"js/min/form-min.js"}
+  %script{src:"js/min/check-min.js"}
+  
+  %script{src:"//cdn.jsdelivr.net/vivus/latest/vivus.min.js"}
+    
+ 
+ %body 
+  %script{src:'../mail/mail-min.js'}
+  .thk.off	Ваше повідомлення відправлено. Дякуємо!
+  
+  
+  %header
+   .logo
+    %a{href:'/'}
+     %img{src:"images/svg/top_logo.svg"}
+   .langnav UA
+   .mobnav MЕНЮ
+   
+   .langs
+    %ul
+     %li
+      %a{href:'#'} UA
+     %li
+      %a{href:'#'} EN
+     %li
+      %a{href:'#'} DE
+   
+   .nav
+    %ul
+     %li
+      %a{href:'#'}  About us
+     %li
+      %a{href:'#'}  What we do
+     %li
+      %a{href:'#'}  Services
+     %li
+      %a{href:'#'}  Cooperation
+     %li
+      %a{href:'#'}  Contacts 
+      
+     
+  %section.start
+   .overlay
+    .hello-nkrat
+     .hello-block
+      .super-title N.KRAT GROUP
+      .super-graph
+       #start-graphics
+      .super-anno The new kind of financial solution and security services
+    .next 
+    .scroll.animated.bounceMouse 
+   .loops 
+   
+   
+    #slides
+     .slides-container
+      %img{src:""}
+      %img{src:""}
+      
+  
+  
+  
+  
+  
+  %section.about
+   .inner
+    .notebook
+     .inlaptop
+      .laptop-rel#console
+       .laptop-side-l{:"data-parallax" => '{"y": -480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'}
+       .laptop-side-r{:"data-parallax" => '{"y": 480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'}
+    .about_text
+     %p N.KRAT объединяет финансовые услуги и информационные технологии в единые уникальные решения и платформы. N.KRAT объединяет более 30 высококвалифицированных экспертов, которые обладают многолетним опытом разработки специализированных IT-решений и технологий, и сотрудничает с финансовыми компаниями, технологическими предприятиями, учеными и разработчикам в Европе, Азии и Америке. N.KRAT предлагает решения для банков и финансовых учреждений, предприятий розничной торговли, спортивных клубов, некоммерческих организаций, государственных и муниципальных органов власти, компаниям электронной коммерции и конечным пользователям
+     .office
+      .one_office
+       .o_location Central Office
+       .o_name N.KRAT Services GmbH
+       .o_info Dortmund 
+       .o_info de@nkrat.com
+      
+      .one_office.brd
+       .o_location Office in Ukraine
+       .o_name «N.KRAT Ukraine» LLC
+       .o_info Kiev 
+       .o_info de@nkrat.com
+      
+      .one_office.brd
+       .o_location Office in Moldova
+       .o_name «N.KRAT Moldova»
+       .o_info Chisinau 
+       .o_info de@nkrat.com
+  
+  
+  
+  %section.history.off
+   .story_head our History
+   .all_story
+    .story_line
+     
+     .period-past
+      .info_drag click and move
+     .period-1.pbl.bcol_1
+      .period_text.incolor_1
+       %p Development and implementation of a payment system using smart cards and cryptographic technologies
+       %p Development of the first version of the Certification Authority
+     
+     
+     .period-2.pbl.bcol_2
+      .period_text.incolor_2
+       %p Development and implementation of user authentication using smart cards, USB-tokens and biometric technology for:
+       %ul
+        %li systems access control and time attendance
+        %li access to corporate information resources (Single-Sign-On)
+        %li systems for data encryption and security
+        %li passport and border control sytems	
+        
+     
+     
+     
+     .period-3.pbl.bcol_3
+      .period_text.incolor_3
+       .period-part Development and commissioning of the platform biometric identification GAUS
+       .period-part Development of the service authorization of payment transactions on the Internet using credit cards and other CardCheckService
+       .period-part Participation in projects for the development and implementation<br>of e-government
+       .period-part Implementation of the system of payment for goods and services using biometric technology in retail RAFIS.Online
+       .period-part Online service buying/selling electronic currencies and pay for goods on the Internet Cashtransfer24       
+     
+     .period-feature
+     
+     
+     .scale_line
+     .years_line
+      .year 1990
+      .year 1991
+      .year 1992
+      .year 1993
+      .year.numcol1 1994
+      .year.numc 1995
+      .year.numc 1996
+      .year.numc 1997
+      .year.numc 1998
+      .year.numc 1999
+      .year.numcol2 2000
+      .year.numc 2001
+      .year.numc 2002
+      .year.numc 2003
+      .year.numc 2004
+      .year.numcol3 2005
+      .year.numc 2006
+      .year.numc 2007
+      .year.numc 2008
+      .year.numc 2009
+      .year.numc 2010
+      .year.numc 2011
+      .year.numc 2012
+      .year.numc 2013
+      .year.numc 2014
+      .year.numc 2015
+      .year 2016
+    
+  
+  
+               
+	      
+              
+      
+  %section.sys.app-n-bg
+   .inner
+    %h1.underline Platforms and systems we made
+    .app_anno
+     .in-app.mar-r
+      .app-img
+       %img{src:'images/slides/app-g.svg'}
+      .app-title.app-light Авторизация пользователей и платёжных транзакций
+      .app-desc.app-light2 GAUS (Global Authentication Service) – это платформа для хранения и управления параметрами авторизации, которая предоставляет возможность авторизации пользователей и подтверждения транзакций в режиме реального времени с использованием мобильных устройств, смарт-карт, usb-токенов и биометрической технологии.    
+     .app_hero
+      #fingerprint  
+        
+  %section.sys.app-n-bg2
+   .inner
+    .abs_block{:"data-parallax" => '{"y": 300,   "distance": 900, "smoothness": 10, "duration":200}'}
+     .screen_on
+     .screen_off
+    .app_anno
+     .app_hero
+      
+     .in-app.mar-l
+      .app-img
+       %img{src:'images/slides/app-n.svg'}
+      .app-title.app-dark Эмиссия и управление альтернативными электронными валютами
+      .app-desc Netopay – это технология, обеспечивающая возможность эмиссии и управления альтернативными электронными валютами и расчётными единицами, которая предоставляет набор необходимых инструментов для построения финансовых сервисов и решений любой сложности и масштаба
+  
+  
+ 
+      
+  %section.tech2
+   %h1 sevices and techs
+   .inner
+    .tech2_block
+     
+     .one_tech2.lt
+      .flip
+       .card
+        .face.front.digital
+         .main_app_title Netopay<br>Digital
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Digital
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)
+     
+     .one_tech2.mt
+      .flip
+       .card
+        .face.front.loans
+         .main_app_title Netopay<br>Loans 
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Digital
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)
+        
+     .one_tech2.rt
+      .flip
+       .card
+        .face.front.credits
+         .main_app_title Netopay<br>Credit
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Credit
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)
+        
+     .one_tech2.bl
+      .flip 
+       .card
+        .face.front.trade
+         .main_app_title Netopay<br>Trade
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Trade
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.) 
+        
+     .one_tech2
+      .flip
+       .card
+        .face.front.fss
+         .main_app_title Фискальная расчетнаяdsaa система 
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Фискальная расчетнаяjdf система 
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)
+       
+                
+     
+     
+     .one_tech2.br
+      .flip
+       .card
+        .face.front.clubs
+         .main_app_title Netopay<br>Clubs
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Clubs
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)
+        
+     
+     
+     .one_tech2.lb
+      .flip
+       .card
+        .face.front.gift
+         .main_app_title Netopay<br>Gift
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Gift
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)
+        
+     .one_tech2.mb
+      .flip
+       .card
+        .face.front.express
+         .main_app_title Netopay<br>Express
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Express
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)        
+     
+     .one_tech2.rb
+      .flip
+       .card
+        .face.front.finance
+         .main_app_title Netopay<br>Finance
+         .click click for more details
+         .faceimg
+          #service1.service
+        .face.back
+         .inback
+          .back_title Netopay Finance
+          .back_desc платформа, обеспечивающая возможность поставки и оплаты цифровых товаров и услуг (игровые деньги, программное обеспечение, видео- и аудиоконтент, книги, музыка и др.)                       
+	      
+      
+      
+    
+  %section.coop
+   .inner
+    %h1 N.KRAT GROUP ПРИГЛАШАЕТ<br>К СОТРУДНИЧЕСТВУ
+    .coops_block
+     .one_coop
+      .coop_title Банки
+      .coop_desc Внедрение современных финансовых услуг и сервисов с использованием технологии Netopay. Эмиссия и управление электронными деньгами 
+     
+     .one_coop
+      .coop_title Поставщиков цифрового контента
+      .coop_desc Трансграничная поставка и продажа цифрового контента на территории Украины
+      
+     .one_coop
+      .coop_title Операторов терминальных сетей
+      .coop_desc Онлайн фискализация расчетно-кассовых операций. Продажа цифровых цифрового контента
+      
+     .one_coop
+      .coop_title Финансовые и общественные организации
+      .coop_desc Онлайн фискализация расчетно-кассовых операций. Продажа цифровых цифрового контента 
+      
+     .one_coop
+      .coop_title Предприятия розничной торговли и электронной коммерции
+      .coop_desc Организация системы лояльности, упрощение взаиморасчётов, оплата товаров и услуг с использованием альтернативных электронных валют. Онлайн фискализация расчетно-кассовых операций
+      
+     .one_coop
+      .coop_title Предприятия оптовой и розничной торговли
+      .coop_desc Оптимизация взаиморасчетов путем использования современных финансовых инструментов. Построение электронных торговых площадок с использованием современных  финансовых инструментов  
+      
+     .one_coop
+      .coop_title Клубы и социальные сообщества
+      .coop_desc Внедрение клубных карт, организация системы лояльности, введение в оборот клубных расчетных единиц для оплаты товаров и услуг потребителями 
+      
+     .one_coop
+      .coop_title Операторы региональных денег
+      .coop_desc Автоматизация, обеспечение безопасности и повышение эффективности управления региональными деньгами 
+      
+     .one_coop
+      .coop_title Операторы мобильной связи
+      .coop_desc Внедрение технологии идентификации пользователей и подтверждения транзакций с использованием SIM-карт
+                
+     .one_coop
+      .coop_title Платёжные системы
+      .coop_desc Приём платежей и оплата цифрового контента с использованием электронных валют
+      
+     .one_coop
+      .coop_title Государственные службы и органы власти
+      .coop_desc Внедрение финансовой экосистемы для  обеспечение развития региона. Обеспечение фискализации расчетно-кассовых операций в режиме реального времени            
+  
+  %script{src:'js/min/sl-min.js'}
+  
+  %section.contacts
+   .inner
+    %h1.center Контакти
+    .contacts-block
+     .contacts-left
+      .myform
+       %form{id:'myform', method:'post', action:''}
+        %input{class:'field', type:'text', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
+        %input{class:'field', type:'text', placeholder:'Тема', id:'sb', name:'sb', onkeyup:'check();'}
+        %textarea{class:'field tx', placeholder:'Текст повідомлення', id:'feed', name:'feed'}
+        %button{type:'submit', id:'send', class:'btn disable'} Відправити
+     .contacts-right
+      .contacts-details
+       %p.hea N.KRAT Group GmbH
+       %p.sep 44287 м. Дортмунд, Німеччина
+       %p ул. Рінгофенштрассе, 43
+       %p.sep Телефон: +49 231 444 781 00
+       %p Факс: +49 231 444 781 01
+       %p e-mail: de@nkrat.net       
+      .contacts-details.add-details
+       %p.hea Представництво в Україні
+       %p.sep вул. Новокостянтинівська, 13/10
+       %p 04080 м. Київ, Україна
+       %p.sep Телефон: +380 44 205 56 77
+       %p Факс: +380 44 205 56 78
+       %p e-mail: ua@nkrat.net 
+     .clear   
+  
+  .footer
+   .fleft
+    %img{src:'images/svg/bottom_logo.svg'}
+   .fright.imp
+    %a{href:'imprint.html', class:'to_imp'} Imprint
+   .clear
+  
+    
+  %script{src:"js/min/anim-min.js"}
+  
+   
+      

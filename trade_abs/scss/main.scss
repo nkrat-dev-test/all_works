@@ -1,0 +1,43 @@
+@import 'normalize';
+@import 'top';
+@import 'bottom';
+
+.clear{clear:both;}
+.off{display:none;}
+body{background: #333; color:#fff; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 14px;}
+
+
+.overlay{position: fixed; width: 100%; height: 100%; top:0; left:0; z-index:100500; background: rgba(0,0,0,0.5);}
+
+#left-arrow{position: absolute; width: 5%; left:0; height: 100%; z-index:50; cursor:pointer;}
+#right-arrow{position: absolute; width: 5%; right:0; height: 100%; z-index:50; cursor:pointer;}
+
+#top{position: fixed; width: 100%; top:10px; z-index: 100; padding: 30px 0 0 0;}
+#bottom{position: fixed; width: 100%; bottom:20px; z-index:100; padding: 0 0 20px 0; color:#666;}
+.inside{width: 90%; margin: 0 auto; position: relative; display:block;}
+.bordered{border-top:1px solid #444; padding: 20px 0;}
+
+
+
+.arrow1{background: url('../images/svg/testarrow1.svg') center center no-repeat; display:block; width: 100%; height: 100%;}
+.arrow2{background: url('../images/svg/testarrow2.svg') center center no-repeat; display:block; width: 100%; height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main_part{position: relative; width: 90%; background: transparent; margin: 0 auto; height: 100%; font-size: 0;}
+
+.side{position: relative; width: 300px; height: 100%; display:inline-block; vertical-align: middle; font-size: 13px;}
+.col{background: #555;}
+
+.sidecont{width: 100%; height: 40%; position: absolute; top:50%; margin-top: -20%; font-size: 2.2em; font-weight: 100;}
