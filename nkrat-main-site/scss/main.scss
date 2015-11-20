@@ -279,9 +279,22 @@ $background-color:green;
 .tech2{padding: 100px 0;}
 .tech2_block{font-size: 0; text-align: center; margin-top: 40px;}
 .one_tech2{display:inline-block; vertical-align: top; width: 330px; height: 330px; position: relative;}
-.faceimg{width: 100%; height: 100%; position: relative; z-index:1; display:block;}
+.faceimg{width: 50px; height: 50px; background:  url('../images/anims/minimouse.svg') center center no-repeat; background-size: cover; position: relative; z-index:1; display:block; margin-left: -25px; left:50%; margin-top: 60px; opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+             -moz-transition: all 0.3s ease-out;
+             -o-transition: all 0.3s ease-out;
+             transition: all 0.3s ease-out;
+}
+.clicktip{width: 50px; height: 50px; background: url('../images/anims/clicktip.svg') center center no-repeat; background-size: cover; position: absolute;}
 
-.main_app_title{position: absolute; width: 100%; z-index:2; top:50%; transform: translateY(-50%); text-transform: uppercase; font-size: 24px; font-family: 'pbold';}
+.main_app_title{position: absolute; width: 100%; z-index:2; top:50%; transform: translateY(-50%); text-transform: uppercase; font-size: 24px; font-family: 'pbold';
+	-webkit-transition: all 0.4s ease-out;
+             -moz-transition: all 0.4s ease-out;
+             -o-transition: all 0.4s ease-out;
+             transition: all 0.4s ease-out;
+}
+
+
 .inback{display:block; padding: 20px; text-align: left;}
 .back_title{font-size: 16px; text-transform: uppercase; font-family: 'pbold';}
 .back_desc{font-size: 14px; margin-top: 20px;}
@@ -332,34 +345,111 @@ $bc:#eee;
     background: #fff;
     font-size: 14px;
     cursor: pointer;
-    color:#ccc;
+    color:#777;
             -webkit-transition: all 0.3s ease-out;
              -moz-transition: all 0.3s ease-out;
              -o-transition: all 0.3s ease-out;
              transition: all 0.3s ease-out;
+}
+.front:hover{background: #fafbfc!important;
+.main_app_title{
+-webkit-transform: rotate(-360deg);
+-moz-transform: rotate(-360deg);
+-o-transform: rotate(-360deg);
+transform: rotate(-360deg);
+}
+.faceimg{
+opacity: 1;
+-webkit-transform: rotate(-360deg);
+-moz-transform: rotate(-360deg);
+-o-transform: rotate(-360deg);
+transform: rotate(-360deg);
+}
+
+.digital{color:#442C65!important;}
+.loans{color:#ff2250!important;}
+.credits{color:#ff5055!important;}
+.trade{color:#09A1DA!important;}
+.clubs{color:#FF5C00!important;}
+.fss{color:#021542!important;}
+.gift{color:#009E97!important;}
+.express{color:#FFCA01!important;}
+.finance{color:#2CDE73!important;}
+
+
+
 }
 
 
 
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
-    background: #fafbfc;
-    color: black;
+    background: #192C3D;
+    color: #fff;
     cursor: default;
+
 }
 
-.digital{color:#10244C!important;}
-.digital:hover{color:green!important;}
-
-.loans{color:#ff2250!important;}
 
 
-.credits{color:#ff5055!important;}
-.trade{color:#09A1DA!important;}
-.clubs{color:#FA8A5F!important;}
-.fss{color:red!important;}
-.gift{color:red!important;}
-.express{color:red!important;}
-.finance{color:red!important;}
+//.digital{color:#442C65!important;}
+//.loans{color:#ff2250!important;}
+//.credits{color:#ff5055!important;}
+//.trade{color:#09A1DA!important;}
+//.clubs{color:#FA8A5F!important;}
+//.fss{color:red!important;}
+//.gift{color:red!important;}
+//.express{color:#FFDA00!important;}
+//.finance{color:green!important;}
 
+
+
+
+
+/*
+==============================================
+pulse
+==============================================
+*/
+
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		//transform: scale(1);
+		opacity: 0.1;		
+	}
+	50% {
+		//transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		//transform: scale(1);
+		opacity: 0.1;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		//-webkit-transform: scale(1);
+		opacity: 0.1;		
+	}
+	50% {
+		//-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		//-webkit-transform: scale(1);
+		opacity: 0.1;	
+	}			
+}
 

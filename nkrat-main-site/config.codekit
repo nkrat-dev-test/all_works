@@ -20,6 +20,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/anims\/clicktip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15911,
+		"inputAbbreviatedPath": "\/images\/anims\/clicktip.png",
+		"outputAbbreviatedPath": "\/images\/anims\/clicktip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/anims\/minimouse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17382,
+		"inputAbbreviatedPath": "\/images\/anims\/minimouse.png",
+		"outputAbbreviatedPath": "\/images\/anims\/minimouse.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/anims\/screen_off.png": {
 		"fileType": 32768,
 		"ignore": 0,
