@@ -30,17 +30,17 @@ $("#sys-4").click(function(){
 $('.flip').click(function(){
 	    $('.flip').find('.card').removeClass('flipped');
         $(this).find('.card').addClass('flipped');
-        return false;
+        return true;
     });
 
 
-var start = new Vivus('start-graphics', {type: 'async', file:'../../images/anims/start.svg',  duration: 290, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
+var start = new Vivus('start-graphics', {type: 'async', file:'images/anims/start.svg',  duration: 290, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
 
-var fingerprint = new Vivus('fingerprint', {type: 'delayed', file:'../../images/anims/print.svg',  duration: 190, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
+var fingerprint = new Vivus('fingerprint', {type: 'delayed', file:'images/anims/print.svg',  duration: 190, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
 
-var console = new Vivus('console', {type: 'oneByOne', file:'../../images/anims/console2.svg',  duration: 350, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
+var console = new Vivus('console', {type: 'oneByOne', file:'images/anims/console2.svg',  duration: 350, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
 
-var service1 = new Vivus('service1', {type: 'delayed', file:'../../images/anims/service1.svg',  duration: 350, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
+//var service1 = new Vivus('service1', {type: 'delayed', file:'../../images/anims/service1.svg',  duration: 350, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
 
 
 
