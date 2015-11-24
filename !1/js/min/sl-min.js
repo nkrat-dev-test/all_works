@@ -1,0 +1,1 @@
+$(".flip").click(function(){return $(".flip").find(".card").removeClass("flipped"),$(this).find(".card").addClass("flipped"),!0}),$(document).ready(function(){var f=$(".app-n-bg2");$(window).scroll(function(){var f=$(this).scrollTop(),n=$(".app-n-bg2").offset().top;f>=n&&$(".screen_off").fadeOut(700)})});

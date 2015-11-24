@@ -7,7 +7,7 @@ Lang.prototype.pack.ua = {
 		
 	},
 	"regex": [
-		[/Budget/, "งบประมาณ"],
+		[/Budget/, ""],
 		[/^Something at start of text/, ""],
 		[/This will be case insensitive/i, ""]
 	]
@@ -24,7 +24,7 @@ Lang.prototype.pack.ru = {
 		
 	},
 	"regex": [
-		[/Budget/, "งบประมาณ"],
+		[/Budget/, ""],
 		[/^Something at start of text/, ""],
 		[/This will be case insensitive/i, ""]
 	]

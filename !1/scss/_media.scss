@@ -1,0 +1,175 @@
+@media screen and (max-width: 1023px) {
+	
+.desk{display:none;}
+.micro{display: block!important;}	
+
+.inner{width: 100%!important;}
+
+.contacts{padding: 50px 0;
+	h1{font-size: 24px; padding-bottom: 20px;}
+}
+.contacts-block{ margin-top: 20px;}
+.contacts-left{display:block; width: 100%; margin: 0 auto;}
+.contacts-right{display:block!important; width: 100%; margin: 0 auto;}
+.contacts-details{margin: 40px auto; text-align: center; width: 90%;}
+.myform{width: 90%; display:inline-block;  margin: 0 auto!important;}
+.field{width: 100%;}	
+	
+	
+	
+	
+.next{position: absolute; width:30px; height: 30px; bottom:7%; left:50%; margin-left:-15px; background: url('../images/svg/mouse.svg'); display:block;}
+.scroll{position: absolute; width:30px; height: 30px; bottom:7%; left:50%; margin-left:-15px; display:block; background: url('../images/svg/d.svg');}
+.hello{width:$hello; height: $hello; display: block; position: absolute; left:50%; top:50%; margin-left: - $hello / 2; margin-top: - $hello / 2;}
+
+
+.logo{display:block; width: 120px; margin-top: 8px;}
+
+
+
+
+
+$hello:100%;
+
+
+
+.start{position: relative; width: 100%; height: 100%; min-height: 10px!important;}
+.overlay{position: absolute; z-index: 10; background: rgba(0,0,0,0.0); width: 100%; height: 100%;}
+.loops{position: absolute; z-index: 5; background: #fafbfc; width: 100%; height: 100%;}
+.next{position: absolute; width:36px; height: 36px; bottom:7%; left:50%; margin-left:-18px; background: url('../images/svg/mouse.svg'); display:block;}
+.scroll{position: absolute; width:36px; height: 36px; bottom:7%; left:50%; margin-left:-18px; display:block; background: url('../images/svg/d.svg');}
+.hello{width:$hello; height: $hello; display: block; position: absolute; left:50%; top:50%; margin-left: - $hello / 2; margin-top: - $hello / 2;}
+.hello-nkrat{width: 100%; margin: 0 auto;  height: 100%; position: relative;}
+.hello-block{top:50%; transform: translateY(-50%); position: absolute; width: 100%;text-align: center;}
+
+$krat:#354459;
+.super-title{font-family: 'pbold'; font-size: 30px; color:$krat;}
+.super-graph{display:block; margin: 20px auto;}
+.super-anno{font-size: 14px; font-family: 'plight'; color:$krat;}
+
+
+.about-mob{width: 100%;  background: #354459; overflow-x: hidden; padding:40px 0 30px 0;
+	h1{font-size: 22px; color:#fff;}
+	p{color:#fff; width: 90%; margin: 20px auto; font-size: 14px;}
+}
+
+
+$appcolor:#fafbfc;
+.grad{padding: 30px 0; 
+	h1{font-size: 20px; color:#fff;}
+  background: -webkit-linear-gradient(#354459, #442C65); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#354459, #442C65); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#354459, #442C65); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#354459, #442C65); /* Standard syntax */
+}
+.what-we-do{width: 100%; background: #442C65; min-height: 150px; padding-bottom: 50px; color:#FFF;}
+
+.what-we-do2{width: 100%; background: $appcolor; min-height: 150px; padding: 50px 0; color:#354459;}
+
+.app_anno{font-family: 'pbold'; width: 90%; margin: 10px auto; font-size: 16px; text-align: center;}
+.app_desc{width: 90%; margin: 0 auto; font-size: 14px; text-align: center;}
+
+
+.app_pic{display: block; width: 20%; height: auto; display: block; margin: 0 auto;}
+.app_logo{display: block; width: 60%; height: auto; display: block; margin: 0 auto;}
+.app_desc_mob{width: 90%; margin: 5px auto;  font-size: 14px; text-align: center;}
+
+
+.grad2{height: 60px; width: 100%;
+  background: -webkit-linear-gradient(#442C65, $appcolor); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#442C65, $appcolor); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#442C65, $appcolor); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#442C65, $appcolor); /* Standard syntax */
+}
+
+.grad3{height: 10px; width: 100%;
+  background: -webkit-linear-gradient($appcolor,#fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($appcolor,#fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($appcolor,#fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($appcolor,#fff); /* Standard syntax */
+}
+
+
+
+
+
+
+
+.tech-mob{width: 100%; min-height: 100px; position: relative;padding: 40px 0;
+	h1{font-size: 18px;}
+	.serv_block{width: 100%; min-height: 100px; margin: 20px auto; color:#354459;}
+	
+	.one_serv{width: 90%; margin: 10px auto; min-height: 100px; display:block; padding: 20px; box-sizing: border-box; border:0px solid #eee;
+		box-shadow: 0 0 6px rgba(0,0,0,0.13);
+	}
+	.serv_title{font-size: 18px; text-transform: uppercase; font-family: 'Pbold';}
+	.serv_cont{font-size: 14px; margin-top: 10px;}
+	
+.c1{background:#442C65!important;}
+.c2{background:#ff2250!important;}
+.c3{background:#ff5055!important;}
+.c4{background:#09A1DA!important;}
+.c5{background:#FF5C00!important;}
+.c6{background:#021542!important;}
+.c7{background:#009E97!important;}
+.c8{background:orange!important;}
+.c9{background:#2CDE73!important;}
+
+}
+
+
+.coop{background: #FAFBFC; padding: 40px 0; border-bottom: 0px solid #eee;
+	h1{font-size: 20px;}
+	.coops_block{font-size: 0; margin: 10px auto; width: 90%;}
+	.one_coop{display:inline-block; vertical-align: top; font-size: 14px; margin: 10px auto; width: 100%; border-bottom: 0px solid #eee;  border-bottom: 1px solid #eee; padding-bottom: 20px; }
+	.coop_title{font-family: 'pbold'; font-size: 16px; color:#192C3D;}
+	.coop_desc{color:#354459; margin-top: 10px;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$sky:#229fff;
+
+.thk{position: fixed; width: 90%; padding: 50px 0!important; left:50%; margin-left: -45%; background: $sky; z-index: 300500;text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); font-size: 16px; font-weight: 400; visibility: hidden; color:#fff;
+}
+
+
+.btn{display:inline-block; border:1px solid $btcolor;  font-weight: 500; border-radius: 4px; background: $btcolor; padding: 16px 30px; color:#fff; font-size: 18px; width: 100%;
+	-webkit-transition: all 0.1s ease-out;
+             -moz-transition: all 0.2s ease-out;
+             -o-transition: all 0.2s ease-out;
+             transition: all 0.2s ease-out;
+}
+
+.btn:hover{background:$bthover; border-color:$bthover;}
+
+
+
+.impr{width: 90%;}
+
+
+
+}
+
+

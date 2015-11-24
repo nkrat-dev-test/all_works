@@ -1,22 +1,3 @@
-$("#sys-1").click(function(){
-    $("div[id^='sys-']").fadeOut(500);
-    $("#sys-2").fadeIn(500);
-});
-
-$("#sys-2").click(function(){
-    $("div[id^='sys-']").fadeOut(500);
-    $("#sys-3").fadeIn(500);
-});
-
-$("#sys-3").click(function(){
-    $("div[id^='sys-']").fadeOut(500);
-    $("#sys-4").fadeIn(500);
-});
-
-$("#sys-4").click(function(){
-    $("div[id^='sys-']").fadeOut(500);
-    $("#sys-1").fadeIn(500);
-});
 
 
 

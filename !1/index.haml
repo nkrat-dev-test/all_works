@@ -1,0 +1,427 @@
+!!! 5
+%html
+ %head
+  %title NKRAT TEST HAML
+  %meta{name:"Content-Type", charset:"UTF-8"}
+  %meta{name:"description", content:""}
+  %meta{name:"keywords", content:""}
+  %meta{name:"viewport", content:"width=device-width, initial-scale=1.0, user-scalable=yes"}
+  
+  %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
+  
+  %link{href:"css/main.css", rel:"stylesheet", type:"text/css", media:"screen"}
+  %link{href:"https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"screen"}
+  
+  %script{src:"js/min/jquery-min.js"}
+  %script{src:"js/min/easing-min.js"}
+  %script{src:"js/min/scroll-min.js"}
+  %script{src:"js/min/head-min.js"}
+  %script{src:"js/min/headjq-min.js"}
+  %script{src:"js/min/slides-min.js"}
+  %script{src:"js/min/form-min.js"}
+  %script{src:"js/min/check-min.js"}
+  %script{src:"js/min/vivus-min.js"}
+  
+  
+  
+  %script{src:"js/min/cookie-min.js"}
+  %script{src:"js/min/lang-min.js"}
+  %script{src:"js/min/langpack-min.js"}
+  %script var lang = new Lang('en'); 
+ 
+ %body 
+  %script{src:'../mail/mail-min.js'}
+  .thk.off{:lang=>'en'}	Your message was send! Thank you!
+  
+  #preloader
+   .spinner#micro
+  %script{src:"js/min/micro-min.js"}
+  %header
+   .logo
+    %a{href:'/'}
+     %img{src:"images/svg/top_logo.svg"}
+   .langnav{:lang=>"en"} EN
+   .mobnav{:lang=>"en"} MENU
+   
+   .langs
+    %ul
+     %li
+      %a{href:'#', :onclick=>"window.lang.change('en'); return false;"} EN
+     %li
+      %a{href:'#', :onclick=>"window.lang.change('ru'); return false;"} RU 
+     
+   
+   .nav
+    %ul
+     %li
+      %a{href:'#about', :lang=>'en'}  About us
+     %li
+      %a{href:'#wemade', :lang=>'en'}  What we do
+     %li
+      %a{href:'#tech', :lang=>'en'}  Services
+     %li
+      %a{href:'#coop', :lang=>'en'}  Cooperation
+     %li
+      %a{href:'#contacts', :lang=>'en'}  Contacts 
+      
+  %section.start
+   .overlay
+    .hello-nkrat
+     .hello-block
+      .super-title N.KRAT GROUP
+      .super-graph
+       #start-graphics
+      .super-anno{:lang=>'en'} The new kind of financial solution and security services
+    .next 
+    .scroll.animated.bounceMouse 
+   .loops 
+      
+  
+  
+  %section.about#about.desk
+   .inner
+    .notebook
+     .inlaptop
+      .laptop-rel#console
+       .laptop-side-l{:"data-parallax" => '{"y": -480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'}
+       .laptop-side-r{:"data-parallax" => '{"y": 480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'}
+    .about_text
+     %h1#from-about-title{:lang=>'en'} About us
+     %p#from-about-text{:lang=>'en'} N.KRAT Group conducts the development and implementation of innovative financial services using modern informational technologies. We integrates financial services and informational technologies in unique single solutions and platforms. Our team joins highly qualified professionals from the field of finance, IT-technology and law. We provides solutions to banks and financial institutions, small and medium-sized business, nonprofit organizations, state and municipal authorities, communities and social organizations
+     .office
+      .one_office
+       .o_location{:lang=>'en'} Central Office
+       .o_name N.KRAT Services GmbH
+       .o_info{:lang=>'en'} Dortmund 
+       .o_info de@nkrat.com
+      
+      .one_office.brd
+       .o_location{:lang=>'en'} Office in Ukraine
+       .o_name «N.KRAT Ukraine» LLC
+       .o_info{:lang=>'en'} Kyiv 
+       .o_info ua@nkrat.com
+      
+      .one_office.brd
+       .o_location{:lang=>'en'} Office in Moldova
+       .o_name «N.KRAT Moldova»
+       .o_info{:lang=>'en'} Chisinau 
+       .o_info md@nkrat.com
+  
+  
+  %section.about-mob.micro
+   %h1#to-about-title{:lang=>'en'}
+   %p#to-about-text{:lang=>'en'}
+  
+  
+  #wemade  
+   %section.sys.app-n-bg.desk
+    .inner
+     %h1.underline#from-wwd-title{:lang=>'en'} Platforms and systems we create
+     .app_anno
+      .in-app.mar-r
+       .app-img
+        %img{src:'images/slides/app-g.svg'}
+       .app-title.app-light#out-app-title-1{:lang=>'en'} Authentication of a user and payment transactions
+       .app-desc.app-light2#out-app-desc-1{:lang=>'en'} GAUS (Global Authentication Service) – is a platform for storing and managing the authorization settings that enables user authorization and confirm the transaction in real-time using mobile devices, smart cards, usb tokens and biometric technologies    
+      .app_hero
+       #fingerprint  
+        
+   %section.sys.app-n-bg2.desk
+    .inner
+     .abs_block{:"data-parallax" => '{"y": 300,   "distance": 900, "smoothness": 10, "duration":200}'}
+      .screen_on
+      .screen_off
+     .app_anno
+      .app_hero
+      
+      .in-app.mar-l
+       .app-img
+        %img{src:'images/slides/app-n.svg'}
+       .app-title.app-dark#out-app-title-2{:lang=>'en'} The issuance and management of alternative electronic currencies
+       .app-desc#out-app-desc-2{:lang=>'en'} Netopay is the technology which provides the possibility to issue and manage alternative electronic currencies and settlement units providing necessary tools to create financial solutions and services
+       
+  
+  %section.grad.micro
+   %h1#to-wwd-title{:lang=>'en'}     
+  %section.what-we-do.micro
+   .app_pic
+    %img{src:'images/anims/g.svg'}
+   .app_logo
+    %img{src:'images/slides/app-g-mob.svg'}
+   .app_anno#in-app-title-1{:lang=>'en'} 
+   .app_desc#in-app-desc-1{:lang=>'en'}   
+  %section.what-we-do2.micro
+   .app_pic
+    %img{src:'images/anims/n.svg'}
+   .app_logo
+    %img{src:'images/slides/app-n-mob.svg'}
+   .app_anno#in-app-title-2{:lang=>'en'} 
+   .app_desc#in-app-desc-2{:lang=>'en'}
+      
+  
+  
+  
+  %section.tech2#tech.desk
+   %h1#from-1{:lang=>'en'} Services and technologies
+   .inner
+    .tech2_block
+     
+     .one_tech2.lt
+      .flip
+       .card
+        .face.front
+         .main_app_title.digital Netopay<br>Digital
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back.digital-bg
+         .inback
+          .back_title#from-title-1 Netopay Digital
+          .back_desc#from-cont-1{:lang=>'en'} Netopay Digital is a platform, which ensure the possibility of delivery and payment for digital goods and services (play money, software, video and audio content, books, music etc.)
+     
+     .one_tech2.mt
+      .flip
+       .card
+        .face.front
+         .main_app_title.loans Netopay<br>Loans 
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-2 Netopay Loans
+          .back_desc#from-cont-2{:lang=>'en'} Netopay Loans is an automated online service that provides individuals with the possibility of obtaining and granting loans online regardless of region of residence        
+     .one_tech2.rt
+      .flip
+       .card
+        .face.front
+         .main_app_title.credits Netopay<br>Credit
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-3 Netopay Credit
+          .back_desc#from-cont-3{:lang=>'en'} Netopay Credit is a service that provides the possibility for international interaction of exchanges of microcrediting
+        
+     .one_tech2.bl
+      .flip 
+       .card
+        .face.front.trade
+         .main_app_title.trade Netopay<br>Trade
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-4 Netopay Trade
+          .back_desc#from-cont-4{:lang=>'en'} Netopay Trade is a platform that allows to optimize the mutual settlements between the enterprises of wholesale and retail trade with the help of modern financial instruments 
+        
+     .one_tech2
+      .flip
+       .card
+        .face.front
+         .main_app_title.fss{:lang=>'en'} Fiscal settlement system (FSS) 
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-5{:lang=>'en'} Fiscal settlement system (FSS) 
+          .back_desc#from-cont-5{:lang=>'en'} Fiscal settlement system – is an automated system for accounting the cash transactions which is implemented as a cloud solution, accessible to members via a secure Internet communication channels
+       
+                
+     
+     
+     .one_tech2.br
+      .flip
+       .card
+        .face.front
+         .main_app_title.clubs Netopay<br>Clubs
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-6 Netopay Clubs
+          .back_desc#from-cont-6{:lang=>'en'} Netopay Clubs is a platform providing the possibility of introducing club cards, the organization of loyalty systems, the implementation of club settlement  units into turnover for the payment of goods and services by the clients
+        
+     
+     
+     .one_tech2.lb
+      .flip
+       .card
+        .face.front
+         .main_app_title.gift Netopay<br>Gift
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-7 Netopay Gift
+          .back_desc#from-cont-7{:lang=>'en'} Netopay Gift is a platform that provides the possibility to build a personalized loyalty system for customers and also facilitate settlements between the retailers and consumers of goods and services
+        
+     .one_tech2.mb
+      .flip
+       .card
+        .face.front
+         .main_app_title.express Netopay<br>Express
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-8 Netopay Express
+          .back_desc#from-cont-8{:lang=>'en'} Netopay Express is the solution for improvement  the efficiency and profitability of passenger transport in various industries, including railway        
+     
+     .one_tech2.rb
+      .flip
+       .card
+        .face.front
+         .main_app_title.finance Netopay<br>Finance
+         .click{:lang=>'en'} Read more
+         .faceimg
+          
+        .face.back
+         .inback
+          .back_title#from-title-9 Netopay Finance
+          .back_desc#from-cont-9{:lang=>'en'} Netopay Finance is a regional financial ecosystem that ensures the increase of welfare and the region's investment attractiveness, improvement of living standards and the development of business through the use of regional funds for settlements within the region                       
+	      
+      
+  %section.tech-mob.micro
+   %h1#to-1{:lang=>'en'}
+   .serv_block
+    .one_serv
+     .serv_title#to-title-1
+     .serv_cont#to-cont-1{:lang=>'en'}   
+     
+    .one_serv
+     .serv_title#to-title-2
+     .serv_cont#to-cont-2{:lang=>'en'}
+    
+    .one_serv
+     .serv_title#to-title-3
+     .serv_cont#to-cont-3{:lang=>'en'}
+    
+    .one_serv
+     .serv_title#to-title-4
+     .serv_cont#to-cont-4{:lang=>'en'}
+     
+    .one_serv
+     .serv_title#to-title-5
+     .serv_cont#to-cont-5{:lang=>'en'}
+     
+    .one_serv
+     .serv_title#to-title-6
+     .serv_cont#to-cont-6{:lang=>'en'}
+     
+    .one_serv
+     .serv_title#to-title-7
+     .serv_cont#to-cont-7{:lang=>'en'}
+     
+    .one_serv
+     .serv_title#to-title-8
+     .serv_cont#to-cont-8{:lang=>'en'}
+     
+    .one_serv
+     .serv_title#to-title-9
+     .serv_cont#to-cont-9{:lang=>'en'}                                 
+    
+  
+  
+  
+  %section.coop#coop
+   .inner
+    %h1{:lang=>'en'} N.KRAT GROUP INVITES FOR COOPERATION
+    .coops_block
+     .one_coop
+      .coop_title{:lang=>'en'} Banks
+      .coop_desc{:lang=>'en'} Implementation of modern financial services and technologies with the use of Netopay. Issue and manage of e-money 
+     
+     .one_coop
+      .coop_title{:lang=>'en'} Suppliers of digital content
+      .coop_desc{:lang=>'en'} Cross-border delivery and sale of digital content on the territory of Ukraine
+      
+     .one_coop
+      .coop_title{:lang=>'en'} Operators of terminal networks
+      .coop_desc{:lang=>'en'} Online fiscalization of cash transactions. Selling the digital content
+
+     .one_coop
+      .coop_title{:lang=>'en'} Authorities
+      .coop_desc{:lang=>'en'} The implementation of the financial ecosystem for the development of the region. Ensuring fiscalization of cash transactions in real-time
+      
+     .one_coop
+      .coop_title{:lang=>'en'} Retailers and e-Commerce traders
+      .coop_desc{:lang=>'en'} The organization of a loyalty system, simplifying settlements, payments for goods and services using alternative electronic currencies. Online fiscalization of cash transactions
+
+      
+     .one_coop
+      .coop_title{:lang=>'en'} Enterprise of wholesale and retail trade
+      .coop_desc{:lang=>'en'} Optimization of settlements through the use of modern financial instruments. Creation of electronic trading platforms with the use of modern financial instruments
+  
+      
+     .one_coop
+      .coop_title{:lang=>'en'} Clubs and social communities
+      .coop_desc{:lang=>'en'} Implementation of club cards, the organization of loyalty systems, the implementation of club settlement units for  the payment of goods and services by consumers 
+      
+     .one_coop
+      .coop_title{:lang=>'en'} The operators of regional money
+      .coop_desc{:lang=>'en'} Automation, security and increasing of management efficiency of regional money 
+      
+     .one_coop
+      .coop_title{:lang=>'en'} Mobile operators
+      .coop_desc{:lang=>'en'} Implementing technologies to identify users and authenticate transactions using SIM cards
+                
+     .one_coop
+      .coop_title{:lang=>'en'} Payment systems
+      .coop_desc{:lang=>'en'} Receiving and conducting payments for digital content using e-money     
+      
+     .one_coop
+      .coop_title{:lang=>'en'} Financial & social organization
+      .coop_desc{:lang=>'en'} Online fiscalization of cash transactions. International cooperation exchanges microcredit
+  
+  
+  %section.contacts#contacts
+   .inner
+    %h1.center{:lang=>'en'} Contacts
+    .contacts-block
+     .contacts-left
+      .myform
+       %form{id:'myform', method:'post', action:''}
+        %input{class:'field', type:'text', :lang=>'en', placeholder:'E-mail', id:'em', name:'em', onkeyup:'check();'}
+        %input{class:'field', type:'text', :lang=>'en', placeholder:'Subject', id:'sb', name:'sb', onkeyup:'check();'}
+        %textarea{class:'field tx', :lang=>'en', placeholder:'Message', id:'feed', name:'feed'}
+        %button{type:'submit', id:'send', class:'btn disable', :lang=>'en'} Sent
+     .contacts-right
+      .contacts-details
+       %p.hea N.KRAT Group
+       %p.sep{:lang=>'en'} Ringofenstr, 43
+       %p{:lang=>'en'} Dortmund, Germany, 44287
+       %p.sep{:lang=>'en'} Tel: +49 (231) 44 47 81 01
+       %p{:lang=>'en'} Fax: +49 (231) 44 47 81 01
+       %p e-mail: de@nkrat.net       
+      .contacts-details.add-details
+       %p.hea{:lang=>'en'} Representative office in Ukraine
+       %p.sep{:lang=>'en'} Novokonstantinivska str, 13/10
+       %p{:lang=>'en'} Kyiv, Ukraine, 04080
+       %p.sep{:lang=>'en'} Tel: +380 44 205 56 77
+       %p{:lang=>'en'} Fax: +380 44 205 56 78
+       %p e-mail: ua@nkrat.net 
+     .clear   
+  
+  .footer
+   .fleft
+    %img{src:'images/svg/bottom_logo.svg'}
+   .fright.imp
+    %a{href:'imprint.html', class:'to_imp'} Imprint
+   .clear
+  
+  %script{src:"js/min/sl-min.js"}  
+  %script{src:"js/min/anim-min.js"}
+  %script{src:"js/min/copy-min.js"}
+  %script{src:"js/min/preloader-min.js"}
+  
+  
+  
+   
+      
