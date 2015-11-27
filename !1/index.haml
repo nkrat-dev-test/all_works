@@ -10,7 +10,9 @@
   %link{rel:'icon', type:'image/png', href:'images/favicon.png'} 
   
   %link{href:"css/main.css", rel:"stylesheet", type:"text/css", media:"screen"}
-  %link{href:"https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&subset=latin,cyrillic", rel:"stylesheet", type:"text/css", media:"screen"}
+  
+  
+  
   
   %script{src:"js/min/jquery-min.js"}
   %script{src:"js/min/easing-min.js"}
@@ -26,43 +28,53 @@
   
   %script{src:"js/min/cookie-min.js"}
   %script{src:"js/min/lang-min.js"}
-  %script{src:"js/min/langpack-min.js"}
+  %script{src:"js/min/langpack-gen-min.js"}
   %script var lang = new Lang('en'); 
  
  %body 
   %script{src:'../mail/mail-min.js'}
   .thk.off{:lang=>'en'}	Your message was send! Thank you!
   
+  
+  
   #preloader
    .spinner#micro
-  %script{src:"js/min/micro-min.js"}
+   .spinner2#micro1
+   .spinner2#micro2
+   %script{src:"js/min/micro-min.js"}
   %header
    .logo
     %a{href:'/'}
      %img{src:"images/svg/top_logo.svg"}
-   .langnav{:lang=>"en"} EN
+   .langnav{:lang=>"en"}EN
    .mobnav{:lang=>"en"} MENU
    
    .langs
     %ul
      %li
+      %a{href:'#', :onclick=>"window.lang.change('ua'); return false;"} UA
+     %li
       %a{href:'#', :onclick=>"window.lang.change('en'); return false;"} EN
      %li
-      %a{href:'#', :onclick=>"window.lang.change('ru'); return false;"} RU 
+      %a{href:'#', :onclick=>"window.lang.change('ru'); return false;"} RU
+     %li
+      %a{href:'#', :onclick=>"window.lang.change('de'); return false;"} DE  
      
    
    .nav
     %ul
      %li
-      %a{href:'#about', :lang=>'en'}  About us
+      %a{href:'#about', :lang=>'en', id:'link1'}  About us
      %li
-      %a{href:'#wemade', :lang=>'en'}  What we do
+      %a{href:'#wemade', :lang=>'en', id:'link2'}  What we do
      %li
-      %a{href:'#tech', :lang=>'en'}  Services
+      %a{href:'#tech', :lang=>'en', id:'link3'}  Services
      %li
-      %a{href:'#coop', :lang=>'en'}  Cooperation
+      %a{href:'#coop', :lang=>'en', id:'link4'}  Cooperation
      %li
-      %a{href:'#contacts', :lang=>'en'}  Contacts 
+      %a{href:'#contacts', :lang=>'en', id:'link5'}  Contacts 
+      
+    
       
   %section.start
    .overlay
@@ -108,7 +120,7 @@
        .o_info md@nkrat.com
   
   
-  %section.about-mob.micro
+  %section.about-mob.micro#about-mob
    %h1#to-about-title{:lang=>'en'}
    %p#to-about-text{:lang=>'en'}
   
@@ -141,22 +153,22 @@
        .app-desc#out-app-desc-2{:lang=>'en'} Netopay is the technology which provides the possibility to issue and manage alternative electronic currencies and settlement units providing necessary tools to create financial solutions and services
        
   
-  %section.grad.micro
-   %h1#to-wwd-title{:lang=>'en'}     
-  %section.what-we-do.micro
-   .app_pic
-    %img{src:'images/anims/g.svg'}
-   .app_logo
-    %img{src:'images/slides/app-g-mob.svg'}
-   .app_anno#in-app-title-1{:lang=>'en'} 
-   .app_desc#in-app-desc-1{:lang=>'en'}   
-  %section.what-we-do2.micro
-   .app_pic
-    %img{src:'images/anims/n.svg'}
-   .app_logo
-    %img{src:'images/slides/app-n-mob.svg'}
-   .app_anno#in-app-title-2{:lang=>'en'} 
-   .app_desc#in-app-desc-2{:lang=>'en'}
+   %section.grad.micro
+    %h1#to-wwd-title{:lang=>'en'}     
+   %section.what-we-do.micro
+    .app_pic
+     %img{src:'images/anims/g.svg'}
+    .app_logo
+     %img{src:'images/slides/app-g-mob.svg'}
+    .app_anno#in-app-title-1{:lang=>'en'} 
+    .app_desc#in-app-desc-1{:lang=>'en'}   
+   %section.what-we-do2.micro
+    .app_pic
+     %img{src:'images/anims/n.svg'}
+    .app_logo
+     %img{src:'images/slides/app-n-mob.svg'}
+    .app_anno#in-app-title-2{:lang=>'en'} 
+    .app_desc#in-app-desc-2{:lang=>'en'}
       
   
   
@@ -288,7 +300,7 @@
           .back_desc#from-cont-9{:lang=>'en'} Netopay Finance is a regional financial ecosystem that ensures the increase of welfare and the region's investment attractiveness, improvement of living standards and the development of business through the use of regional funds for settlements within the region                       
 	      
       
-  %section.tech-mob.micro
+  %section.tech-mob.micro#tech-mob
    %h1#to-1{:lang=>'en'}
    .serv_block
     .one_serv
@@ -413,7 +425,7 @@
    .fleft
     %img{src:'images/svg/bottom_logo.svg'}
    .fright.imp
-    %a{href:'imprint.html', class:'to_imp'} Imprint
+    %a{href:'disclaimer.html', class:'to_imp'} Disclaimer
    .clear
   
   %script{src:"js/min/sl-min.js"}  

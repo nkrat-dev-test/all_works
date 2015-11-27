@@ -8,7 +8,6 @@
     <meta content='width=device-width, initial-scale=1.0, user-scalable=yes' name='viewport'>
     <link href='images/favicon.png' rel='icon' type='image/png'>
     <link href='css/main.css' media='screen' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,500,700,300italic,400italic&amp;subset=latin,cyrillic' media='screen' rel='stylesheet' type='text/css'>
     <script src='js/min/jquery-min.js'></script>
     <script src='js/min/easing-min.js'></script>
     <script src='js/min/scroll-min.js'></script>
@@ -20,7 +19,7 @@
     <script src='js/min/vivus-min.js'></script>
     <script src='js/min/cookie-min.js'></script>
     <script src='js/min/lang-min.js'></script>
-    <script src='js/min/langpack-min.js'></script>
+    <script src='js/min/langpack-gen-min.js'></script>
     <script>var lang = new Lang('en');</script>
   </head>
   <body>
@@ -28,8 +27,10 @@
     <div class='thk off' lang='en'>Your message was send! Thank you!</div>
     <div id='preloader'>
       <div class='spinner' id='micro'></div>
+      <div class='spinner2' id='micro1'></div>
+      <div class='spinner2' id='micro2'></div>
+      <script src='js/min/micro-min.js'></script>
     </div>
-    <script src='js/min/micro-min.js'></script>
     <header>
       <div class='logo'>
         <a href='/'>
@@ -41,29 +42,35 @@
       <div class='langs'>
         <ul>
           <li>
+            <a href='#' onclick="window.lang.change('ua'); return false;">UA</a>
+          </li>
+          <li>
             <a href='#' onclick="window.lang.change('en'); return false;">EN</a>
           </li>
           <li>
             <a href='#' onclick="window.lang.change('ru'); return false;">RU</a>
+          </li>
+          <li>
+            <a href='#' onclick="window.lang.change('de'); return false;">DE</a>
           </li>
         </ul>
       </div>
       <div class='nav'>
         <ul>
           <li>
-            <a href='#about' lang='en'> About us</a>
+            <a href='#about' id='link1' lang='en'> About us</a>
           </li>
           <li>
-            <a href='#wemade' lang='en'> What we do</a>
+            <a href='#wemade' id='link2' lang='en'> What we do</a>
           </li>
           <li>
-            <a href='#tech' lang='en'> Services</a>
+            <a href='#tech' id='link3' lang='en'> Services</a>
           </li>
           <li>
-            <a href='#coop' lang='en'> Cooperation</a>
+            <a href='#coop' id='link4' lang='en'> Cooperation</a>
           </li>
           <li>
-            <a href='#contacts' lang='en'> Contacts</a>
+            <a href='#contacts' id='link5' lang='en'> Contacts</a>
           </li>
         </ul>
       </div>
@@ -120,7 +127,7 @@
         </div>
       </div>
     </section>
-    <section class='about-mob micro'>
+    <section class='about-mob micro' id='about-mob'>
       <h1 id='to-about-title' lang='en'></h1>
       <p id='to-about-text' lang='en'></p>
     </section>
@@ -160,30 +167,30 @@
           </div>
         </div>
       </section>
+      <section class='grad micro'>
+        <h1 id='to-wwd-title' lang='en'></h1>
+      </section>
+      <section class='what-we-do micro'>
+        <div class='app_pic'>
+          <img src='images/anims/g.svg'>
+        </div>
+        <div class='app_logo'>
+          <img src='images/slides/app-g-mob.svg'>
+        </div>
+        <div class='app_anno' id='in-app-title-1' lang='en'></div>
+        <div class='app_desc' id='in-app-desc-1' lang='en'></div>
+      </section>
+      <section class='what-we-do2 micro'>
+        <div class='app_pic'>
+          <img src='images/anims/n.svg'>
+        </div>
+        <div class='app_logo'>
+          <img src='images/slides/app-n-mob.svg'>
+        </div>
+        <div class='app_anno' id='in-app-title-2' lang='en'></div>
+        <div class='app_desc' id='in-app-desc-2' lang='en'></div>
+      </section>
     </div>
-    <section class='grad micro'>
-      <h1 id='to-wwd-title' lang='en'></h1>
-    </section>
-    <section class='what-we-do micro'>
-      <div class='app_pic'>
-        <img src='images/anims/g.svg'>
-      </div>
-      <div class='app_logo'>
-        <img src='images/slides/app-g-mob.svg'>
-      </div>
-      <div class='app_anno' id='in-app-title-1' lang='en'></div>
-      <div class='app_desc' id='in-app-desc-1' lang='en'></div>
-    </section>
-    <section class='what-we-do2 micro'>
-      <div class='app_pic'>
-        <img src='images/anims/n.svg'>
-      </div>
-      <div class='app_logo'>
-        <img src='images/slides/app-n-mob.svg'>
-      </div>
-      <div class='app_anno' id='in-app-title-2' lang='en'></div>
-      <div class='app_desc' id='in-app-desc-2' lang='en'></div>
-    </section>
     <section class='tech2 desk' id='tech'>
       <h1 id='from-1' lang='en'>Services and technologies</h1>
       <div class='inner'>
@@ -344,7 +351,7 @@
         </div>
       </div>
     </section>
-    <section class='tech-mob micro'>
+    <section class='tech-mob micro' id='tech-mob'>
       <h1 id='to-1' lang='en'></h1>
       <div class='serv_block'>
         <div class='one_serv'>
@@ -477,7 +484,7 @@
         <img src='images/svg/bottom_logo.svg'>
       </div>
       <div class='fright imp'>
-        <a class='to_imp' href='imprint.html'>Imprint</a>
+        <a class='to_imp' href='disclaimer.html'>Disclaimer</a>
       </div>
       <div class='clear'></div>
     </div>

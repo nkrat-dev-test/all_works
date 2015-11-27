@@ -1,4 +1,100 @@
 @charset "UTF-8";
+.spinner {
+  position: absolute;
+  width: 200600;
+  width: 200px;
+  height: 200px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  display: block;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 1500ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 1500ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(-360deg); } }
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(-360deg); } }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.spinner2 {
+  position: absolute;
+  width: 200600;
+  width: 200px;
+  height: 200px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  display: block;
+  -webkit-animation-name: spin2;
+  -webkit-animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin2;
+  -moz-animation-duration: 1500ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin2;
+  -ms-animation-duration: 1500ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin2;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@-ms-keyframes spin2 {
+  from {
+    -ms-transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(360deg); } }
+@-moz-keyframes spin2 {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin2 {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(-60deg); } }
+@keyframes spin2 {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(-360deg); } }
 @font-face {
   font-family: 'Preg';
   src: url("../fonts/ProximaNova-Reg.eot");
@@ -2987,18 +3083,6 @@ slideUp2
   overflow: hidden;
   background: #354459; }
 
-.spinner {
-  position: absolute;
-  width: 200600;
-  width: 200px;
-  height: 200px;
-  background: none;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -100px;
-  display: block; }
-
 .micro {
   display: none; }
 
@@ -3168,10 +3252,10 @@ h1 {
   margin: 0 auto;
   width: 1000px;
   z-index: 0;
-  padding: 100px 0; }
+  padding: 150px 0; }
   .impr h1 {
     text-align: left;
-    font-weight: 100; }
+    margin-left: 0; }
 
 .info {
   font-size: 16px;
@@ -4005,6 +4089,7 @@ pulse
   .app_pic {
     display: block;
     width: 20%;
+    max-width: 150px;
     height: auto;
     display: block;
     margin: 0 auto; }
@@ -4012,6 +4097,7 @@ pulse
   .app_logo {
     display: block;
     width: 60%;
+    max-width: 200px;
     height: auto;
     display: block;
     margin: 0 auto; }
