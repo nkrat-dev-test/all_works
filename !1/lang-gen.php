@@ -1,7 +1,7 @@
 <?php
 include('conn.php'); 
 
-$limit = 70;
+$limit = 170;
 
 $langs = mysql_query("SELECT * FROM all_langs");
  while($row_id = mysql_fetch_array($langs)){
