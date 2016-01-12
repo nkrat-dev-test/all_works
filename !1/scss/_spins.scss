@@ -1,20 +1,20 @@
 .spinner{position: absolute; width: 200600; width: 200px; height: 200px; background: none; top:50%; left:50%; margin-top: -100px; margin-left: -100px; display:block;
 	
     -webkit-animation-name: spin;
-    -webkit-animation-duration: 1500ms;
+    -webkit-animation-duration: 3500ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: spin;
-    -moz-animation-duration: 1500ms;
+    -moz-animation-duration: 3500ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: spin;
-    -ms-animation-duration: 1500ms;
+    -ms-animation-duration: 3500ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     
     animation-name: spin;
-    animation-duration: 1500ms;
+    animation-duration: 3500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -43,20 +43,20 @@
 .spinner2{position: absolute; width: 200600; width: 200px; height: 200px; background: none; top:50%; left:50%; margin-top: -100px; margin-left: -100px; display:block;
 	
     -webkit-animation-name: spin2;
-    -webkit-animation-duration: 1500ms;
+    -webkit-animation-duration: 2500ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: spin2;
-    -moz-animation-duration: 1500ms;
+    -moz-animation-duration: 2500ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: spin2;
-    -ms-animation-duration: 1500ms;
+    -ms-animation-duration: 2500ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     
     animation-name: spin2;
-    animation-duration: 1500ms;
+    animation-duration: 2500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }

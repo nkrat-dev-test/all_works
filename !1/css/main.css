@@ -11,19 +11,19 @@
   margin-left: -100px;
   display: block;
   -webkit-animation-name: spin;
-  -webkit-animation-duration: 1500ms;
+  -webkit-animation-duration: 3500ms;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-name: spin;
-  -moz-animation-duration: 1500ms;
+  -moz-animation-duration: 3500ms;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
   -ms-animation-name: spin;
-  -ms-animation-duration: 1500ms;
+  -ms-animation-duration: 3500ms;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
   animation-name: spin;
-  animation-duration: 1500ms;
+  animation-duration: 3500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; }
 
@@ -59,19 +59,19 @@
   margin-left: -100px;
   display: block;
   -webkit-animation-name: spin2;
-  -webkit-animation-duration: 1500ms;
+  -webkit-animation-duration: 2500ms;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-name: spin2;
-  -moz-animation-duration: 1500ms;
+  -moz-animation-duration: 2500ms;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
   -ms-animation-name: spin2;
-  -ms-animation-duration: 1500ms;
+  -ms-animation-duration: 2500ms;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
   animation-name: spin2;
-  animation-duration: 1500ms;
+  animation-duration: 2500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; }
 
@@ -3081,7 +3081,7 @@ slideUp2
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #354459; }
+  background: #202C3D; }
 
 .micro {
   display: none; }
@@ -3128,8 +3128,7 @@ h1 {
 .loops {
   position: absolute;
   z-index: 5;
-  background: #fafbfc url("https://s-media-cache-ak0.pinimg.com/originals/06/42/6b/06426b1ebab00c9e09f7db30024702de.jpgx") center center no-repeat;
-  background-size: cover;
+  background: transparent;
   width: 100%;
   height: 100%; }
 
@@ -3179,7 +3178,7 @@ h1 {
 .super-title {
   font-family: 'pbold';
   font-size: 70px;
-  color: #354459; }
+  color: #ffffff; }
 
 .super-graph {
   display: block; }
@@ -3187,7 +3186,7 @@ h1 {
 .super-anno {
   font-size: 24px;
   font-family: 'plight';
-  color: #354459; }
+  color: #ffffff; }
 
 .logo {
   display: block;
@@ -3203,6 +3202,71 @@ h1 {
   margin: 0 auto;
   position: relative;
   height: 100%; }
+
+.for_layers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: #354459;
+  display: none; }
+
+.layer {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: transparent; }
+
+.motionpic {
+  width: 100%;
+  height: auto; }
+
+.l1 {
+  background: url("../images/layers/over-base.pngx") center center no-repeat;
+  background-size: cover;
+  margin-top: -180px; }
+
+.l-base {
+  background: url("../images/layers/base.png") center center no-repeat;
+  background-size: cover; }
+
+.l-base2 {
+  background: url("../images/layers/base2.png") center center no-repeat;
+  background-size: cover; }
+
+.l-base3 {
+  background: url("../images/layers/base3.png") center center no-repeat;
+  background-size: cover; }
+
+.for_video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: #202C3D; }
+
+.thisisvideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; }
+
+.tone {
+  background: rgba(46, 63, 88, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
 
 .disable {
   background: rgba(0, 0, 0, 0.1) !important;
@@ -3273,7 +3337,9 @@ h1 {
 .about {
   background: #fff;
   border-top: 0px solid #eee;
-  padding: 100px 0 170px 0; }
+  padding: 100px 0 170px 0;
+  z-index: 8;
+  position: relative; }
 
 .about_text p {
   width: 800px;
@@ -3339,9 +3405,7 @@ h1 {
   top: 0;
   left: 0;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
-  /*for IE*/ }
+  -moz-transform: rotate(45deg); }
 
 .laptop-side-r {
   position: absolute;
@@ -3605,13 +3669,11 @@ h1 {
   background-size: cover; }
 
 .app-n-bg {
-  background: #442C65 url("../images/slides/purplex.jpg") center right no-repeat;
-  background-size: cover;
+  background: #37474F;
   z-index: 10; }
 
 .app-n-bg2 {
-  background: #FAFBFC url("../images/slides/iphone2.pngx") bottom right no-repeat;
-  background-size: cover; }
+  background: #FAFBFC; }
 
 .tech {
   background: #fff;
@@ -3884,6 +3946,7 @@ pulse
   .micro {
     display: block !important; }
 
+  /*.for_video{display:none;}*/
   .inner {
     width: 100% !important; }
 
@@ -3963,14 +4026,12 @@ pulse
   .overlay {
     position: absolute;
     z-index: 10;
-    background: transparent;
-    width: 100%;
-    height: 100%; }
+    border-bottom: 1px solid #2E3F58; }
 
   .loops {
     position: absolute;
     z-index: 5;
-    background: #fafbfc;
+    background: #2E3F58;
     width: 100%;
     height: 100%; }
 
@@ -4020,7 +4081,7 @@ pulse
   .super-title {
     font-family: 'pbold';
     font-size: 30px;
-    color: #354459; }
+    color: #fafafa; }
 
   .super-graph {
     display: block;
@@ -4029,7 +4090,7 @@ pulse
   .super-anno {
     font-size: 14px;
     font-family: 'plight';
-    color: #354459; }
+    color: #fafafa; }
 
   .about-mob {
     width: 100%;

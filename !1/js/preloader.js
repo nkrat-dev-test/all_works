@@ -4,13 +4,17 @@ $(window).on('load', function () {
         $spinner_b   = $preloader.find('#micro1');
         $spinner_c   = $preloader.find('#micro2');
         setTimeout(function(){
-var start = new Vivus('start-graphics', {type: 'async', file:'images/anims/start.svg',  duration: 290, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
+/*var start = new Vivus('start-graphics', {type: 'async', file:'images/anims/start.svg',  duration: 290, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});*/
 
 
 var fingerprint = new Vivus('fingerprint', {type: 'delayed', file:'images/anims/print.svg',  duration: 190, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});
 
 
-var console = new Vivus('console', {type: 'oneByOne', file:'images/anims/console2.svg',  duration: 50, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});  
+/*var console = new Vivus('console', {type: 'oneByOne', file:'images/anims/console2.svg',  duration: 50, start: 'inViewport', forceRender: false, animTimingFunction: Vivus.LINEAR, pathTimingFunction:Vivus.EASE_OUT});  */
+
+
+
+movie.pause();
 }, 2200);
 
 
@@ -20,6 +24,8 @@ $spinner_a.fadeOut();
 $spinner_b.delay(150).fadeOut();
 $spinner_c.delay(350).fadeOut();
     $preloader.delay(350).fadeOut('slow');
+    movie.load();
+            
 }, 2200);
 
 

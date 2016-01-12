@@ -1,3 +1,40 @@
+var videobox = $(".video_container");
+var movie = document.getElementById("pp"); 
+
+$(".scroll").click(function() {
+	$('html,body').animate({
+        scrollTop: $("#about").offset().top},
+        500);
+});
+
+ $(document).ready(function () {
+    var video_mark = $('#about');
+
+    $(window).scroll(function () {
+        var y = $(this).scrollTop();
+        var z = $('#about').offset().top;
+
+        if (y >= z) {
+        videobox.fadeOut(0);
+        movie.pause(); 
+        }
+        else{
+	        
+	        
+	        videobox.fadeIn(0);
+	        movie.play(); 
+            
+	       
+        }
+        
+    });
+    });  
+
+
+
+
+
+
 $('.mobnav').click( function(menu){
         menu.stopPropagation();
         $('.nav').toggleClass('show');
@@ -69,7 +106,8 @@ $(document).click( function(){
 
 
 
-$(function() {
+/*
+	$(function() {
       $('#slides').superslides({
         hashchange: false,
         animation: 'fade',
@@ -86,7 +124,7 @@ $(function() {
       });
     });
     
-    
+    */
     
 
  
@@ -184,7 +222,7 @@ function onScroll(event){
         
     
 
-
+/*
 
 $("#sch1").click(function() {
 	 $('.popup').removeClass('off'); 
@@ -197,7 +235,7 @@ $("#sch1").click(function() {
 });
 
 
-
+*/
 
 
 

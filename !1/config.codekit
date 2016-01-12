@@ -175,6 +175,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7553,
+		"inputAbbreviatedPath": "\/images\/favicon.png",
+		"outputAbbreviatedPath": "\/images\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/laptop.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -182,6 +193,83 @@
 		"initialSize": 17551,
 		"inputAbbreviatedPath": "\/images\/laptop.png",
 		"outputAbbreviatedPath": "\/images\/laptop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layers\/base.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 384338,
+		"inputAbbreviatedPath": "\/images\/layers\/base.png",
+		"outputAbbreviatedPath": "\/images\/layers\/base.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layers\/base2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249054,
+		"inputAbbreviatedPath": "\/images\/layers\/base2.png",
+		"outputAbbreviatedPath": "\/images\/layers\/base2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layers\/base3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102067,
+		"inputAbbreviatedPath": "\/images\/layers\/base3.png",
+		"outputAbbreviatedPath": "\/images\/layers\/base3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layers\/layer1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155271,
+		"inputAbbreviatedPath": "\/images\/layers\/layer1.png",
+		"outputAbbreviatedPath": "\/images\/layers\/layer1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layers\/layer2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155988,
+		"inputAbbreviatedPath": "\/images\/layers\/layer2.png",
+		"outputAbbreviatedPath": "\/images\/layers\/layer2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layers\/layer3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205674,
+		"inputAbbreviatedPath": "\/images\/layers\/layer3.png",
+		"outputAbbreviatedPath": "\/images\/layers\/layer3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layers\/over-base.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100405,
+		"inputAbbreviatedPath": "\/images\/layers\/over-base.png",
+		"outputAbbreviatedPath": "\/images\/layers\/over-base.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -11,7 +11,7 @@ $s-min-height:500px;
 @import 'contacts';
 @import 'footer';
 
-#preloader{position: fixed; z-index: 200500; width: 100%; height: 100%; overflow: hidden; background: #354459;}
+#preloader{position: fixed; z-index: 200500; width: 100%; height: 100%; overflow: hidden; background: #202C3D;}
 
 
 
@@ -29,14 +29,14 @@ h1{font-size: 40px; max-width: 60%; font-weight: 500; text-transform: uppercase;
 
 .start{position: relative; width: 100%; height: 100%; min-height: 650px;}
 .overlay{position: absolute; z-index: 10; background: rgba(0,0,0,0.0); width: 100%; height: 100%;}
-.loops{position: absolute; z-index: 5; background: #fafbfc url('https://s-media-cache-ak0.pinimg.com/originals/06/42/6b/06426b1ebab00c9e09f7db30024702de.jpgx') center center no-repeat; background-size: cover; width: 100%; height: 100%;}
+.loops{position: absolute; z-index: 5; background: transparent; width: 100%; height: 100%;}
 .next{position: absolute; width:70px; height: 70px; bottom:7%; left:50%; margin-left:-35px; background: url('../images/svg/mouse.svg'); display:block;}
 .scroll{position: absolute; width:70px; height: 70px; bottom:7%; left:50%; margin-left:-35px; display:block; background: url('../images/svg/d.svg');}
 .hello{width:$hello; height: $hello; display: block; position: absolute; left:50%; top:50%; margin-left: - $hello / 2; margin-top: - $hello / 2;}
 .hello-nkrat{width: 1000px; margin: 0 auto;  height: 100%; position: relative;}
 .hello-block{top:50%; transform: translateY(-50%); position: absolute; width: 100%;text-align: center;}
 
-$krat:#354459;
+$krat:#ffffff;
 .super-title{font-family: 'pbold'; font-size: 70px; color:$krat;}
 .super-graph{display:block;}
 .super-anno{font-size: 24px; font-family: 'plight'; color:$krat;}
@@ -51,6 +51,33 @@ $krat:#354459;
 	height: 100%;}
 
 
+
+.for_layers{position: absolute; width: 100%; height: 100%; overflow-x: hidden; background: #354459; display:none;}
+.layer{position: absolute; z-index:1; width: 100%; height: 100%; background: rgba(0,0,0,0.0);}
+.motionpic{width: 100%; height: auto;}
+.l1{background: url('../images/layers/over-base.pngx') center center no-repeat; background-size: cover; margin-top: -180px;}
+.l-base{background: url('../images/layers/base.png') center center no-repeat; background-size: cover;}
+.l-base2{background: url('../images/layers/base2.png') center center no-repeat; background-size: cover;}
+.l-base3{background: url('../images/layers/base3.png') center center no-repeat; background-size: cover;}
+
+.for_video{position: absolute; width: 100%; height: 100%; overflow-x: hidden; background: #202C3D;}
+.thisisvideo{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+.tone{background: rgba(46,63,88, 0.7); position: absolute; width: 100%; height: 100%; z-index:10;}
 
 
 
@@ -92,13 +119,13 @@ $bthover:#3A0156;
 
 
 
-.about{ background: #fff; border-top: 0px solid #eee; padding: 100px 0 170px 0;}
+.about{ background: #fff; border-top: 0px solid #eee; padding: 100px 0 170px 0; z-index: 8; position: relative;}
 $wx:800px;
 $wxa:880px;
 $wx1:($wxa/3)-21;
 .about_text{
 	p{width:$wx; margin: 20px auto 0 auto; font-size: 16px; line-height: 28px; text-align: center; color:#354459; }
-    .office{width:$wxa; margin: 70px auto 0 auto; font-size: 0; text-align: center; color:#666; }
+    .office{width:$wxa; margin: 70px auto 0 auto; font-size: 0; text-align: center; color:#666;}
     .one_office{ display: inline-block; vertical-align: top; font-size: 16px; width: $wx1;  padding: 0 10px; color:#354459;
 	    
 	    .o_location{font-family: pbold; font-size: 16px;}
@@ -117,7 +144,7 @@ $wx1:($wxa/3)-21;
 .laptop-side-l{position: absolute; background: #fff; width:764px; height: 480px; margin-left:0px; top:0; left:0; 
 	-webkit-transform: rotate(45deg); 
     -moz-transform: rotate(45deg);  
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+    //filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
 }
 .laptop-side-r{position: absolute; background: #fff; width:764px; height: 480px; margin-left:0px; top:0; left:0; }
 
@@ -247,8 +274,8 @@ $background-color:green;
 }
 #sys-1{background: url('../images/slides/test.jpgx')right center no-repeat; background-size: cover;}
 
-.app-n-bg{background:#442C65 url('../images/slides/purplex.jpg') center right no-repeat; background-size: cover; z-index:10;}
-.app-n-bg2{background:#FAFBFC url('../images/slides/iphone2.pngx') bottom right no-repeat; background-size: cover;}
+.app-n-bg{background:#37474F ; z-index:10;}
+.app-n-bg2{background:#FAFBFC; }
 
 
 

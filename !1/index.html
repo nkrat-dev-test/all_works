@@ -23,7 +23,7 @@
     <script>var lang = new Lang('en');</script>
   </head>
   <body>
-    <script src='../mail/mail-min.js'></script>
+    <script src='mail/mail-min.js'></script>
     <div class='thk off' lang='en'>Your message was send! Thank you!</div>
     <div id='preloader'>
       <div class='spinner' id='micro'></div>
@@ -80,27 +80,35 @@
         <div class='hello-nkrat'>
           <div class='hello-block'>
             <div class='super-title'>N.KRAT GROUP</div>
-            <div class='super-graph'>
-              <div id='start-graphics'></div>
-            </div>
             <div class='super-anno' lang='en'>The new kind of financial solution and security services</div>
           </div>
         </div>
         <div class='next'></div>
         <div class='scroll animated bounceMouse'></div>
       </div>
-      <div class='loops'></div>
+      <div class='loops'>
+        <div class='for_video'>
+          <div class='tone'></div>
+          <div class='video_container'>
+            <video autoplay='' class='thisisvideo' id='pp' loop='' muted=''>
+              <source src='video/spark.mp4' type='video/mp4'>
+              <source src='video/spark.ogv' type='video/ogg'>
+            </video>
+          </div>
+        </div>
+        <div class='for_layers'>
+          <div class='layer l-base'></div>
+          <div class='layer l-base2' data-parallax='{"x": 980, "from-scroll": 0,  "distance": 680, "smoothness": 10, "duration":680}'></div>
+          <div class='layer l-base3' data-parallax='{"x": -980, "from-scroll": 0,  "distance": 680, "smoothness": 10, "duration":680}'></div>
+          <div class='layer l1' data-parallax='{"y": 180, "from-scroll": 0,  "distance": 180, "smoothness": 10, "duration":180}'>
+            <img src='images/layers/over-base.png'>
+          </div>
+          <div class='layer'>layer 3</div>
+        </div>
+      </div>
     </section>
     <section class='about desk' id='about'>
       <div class='inner'>
-        <div class='notebook'>
-          <div class='inlaptop'>
-            <div class='laptop-rel' id='console'>
-              <div class='laptop-side-l' data-parallax='{"y": -480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'></div>
-              <div class='laptop-side-r' data-parallax='{"y": 480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'></div>
-            </div>
-          </div>
-        </div>
         <div class='about_text'>
           <h1 id='from-about-title' lang='en'>About us</h1>
           <p id='from-about-text' lang='en'>N.KRAT Group conducts the development and implementation of innovative financial services using modern informational technologies. We integrates financial services and informational technologies in unique single solutions and platforms. Our team joins highly qualified professionals from the field of finance, IT-technology and law. We provides solutions to banks and financial institutions, small and medium-sized business, nonprofit organizations, state and municipal authorities, communities and social organizations</p>
@@ -489,8 +497,8 @@
       <div class='clear'></div>
     </div>
     <script src='js/min/sl-min.js'></script>
-    <script src='js/min/anim-min.js'></script>
+    <script src='js/anim.js'></script>
     <script src='js/min/copy-min.js'></script>
-    <script src='js/min/preloader-min.js'></script>
+    <script src='js/preloader.js'></script>
   </body>
 </html>

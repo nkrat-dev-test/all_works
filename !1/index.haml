@@ -33,7 +33,7 @@
   %script var lang = new Lang('en'); 
  
  %body 
-  %script{src:'../mail/mail-min.js'}
+  %script{src:'mail/mail-min.js'}
   .thk.off{:lang=>'en'}	Your message was send! Thank you!
   
   
@@ -82,22 +82,32 @@
     .hello-nkrat
      .hello-block
       .super-title N.KRAT GROUP
-      .super-graph
-       #start-graphics
       .super-anno{:lang=>'en'} The new kind of financial solution and security services
     .next 
     .scroll.animated.bounceMouse 
-   .loops 
+   .loops
+    
+    .for_video
+     .tone 
+     .video_container
+      %video{:muted=>'', :loop=>'', :autoplay=>'', :class=>'thisisvideo', :id=>'pp'}
+       %source{:type=>'video/mp4', :src=>'video/spark.mp4'}
+       %source{:type=>'video/ogg', :src=>'video/spark.ogv'}
+      
+    
+    
+    .for_layers
+     .layer.l-base
+     .layer.l-base2{:"data-parallax" => '{"x": 980, "from-scroll": 0,  "distance": 680, "smoothness": 10, "duration":680}'}
+     .layer.l-base3{:"data-parallax" => '{"x": -980, "from-scroll": 0,  "distance": 680, "smoothness": 10, "duration":680}'}
+     .layer.l1{:"data-parallax" => '{"y": 180, "from-scroll": 0,  "distance": 180, "smoothness": 10, "duration":180}'}
+      %img{src:'images/layers/over-base.png'}
+     .layer layer 3
       
   
   
   %section.about#about.desk
    .inner
-    .notebook
-     .inlaptop
-      .laptop-rel#console
-       .laptop-side-l{:"data-parallax" => '{"y": -480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'}
-       .laptop-side-r{:"data-parallax" => '{"y": 480, "from-scroll": 300,  "distance": 300, "smoothness": 10, "duration":100}'}
     .about_text
      %h1#from-about-title{:lang=>'en'} About us
      %p#from-about-text{:lang=>'en'} N.KRAT Group conducts the development and implementation of innovative financial services using modern informational technologies. We integrates financial services and informational technologies in unique single solutions and platforms. Our team joins highly qualified professionals from the field of finance, IT-technology and law. We provides solutions to banks and financial institutions, small and medium-sized business, nonprofit organizations, state and municipal authorities, communities and social organizations
@@ -430,9 +440,9 @@
    .clear
   
   %script{src:"js/min/sl-min.js"}  
-  %script{src:"js/min/anim-min.js"}
+  %script{src:"js/anim.js"}
   %script{src:"js/min/copy-min.js"}
-  %script{src:"js/min/preloader-min.js"}
+  %script{src:"js/preloader.js"}
   
   
   
